@@ -30,9 +30,9 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-heading-text-shadow: none;
   --r-heading-font-weight: 600;
   --r-heading1-text-shadow: none;
-  --r-heading1-size: 3.5em;
-  --r-heading2-size: 2em;
-  --r-heading3-size: 1.3em;
+  --r-heading1-size: 3.77em;
+  --r-heading2-size: 2.11em;
+  --r-heading3-size: 1.55em;
   --r-heading4-size: 1em;
   --r-code-font: monospace;
   --r-link-color: #2a76dd;
@@ -826,12 +826,70 @@ video {
   .mb-2{
     margin-bottom: 0.5rem;
   }
-  .text-cyan-400{
-    --tw-text-opacity: 1;
-    color: rgb(34 211 238 / var(--tw-text-opacity));
+  .mb-4{
+    margin-bottom: 1rem;
   }
-  .text-cyan-500{
+  .mb-6{
+    margin-bottom: 1.5rem;
+  }
+  .mb-12{
+    margin-bottom: 3rem;
+  }
+  .mb-8{
+    margin-bottom: 2rem;
+  }
+  .mb-14{
+    margin-bottom: 3.5rem;
+  }
+  .mb-16{
+    margin-bottom: 4rem;
+  }
+  .translate-x-2{
+    --tw-translate-x: 0.5rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+  .translate-x-4{
+    --tw-translate-x: 1rem;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  }
+  .list-disc{
+    list-style-type: disc;
+  }
+  .text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .text-8xl{
+    font-size: 6rem;
+    line-height: 1;
+  }
+  .text-4xl{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  .text-5xl{
+    font-size: 3rem;
+    line-height: 1;
+  }
+  .text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  .font-bold{
+    font-weight: 700;
+  }
+  .tracking-wide{
+    letter-spacing: 0.025em;
+  }
+  .tracking-wider{
+    letter-spacing: 0.05em;
+  }
+  .text-green-800{
     --tw-text-opacity: 1;
-    color: rgb(6 182 212 / var(--tw-text-opacity));
+    color: rgb(22 101 52 / var(--tw-text-opacity));
+  }
+  .text-yellow-600{
+    --tw-text-opacity: 1;
+    color: rgb(202 138 4 / var(--tw-text-opacity));
   }
 }
