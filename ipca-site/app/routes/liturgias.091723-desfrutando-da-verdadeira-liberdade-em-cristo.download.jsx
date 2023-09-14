@@ -8,6 +8,7 @@ const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/hino-110", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-86", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-135", extension: "mp4", resourceType: "video" },
+  { id: "ipcachoeirinha/what-a-beautiful-name-hillsong-cover-daniel-jang", extension: "mp3", resourceType: "audio" }
 ]
 const ZIP_FILENAME = "091723-desfrutando-da-verdadeira-liberdade-em-cristo"
 
