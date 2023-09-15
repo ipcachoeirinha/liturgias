@@ -5,6 +5,7 @@
 
 app = "ipcachoeirinha-5690"
 primary_region = "gru"
+swap_size_mb = 512
 
 [build]
 
