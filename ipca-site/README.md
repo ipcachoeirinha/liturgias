@@ -14,15 +14,19 @@ Clone the repository:
 `git clone git@github.com:ipcachoeirinha/liturgias.git`
 
 Enter `ipca-site` directory:
+
 `cd ./ipca-site`
 
-Run `npm install`
+Run `npm install`:
+
 `npm install`
 
 Then start the dev server at http://localhost:3000
+
 `npm run dev`
 
 If you want to use TailwindCSS you also have to start its watcher running:
+
 `npm run tw:watch`
 
 If you need custom CSS styles edit `app/assets/main.css`.
