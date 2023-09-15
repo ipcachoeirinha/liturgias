@@ -1,56 +1,34 @@
-# Welcome to Remix!
+# About
 
-- [Remix Docs](https://remix.run/docs)
+This is the website project for our church to show presentation slides during the liturgy.
 
-## Development
+It's a Remix.run app that renders in its routes Reveal.js slides styled with TailwindCSS.
 
-Start the Remix development asset server and the Express server by running:
+To run this website no database is needed, but you will need a Cloudinary account for the assets.
 
-```sh
-npm run dev
-```
+Make sure to setup cloudinary exporting the environment variable `CLOUDINARY_URL` with your URL (found in the cloudinary dashboard).
 
-This starts your app in development mode, which will purge the server require cache when Remix rebuilds assets so you don't need a process manager restarting the express server.
+# Usage
 
-## Deployment
+Clone the repository:
+`git clone git@github.com:ipcachoeirinha/liturgias.git`
 
-First, build your app for production:
+Enter `ipca-site` directory:
+`cd ./ipca-site`
 
-```sh
-npm run build
-```
+Run `npm install`
+`npm install`
 
-Then run the app in production mode:
+Then start the dev server at http://localhost:3000
+`npm run dev`
 
-```sh
-npm start
-```
+If you want to use TailwindCSS you also have to start its watcher running:
+`npm run tw:watch`
 
-Now you'll need to pick a host to deploy it to.
+If you need custom CSS styles edit `app/assets/main.css`.
 
-### DIY
+If you set up the Cloudinary URL you can access the website normally. Of coure, because you don't have the assets from my account some assets will break.
 
-If you're familiar with deploying express applications you should be right at home just make sure to deploy the output of `remix build`
+You can create your own route-slides creating a new route at `app/routes`. Copy one of the routes implemented and modify as you need. If you have any problems please make sure you understand how Remix.run apps and Reveal.js work. The same for styling with TailwindCSS.
 
-- `build/`
-- `public/build/`
-
-### Using a Template
-
-When you ran `npx create-remix@latest` there were a few choices for hosting. You can run that again to create a new project, then copy over relevant code/assets from your current app to the new project that's pre-configured for your target server.
-
-Most importantly, this means everything in the `app/` directory, but if you've further customized your current application outside of there it may also include:
-
-- Any assets you've added/updated in `public/`
-- Any updated versions of root files such as `.eslintrc.js`, etc.
-
-```sh
-cd ..
-# create a new project, and pick a pre-configured host
-npx create-remix@latest
-cd my-new-remix-app
-# remove the new project's app (not the old one!)
-rm -rf app
-# copy your app over
-cp -R ../my-old-remix-app/app app
-```
+The `CDN_ASSETS_LIST` is a list of assets that will be found in Cloudinary. Edit the list with your needs. The `id` field is the same ID on Cloudinary. The `extension` field is for URL building (check `lib.server.js`) and the `resourceType` is for Cloudinary URL building. If for some reason your Cloudinary URLs are not working make sure `id` and `resourceType` were informed correctly.
