@@ -10,7 +10,7 @@ const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/hino-93", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/what-a-beautiful-name-hillsong-cover-daniel-jang", extension: "mp3", resourceType: "video" },
   { id: "ipcachoeirinha/oracao", extension: "mp3", resourceType: "video" },
-  { id: "ipcachoeirinha/bencao-antiga", extension: "mp3", resourceType: "video" }
+  { id: "ipcachoeirinha/uma-bencao-antiga-letra", extension: "mp4", resourceType: "video" }
 ]
 const ZIP_FILENAME = "092423-uma-igreja-nascida-do-espirito"
 

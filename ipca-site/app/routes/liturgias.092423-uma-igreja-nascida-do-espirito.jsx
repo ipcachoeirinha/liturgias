@@ -20,7 +20,7 @@ const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/hino-93", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/what-a-beautiful-name-hillsong-cover-daniel-jang", extension: "mp3", resourceType: "video" },
   { id: "ipcachoeirinha/oracao", extension: "mp3", resourceType: "video" },
-  { id: "ipcachoeirinha/bencao-antiga", extension: "mp3", resourceType: "video" }
+  { id: "ipcachoeirinha/uma-bencao-antiga-letra", extension: "mp4", resourceType: "video" }
 ]
 
 export const meta = () => {
@@ -152,15 +152,10 @@ export default function Index() {
         <MainTitle>POSLUDIO</MainTitle>
       </SlideWithBackground>
 
+      <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/uma-bencao-antiga-letra")} />
+
       <SlideWithBackground>
         <MainTitle>POSLUDIO</MainTitle>
-        <audio data-autoPlay><source
-            type="audio/mpeg"
-
-            src={getAssetUrl("ipcachoeirinha/bencao-antiga")}
-
-
-          />O seu navegador não suporta o elemento <code>audio</code>.</audio>
       </SlideWithBackground>
 
     </RevealJsBaseElement>
