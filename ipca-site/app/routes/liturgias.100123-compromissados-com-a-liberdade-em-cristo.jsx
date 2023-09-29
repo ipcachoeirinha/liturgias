@@ -41,7 +41,7 @@ export default function CompromissadosComALiberdadeEmCristo() {
 
     if (window.Reveal) {
       const r = window.Reveal()
-      r.initialize(defaultConfig)
+      r.initialize({...defaultConfig, width: 1600 })
     }
   })
 
