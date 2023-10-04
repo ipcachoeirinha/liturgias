@@ -8,5 +8,6 @@ export default function Liturgias()
       <Link className="" to="/liturgias/091723-desfrutando-da-verdadeira-liberdade-em-cristo">Desfrutando da Verdadeira Liberdade em Cristo - 17 de Setembro de 2023</Link><br />
       <Link className="" to="/liturgias/092423-uma-igreja-nascida-do-espirito">Uma Igreja Nascida do Espírito - 24 de Setembro de 2023</Link><br />
       <Link className="" to="/liturgias/100123-compromissados-com-a-liberdade-em-cristo">Compromissados com a Liberdade em Cristo - 01 de Outubro de 2023</Link><br />
+      <Link className="" to="/liturgias/100823-uma-igreja-que-anda-no-poder-do-espirito">Uma Igreja que Anda no Poder do Espírito - 08 de Outubro de 2023</Link><br />
     </div>)
 }
