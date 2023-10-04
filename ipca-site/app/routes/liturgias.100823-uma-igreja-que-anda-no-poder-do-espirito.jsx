@@ -11,13 +11,12 @@ import { LiturgySteps } from '../components/ipca-default-theme/LiturgyStepsList'
 import { LITURGY_STEP_TYPES, LiturgyStep } from '../components/ipca-default-theme/LiturgyStep'
 import { VideoSlide } from '../components/ipca-default-theme/VideoSlide'
 
-const PAGE_TITLE = "Compromissados com a Liberdade em Cristo - 01 de Outubro de 2023"
+const PAGE_TITLE = "Uma Igreja que Anda no Poder do Espírito - 08 de Outubro de 2023"
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
-  { id: "ipcachoeirinha/hino-14", extension: "mp4", resourceType: "video" },
-  { id: "ipcachoeirinha/hino-78", extension: "mp4", resourceType: "video" },
-  { id: "ipcachoeirinha/hino-58", extension: "mp4", resourceType: "video" },
-  { id: "ipcachoeirinha/hino-287", extension: "mp4", resourceType: "video" },
+  { id: "ipcachoeirinha/hino-39", extension: "mp4", resourceType: "video" },
+  { id: "ipcachoeirinha/hino-135", extension: "mp4", resourceType: "video" },
+  { id: "ipcachoeirinha/hino-3", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-001-instrumental", extension: "mp3", resourceType: "video" },
   { id: "ipcachoeirinha/uma-bencao-antiga-letra", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/what-a-beautiful-name-hillsong-cover-daniel-jang", extension: "mp3", resourceType: "video" },
@@ -41,112 +40,127 @@ export default function CompromissadosComALiberdadeEmCristo() {
 
     if (window.Reveal) {
       const r = window.Reveal()
-      r.initialize({...defaultConfig, width: 1600 })
+      r.initialize({ ...defaultConfig, width: 1600 })
     }
   })
 
   const getAssetUrl = getAssetUrlBuilder(mode, assets)
   const SlideWithBackground = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/cruz-wallpaper-light"))
+  const SupperSlide = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/santa-ceia"))
 
   return (
     <RevealJsBaseElement>
       <SlideWithBackground>
-        <MainTitle>COMPROMISSADOS COM A LIBERDADE EM CRISTO</MainTitle>
+        <MainTitle>UMA IGREJA QUE ANDA NO PODER DO ESPÍRITO</MainTitle>
       </SlideWithBackground>
 
       <SlideWithBackground>
         <MainTitle>PRELÚDIO</MainTitle>
         <audio data-autoPlay><source
-            type="audio/mpeg"
+          type="audio/mpeg"
 
-            src={getAssetUrl("ipcachoeirinha/hino-001-instrumental")}
+          src={getAssetUrl("ipcachoeirinha/hino-001-instrumental")}
 
 
-          />O seu navegador não suporta o elemento <code>audio</code>.</audio>
+        />O seu navegador não suporta o elemento <code>audio</code>.</audio>
       </SlideWithBackground>
 
       <SlideWithBackground>
-        <MainTitle>COMPROMISSADOS COM A LIBERDADE EM CRISTO</MainTitle>
-        <SubTitle>ATENDEMOS O CHAMADO DE ADORAÇÃO</SubTitle>
+        <MainTitle>UMA IGREJA QUE ANDA NO PODER DO ESPÍRITO</MainTitle>
+        <SubTitle>DESFRUTA DE SUA LIBERDADE EM CRISTO COM RESPONSABILIDADE</SubTitle>
 
         <LiturgySteps>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.alterned_reading}>: SALMO 95:1-11</LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.unison_reading}>: COLOSSENSES 3:1-4</LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.worship_prayer}></LiturgyStep>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: LOUVOR, nº 14</LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: EXALTAÇÃO E LOUVOR, nº 39</LiturgyStep>
         </LiturgySteps>
       </SlideWithBackground>
 
-      <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-14")} />
+      <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-39")} />
 
       <SlideWithBackground>
-        <MainTitle>COMPROMISSADOS COM A LIBERDADE EM CRISTO</MainTitle>
-        <SubTitle>BUSCAMOS PERDÃO CONFIADOS NA CRUZ</SubTitle>
+        <MainTitle>UMA IGREJA QUE ANDA NO PODER DO ESPÍRITO</MainTitle>
+        <SubTitle>REJEITA UMA VIDA LEGALISTA</SubTitle>
 
         <LiturgySteps>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.reading}>: ISAÍAS 53:1-12</LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.reading}>: COLOSSENSES 2:20-23</LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.silent_prayer}></LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.repent_prayer}></LiturgyStep>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: PERFEITA EXPIAÇÃO, nº 78</LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: MAIS DE CRISTO, nº 135</LiturgyStep>
         </LiturgySteps>
       </SlideWithBackground>
 
       <SlideWithBackground>
-        <MainTitle>COMPROMISSADOS COM A LIBERDADE EM CRISTO</MainTitle>
-        <SubTitle>BUSCAMOS PERDÃO CONFIADOS NA CRUZ</SubTitle>
+        <MainTitle>UMA IGREJA QUE ANDA NO PODER DO ESPÍRITO</MainTitle>
+        <SubTitle>REJEITA UMA VIDA LEGALISTA</SubTitle>
 
         <LiturgySteps>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.reading}>: ISAÍAS 53:1-12</LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.reading}>: COLOSSENSES 2:20-23</LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.silent_prayer}></LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.repent_prayer}></LiturgyStep>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: PERFEITA EXPIAÇÃO, nº 78</LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: MAIS DE CRISTO, nº 135</LiturgyStep>
         </LiturgySteps>
         <audio data-autoPlay><source
-            type="audio/mpeg"
+          type="audio/mpeg"
 
-            src={getAssetUrl("ipcachoeirinha/what-a-beautiful-name-hillsong-cover-daniel-jang")}
+          src={getAssetUrl("ipcachoeirinha/what-a-beautiful-name-hillsong-cover-daniel-jang")}
 
 
-          />O seu navegador não suporta o elemento <code>audio</code>.</audio>
+        />O seu navegador não suporta o elemento <code>audio</code>.</audio>
       </SlideWithBackground>
 
-      <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-78")} />
+      <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-135")} />
 
       <SlideWithBackground>
-        <MainTitle>COMPROMISSADOS COM A LIBERDADE EM CRISTO</MainTitle>
-        <SubTitle>RENDEMOS GRAÇAS AO DEUS FIEL</SubTitle>
+        <MainTitle>UMA IGREJA QUE ANDA NO PODER DO ESPÍRITO</MainTitle>
+        <SubTitle>É HERDEIRA DAS PROMESSAS DA ALIANÇA</SubTitle>
 
         <LiturgySteps>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.unison_reading}>: SALMO 100:4-5</LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.alterned_reading}>: ROMANOS 8:12-17</LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.supper}></LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.offering}></LiturgyStep>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: OFERTAS, nº 58</LiturgyStep>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.thankful_prayer}></LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.singing}></LiturgyStep>
         </LiturgySteps>
       </SlideWithBackground>
 
-      <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-58")} />
+      <SupperSlide>
+        <MainTitle>SANTA CEIA</MainTitle>
+      </SupperSlide>
 
       <SlideWithBackground>
-        <MainTitle>COMPROMISSADOS COM A LIBERDADE EM CRISTO</MainTitle>
-        <SubTitle>SOMOS SANTIFICADOS PELA PALAVRA</SubTitle>
+        <MainTitle>UMA IGREJA QUE ANDA NO PODER DO ESPÍRITO</MainTitle>
+        <SubTitle>É HERDEIRA DAS PROMESSAS DA ALIANÇA</SubTitle>
+
+        <LiturgySteps>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.alterned_reading}>: ROMANOS 8:12-17</LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.supper}></LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.offering}></LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.singing}></LiturgyStep>
+        </LiturgySteps>
+      </SlideWithBackground>
+
+      <SlideWithBackground>
+        <MainTitle>UMA IGREJA QUE ANDA NO PODER DO ESPÍRITO</MainTitle>
+        <SubTitle>TEM UMA VIDA VISIVELMENTE FRUTÍFERA</SubTitle>
 
         <LiturgySteps>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.pray_for_children}></LiturgyStep>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.preaching}>: GÁLATAS 5:1-12 (Rev. Arnaldo Matias)</LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.preaching}>: GÁLATAS 5:13-24 (Rev. Arnaldo Matias)</LiturgyStep>
         </LiturgySteps>
       </SlideWithBackground>
 
       <SlideWithBackground>
-        <MainTitle>COMPROMISSADOS COM A LIBERDADE EM CRISTO</MainTitle>
-        <SubTitle>AVANÇAMOS COM O EVANGELHO</SubTitle>
+        <MainTitle>UMA IGREJA QUE ANDA NO PODER DO ESPÍRITO</MainTitle>
+        <SubTitle>É SANTIFICADA PELO DEUS TRINO</SubTitle>
 
         <LiturgySteps>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: IGREJA, ALERTA!, nº 287</LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: A IGREJA EM ADORAÇÃO, nº 3</LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.ending_prayer}></LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.blessings}></LiturgyStep>
         </LiturgySteps>
       </SlideWithBackground>
 
-      <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-287")} />
+      <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-3")} />
 
       <SlideWithBackground>
         <MainTitle>POSLUDIO</MainTitle>
