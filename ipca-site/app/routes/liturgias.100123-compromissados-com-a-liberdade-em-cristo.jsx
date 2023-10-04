@@ -95,7 +95,7 @@ export default function CompromissadosComALiberdadeEmCristo() {
         <SubTitle>BUSCAMOS PERDÃO CONFIADOS NA CRUZ</SubTitle>
 
         <LiturgySteps>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.reading}>: Isaías 53:1-12</LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.reading}>: ISAÍAS 53:1-12</LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.silent_prayer}></LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.repent_prayer}></LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: PERFEITA EXPIAÇÃO, nº 78</LiturgyStep>
