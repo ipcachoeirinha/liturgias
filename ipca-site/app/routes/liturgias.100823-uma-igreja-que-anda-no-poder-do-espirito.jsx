@@ -14,6 +14,7 @@ import { VideoSlide } from '../components/ipca-default-theme/VideoSlide'
 const PAGE_TITLE = "Uma Igreja que Anda no Poder do Espírito - 08 de Outubro de 2023"
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
+  { id: "ipcachoeirinha/santa-ceia-bg", extension: "png", resourceType: "image" },
   { id: "ipcachoeirinha/hino-39", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-93", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-135", extension: "mp4", resourceType: "video" },
@@ -33,7 +34,7 @@ export async function loader(remixLoaderContext) {
   return presentationSlideRemixLoader(remixLoaderContext, CDN_ASSETS_LIST)
 }
 
-export default function CompromissadosComALiberdadeEmCristo() {
+export default function UmaIgrejaQueAndaNoPoderDoEspirito() {
   const [mode, assets] = useLoaderData()
 
   useEffect(() => {
@@ -47,7 +48,7 @@ export default function CompromissadosComALiberdadeEmCristo() {
 
   const getAssetUrl = getAssetUrlBuilder(mode, assets)
   const SlideWithBackground = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/cruz-wallpaper-light"))
-  const SupperSlide = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/santa-ceia"))
+  const SupperSlide = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/santa-ceia-bg"))
 
   return (
     <RevealJsBaseElement>
@@ -139,7 +140,7 @@ export default function CompromissadosComALiberdadeEmCristo() {
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: FIRMEZA NA FÉ, nº 93</LiturgyStep>
         </LiturgySteps>
       </SlideWithBackground>
-      
+
       <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-93")} />
 
       <SlideWithBackground>
