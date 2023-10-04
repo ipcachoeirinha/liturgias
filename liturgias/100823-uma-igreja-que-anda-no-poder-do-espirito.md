@@ -20,7 +20,7 @@ Hino Mais de Cristo, nº 135
 Leitura bíblica alternada: Romanos 8.12-17
 Santa Ceia  
 Consagração dos dízimos e ofertas 
-Cânticos congregacionais 
+Hino Firmeza na fé, nº 93 
 
 TEM UMA VIDA VISIVELMENTE FRUTÍFERA 
 Oração pelas crianças

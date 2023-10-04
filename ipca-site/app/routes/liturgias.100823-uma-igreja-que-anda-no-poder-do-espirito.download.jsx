@@ -5,6 +5,7 @@ const PAGE_TITLE = "Uma Igreja que Anda no Poder do Espírito - 08 de Outubro de
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
   { id: "ipcachoeirinha/hino-39", extension: "mp4", resourceType: "video" },
+  { id: "ipcachoeirinha/hino-93", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-135", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-3", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-001-instrumental", extension: "mp3", resourceType: "video" },

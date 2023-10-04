@@ -15,6 +15,7 @@ const PAGE_TITLE = "Uma Igreja que Anda no Poder do Espírito - 08 de Outubro de
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
   { id: "ipcachoeirinha/hino-39", extension: "mp4", resourceType: "video" },
+  { id: "ipcachoeirinha/hino-93", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-135", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-3", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-001-instrumental", extension: "mp3", resourceType: "video" },
@@ -119,7 +120,7 @@ export default function CompromissadosComALiberdadeEmCristo() {
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.alterned_reading}>: ROMANOS 8:12-17</LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.supper}></LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.offering}></LiturgyStep>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.singing}></LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: FIRMEZA NA FÉ, nº 93</LiturgyStep>
         </LiturgySteps>
       </SlideWithBackground>
 
@@ -135,9 +136,11 @@ export default function CompromissadosComALiberdadeEmCristo() {
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.alterned_reading}>: ROMANOS 8:12-17</LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.supper}></LiturgyStep>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.offering}></LiturgyStep>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.singing}></LiturgyStep>
+          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: FIRMEZA NA FÉ, nº 93</LiturgyStep>
         </LiturgySteps>
       </SlideWithBackground>
+      
+      <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-93")} />
 
       <SlideWithBackground>
         <MainTitle>UMA IGREJA QUE ANDA NO PODER DO ESPÍRITO</MainTitle>
