@@ -127,7 +127,7 @@ export default function CompromissadosComALiberdadeEmCristo() {
 
       <SlideWithBackground>
         <MainTitle>APRENDENDO A ESPERAR EM DEUS</MainTitle>
-        <SubTitle>A IGREJA EXPERIMENTA DA AÇÃO TRANSFORMADORA DO AGIR DO ALTÍSSIMO</SubTitle>
+        <SubTitle>A IGREJA EXPERIMENTA DA AÇÃO TRANSFORMADORA<br /> DO AGIR DO ALTÍSSIMO</SubTitle>
 
         <LiturgySteps>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.pray_for_children}></LiturgyStep>
@@ -137,7 +137,7 @@ export default function CompromissadosComALiberdadeEmCristo() {
 
       <SlideWithBackground>
         <MainTitle>APRENDENDO A ESPERAR EM DEUS</MainTitle>
-        <SubTitle>A IGREJA DÁ TESTEMUNHO AO MUNDO DA FIDELIDADE DO SENHOR</SubTitle>
+        <SubTitle>A IGREJA DÁ TESTEMUNHO AO MUNDO<br /> DA FIDELIDADE DO SENHOR</SubTitle>
 
         <LiturgySteps>
           <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: TESTEMUNHO, nº 386</LiturgyStep>
