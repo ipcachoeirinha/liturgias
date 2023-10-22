@@ -15,5 +15,5 @@ const CDN_ASSETS_LIST = [
 const ZIP_FILENAME = "100823-uma-igreja-que-anda-no-poder-do-espirito"
 
 export async function loader(remixLoaderContext) {
-  return downloadSlideRemixLoader(remixLoaderContext, ZIP_FILENAME, CDN_ASSETS_LIST, PAGE_TITLE, defaultConfig)
+  return downloadSlideRemixLoader(remixLoaderContext, ZIP_FILENAME, CDN_ASSETS_LIST, PAGE_TITLE, { ...defaultConfig, width: 1600 })
 }
