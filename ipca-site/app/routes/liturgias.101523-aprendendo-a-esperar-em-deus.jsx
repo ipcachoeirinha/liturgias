@@ -33,7 +33,7 @@ export async function loader(remixLoaderContext) {
   return presentationSlideRemixLoader(remixLoaderContext, CDN_ASSETS_LIST)
 }
 
-export default function CompromissadosComALiberdadeEmCristo() {
+export default function AprendendoAEsperarEmDeus() {
   const [mode, assets] = useLoaderData()
 
   useEffect(() => {
