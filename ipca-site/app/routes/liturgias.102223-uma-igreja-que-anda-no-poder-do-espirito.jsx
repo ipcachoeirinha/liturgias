@@ -11,7 +11,7 @@ import { LiturgySteps } from '../components/ipca-default-theme/LiturgyStepsList'
 import { LITURGY_STEP_TYPES, LiturgyStep } from '../components/ipca-default-theme/LiturgyStep'
 import { VideoSlide } from '../components/ipca-default-theme/VideoSlide'
 
-const PAGE_TITLE = "Uma Igreja que Anda no Poder do Espírito - 08 de Outubro de 2023"
+const PAGE_TITLE = "Uma Igreja que Anda no Poder do Espírito - 22 de Outubro de 2023"
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
   { id: "ipcachoeirinha/santa-ceia-bg", extension: "png", resourceType: "image" },
