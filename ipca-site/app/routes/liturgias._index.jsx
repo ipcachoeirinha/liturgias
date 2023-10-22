@@ -9,6 +9,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/100123-compromissados-com-a-liberdade-em-cristo">Compromissados com a Liberdade em Cristo - 01 de Outubro de 2023</Link><br />
     <Link className="" to="/liturgias/100823-uma-igreja-que-reconhece-sua-miseria-espiritual">Uma Igreja que Reconhece Sua Miséria Espiritual - 08 de Outubro de 2023</Link><br />
     <Link className="" to="/liturgias/101523-aprendendo-a-esperar-em-deus">Aprendendo a Esperar em Deus - 15 de Outubro de 2023</Link><br />
-    <Link className="" to="/liturgias/102223-uma-igreja-que-anda-no-poder-do-espirito">Uma Igreja que Anda no Poder do Espírito - 22 de Outubro de 2023</Link><br />
+    <Link className="" to="/liturgias/102223-uma-igreja-que-anda-no-poder-do-espirito">Uma Igreja que Anda no Poder do Espírito - 22 de Outubro de 2023</Link> <a className="" href="/liturgias/102223-uma-igreja-que-anda-no-poder-do-espirito/download">Download</a><br />
   </div>)
 }
