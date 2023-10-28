@@ -534,6 +534,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-auto {
+  margin: auto !important;
+}
+
 .mb-16 {
   margin-bottom: 4rem !important;
 }
@@ -544,6 +548,18 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem !important;
+}
+
+.max-h-96 {
+  max-height: 24rem !important;
+}
+
+.max-h-\[768px\] {
+  max-height: 768px !important;
+}
+
+.max-h-\[900px\] {
+  max-height: 900px !important;
 }
 
 .list-disc {
