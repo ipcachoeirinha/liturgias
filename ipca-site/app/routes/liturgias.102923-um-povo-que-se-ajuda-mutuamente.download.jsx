@@ -4,6 +4,7 @@ import { downloadSlideRemixLoader } from '../lib.server'
 const PAGE_TITLE = "Um Povo que se Ajuda Mutuamente - 29 de Outubro de 2023"
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
+  { id: "ipcachoeirinha/nono-semear", extension: "jpg", resourceType: "image" },
   { id: "ipcachoeirinha/hino-11", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-135", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-110-a", extension: "mp4", resourceType: "video" },
