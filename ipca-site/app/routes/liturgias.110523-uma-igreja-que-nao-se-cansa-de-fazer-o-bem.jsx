@@ -162,7 +162,7 @@ export default function UmPovoQueSeAjudaMutuamente() {
 
       <SlideWithBackground>
         <section>
-          <MainTitle>POSLUDIO</MainTitle>
+          <MainTitle>POSLÚDIO</MainTitle>
         </section>
         <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/uma-bencao-antiga-letra")} />
       </SlideWithBackground>
