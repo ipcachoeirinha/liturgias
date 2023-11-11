@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -550,16 +550,24 @@ video {
   margin-top: 0.5rem !important;
 }
 
-.max-h-96 {
-  max-height: 24rem !important;
-}
-
-.max-h-\[768px\] {
-  max-height: 768px !important;
+.mt-4 {
+  margin-top: 1rem !important;
 }
 
 .max-h-\[900px\] {
   max-height: 900px !important;
+}
+
+.max-w-\[50\%\] {
+  max-width: 50% !important;
+}
+
+.max-w-\[60\%\] {
+  max-width: 60% !important;
+}
+
+.max-w-\[55\%\] {
+  max-width: 55% !important;
 }
 
 .list-disc {
@@ -568,6 +576,10 @@ video {
 
 .text-left {
   text-align: left !important;
+}
+
+.text-justify {
+  text-align: justify !important;
 }
 
 .text-4xl {
@@ -592,6 +604,26 @@ video {
 
 .font-bold {
   font-weight: 700 !important;
+}
+
+.leading-3 {
+  line-height: .75rem !important;
+}
+
+.leading-4 {
+  line-height: 1rem !important;
+}
+
+.leading-loose {
+  line-height: 2 !important;
+}
+
+.leading-relaxed {
+  line-height: 1.625 !important;
+}
+
+.leading-normal {
+  line-height: 1.5 !important;
 }
 
 .tracking-wide {

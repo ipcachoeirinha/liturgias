@@ -19,6 +19,7 @@ const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/hino-67", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-61", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-266", extension: "mp4", resourceType: "video" },
+  { id: "ipcachoeirinha/rude-cruz-instrumental", extension: "mp3", resourceType: "video" },
   { id: "ipcachoeirinha/hino-001-instrumental", extension: "mp3", resourceType: "video" },
   { id: "ipcachoeirinha/uma-bencao-antiga-letra", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/what-a-beautiful-name-hillsong-cover-daniel-jang", extension: "mp3", resourceType: "video" },
@@ -163,7 +164,41 @@ export default function UmPovoQueSeAjudaMutuamente() {
           <MainTitle>SANTA CEIA</MainTitle>
         </section>
         <section>
-          <MainTitle>SANTA CEIA (com fundo músical)</MainTitle>
+          <MainTitle>SANTA CEIA</MainTitle>
+          <audio data-autoplay><source
+            type="audio/mpeg"
+
+            src={getAssetUrl("ipcachoeirinha/rude-cruz-instrumental")}
+
+
+          />O seu navegador não suporta o elemento <code>audio</code>.</audio>
+        </section>
+        <section>
+          <MainTitle>PERGUNTA 174</MainTitle>
+          <div className='max-w-[55%] mt-4'>
+            <h2 className='text-green-800 text-justify font-bold text-6xl mb-16 leading-normal'>O que é exigido dos que recebem o sacramento da Ceia, na ocasião de sua celebração?</h2>
+          </div>
+        </section>
+        <section>
+          <div className='max-w-[60%] mt-4'>
+            <p className='text-green-800 text-justify font-bold text-6xl mb-16 leading-normal'>Exige-se dos que recebem o sacramento da Ceia que, durante a sua celebração, esperem em Deus, nessa ordenança, com toda a santa reverência e atenção;</p>
+          </div>
+        </section>
+        <section>
+          <div className='max-w-[60%] mt-4'>
+            <p className='text-green-800 text-justify font-bold text-6xl mb-16 leading-normal'>Que, diligentemente, observem os elementos e os atos sacramentais;</p>
+          </div>
+        </section>
+        <section>
+          <div className='max-w-[60%] mt-4'>
+            <p className='text-green-800 text-justify font-bold text-6xl mb-16 leading-normal'>Que, atentamente, discirnam o corpo do Senhor e, cheios de amor, meditem na sua morte e sofrimentos, e, assim, sejam despertados a um exercício das suas graças, julgando-se a si mesmos e entristecendo-se pelo pecado;</p>
+          </div>
+        </section>
+        <section>
+          <div className='max-w-[60%] mt-4'>
+            <p className='text-green-800 text-justify font-bold text-6xl mb-16 leading-normal'>Tendo fome e sede ardentes em Cristo, alimentando-se nele pela fé, recebendo da sua plenitude, confiando nos seus méritos, regozijando-se no seu amor, sendo gratos pela sua graça e renovando o pacto que fizeram com Deus e o amor que votaram a todos os crentes.</p>
+          </div>
+
         </section>
         <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-266")} />
       </SupperSlide>
