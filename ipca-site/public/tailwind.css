@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -542,8 +542,17 @@ video {
   margin: auto !important;
 }
 
+.my-4 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
 .mb-16 {
   margin-bottom: 4rem !important;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem !important;
 }
 
 .mb-4 {
@@ -556,10 +565,6 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem !important;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem !important;
 }
 
 .block {
@@ -578,6 +583,50 @@ video {
   height: 100% !important;
 }
 
+.h-\[340px\] {
+  height: 340px !important;
+}
+
+.h-\[540px\] {
+  height: 540px !important;
+}
+
+.h-\[480px\] {
+  height: 480px !important;
+}
+
+.h-\[360px\] {
+  height: 360px !important;
+}
+
+.h-\[400px\] {
+  height: 400px !important;
+}
+
+.h-\[80px\] {
+  height: 80px !important;
+}
+
+.h-\[120px\] {
+  height: 120px !important;
+}
+
+.h-\[150px\] {
+  height: 150px !important;
+}
+
+.max-h-\[480px\] {
+  max-height: 480px !important;
+}
+
+.max-h-\[400px\] {
+  max-height: 400px !important;
+}
+
+.max-h-\[100\%\] {
+  max-height: 100% !important;
+}
+
 .min-h-\[260px\] {
   min-height: 260px !important;
 }
@@ -590,8 +639,28 @@ video {
   min-height: 100% !important;
 }
 
-.w-full {
-  width: 100% !important;
+.min-h-\[400px\] {
+  min-height: 400px !important;
+}
+
+.w-\[340px\] {
+  width: 340px !important;
+}
+
+.w-\[400px\] {
+  width: 400px !important;
+}
+
+.w-\[80px\] {
+  width: 80px !important;
+}
+
+.w-\[120px\] {
+  width: 120px !important;
+}
+
+.w-\[150px\] {
+  width: 150px !important;
 }
 
 .max-w-5xl {
@@ -600,6 +669,18 @@ video {
 
 .max-w-\[100px\] {
   max-width: 100px !important;
+}
+
+.max-w-\[480px\] {
+  max-width: 480px !important;
+}
+
+.max-w-\[360px\] {
+  max-width: 360px !important;
+}
+
+.max-w-\[400px\] {
+  max-width: 400px !important;
 }
 
 .flex-1 {
@@ -622,16 +703,20 @@ video {
   flex-basis: 60% !important;
 }
 
-.basis-1\/5 {
-  flex-basis: 20% !important;
-}
-
 .list-disc {
   list-style-type: disc !important;
 }
 
+.grid-flow-row {
+  grid-auto-flow: row !important;
+}
+
 .grid-cols-\[100\%\] {
   grid-template-columns: 100% !important;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
 }
 
 .grid-rows-\[1fr_auto\] {
@@ -666,6 +751,11 @@ video {
   justify-items: end !important;
 }
 
+.gap-x-2 {
+  -moz-column-gap: 0.5rem !important;
+       column-gap: 0.5rem !important;
+}
+
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0 !important;
   margin-right: calc(1rem * var(--tw-space-x-reverse)) !important;
@@ -678,13 +768,19 @@ video {
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse))) !important;
 }
 
-.rounded-sm {
-  border-radius: 0.125rem !important;
-}
-
 .bg-slate-700 {
   --tw-bg-opacity: 1 !important;
   background-color: rgb(51 65 85 / var(--tw-bg-opacity)) !important;
+}
+
+.bg-pink-300 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(249 168 212 / var(--tw-bg-opacity)) !important;
+}
+
+.bg-slate-800 {
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
 }
 
 .bg-\[url\(\"\/bg5\.svg\"\)\] {
@@ -695,8 +791,17 @@ video {
   background-size: cover !important;
 }
 
+.bg-contain {
+  background-size: contain !important;
+}
+
 .p-4 {
   padding: 1rem !important;
+}
+
+.px-4 {
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 .px-8 {
@@ -709,13 +814,12 @@ video {
   padding-bottom: 1rem !important;
 }
 
-.px-4 {
-  padding-left: 1rem !important;
-  padding-right: 1rem !important;
-}
-
 .pb-\[100px\] {
   padding-bottom: 100px !important;
+}
+
+.pt-4 {
+  padding-top: 1rem !important;
 }
 
 .text-left {
@@ -803,8 +907,17 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:my-0 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
   .md\:mb-0 {
     margin-bottom: 0px !important;
+  }
+
+  .md\:basis-1\/4 {
+    flex-basis: 25% !important;
   }
 
   .md\:flex-row {
@@ -815,5 +928,9 @@ video {
     --tw-space-x-reverse: 0 !important;
     margin-right: calc(0.5rem * var(--tw-space-x-reverse)) !important;
     margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse))) !important;
+  }
+
+  .md\:text-left {
+    text-align: left !important;
   }
 }
