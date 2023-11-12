@@ -164,16 +164,6 @@ export default function UmPovoQueSeAjudaMutuamente() {
           <MainTitle>SANTA CEIA</MainTitle>
         </section>
         <section>
-          <MainTitle>SANTA CEIA</MainTitle>
-          <audio data-autoplay><source
-            type="audio/mpeg"
-
-            src={getAssetUrl("ipcachoeirinha/rude-cruz-instrumental")}
-
-
-          />O seu navegador não suporta o elemento <code>audio</code>.</audio>
-        </section>
-        <section>
           <MainTitle>PERGUNTA 174</MainTitle>
           <div className='max-w-[55%] mt-4'>
             <h2 className='text-green-800 text-justify font-bold text-6xl mb-16 leading-normal'>O que é exigido dos que recebem o sacramento da Ceia, na ocasião de sua celebração?</h2>
@@ -199,6 +189,16 @@ export default function UmPovoQueSeAjudaMutuamente() {
             <p className='text-green-800 text-justify font-bold text-6xl mb-16 leading-normal'>Tendo fome e sede ardentes em Cristo, alimentando-se nele pela fé, recebendo da sua plenitude, confiando nos seus méritos, regozijando-se no seu amor, sendo gratos pela sua graça e renovando o pacto que fizeram com Deus e o amor que votaram a todos os crentes.</p>
           </div>
 
+        </section>
+        <section>
+          <MainTitle>SANTA CEIA</MainTitle>
+          <audio data-autoplay><source
+            type="audio/mpeg"
+
+            src={getAssetUrl("ipcachoeirinha/rude-cruz-instrumental")}
+
+
+          />O seu navegador não suporta o elemento <code>audio</code>.</audio>
         </section>
         <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-266")} />
       </SupperSlide>
