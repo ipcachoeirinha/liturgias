@@ -542,6 +542,7 @@ video {
   margin: auto !important;
 }
 
+
 .my-4 {
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;
@@ -630,6 +631,17 @@ video {
 
 .basis-3\/5 {
   flex-basis: 60% !important;
+
+.mt-4 {
+  margin-top: 1rem !important;
+}
+
+.max-h-\[900px\] {
+  max-height: 900px !important;
+}
+
+.max-w-\[55\%\] {
+  max-width: 55% !important;
 }
 
 .list-disc {
