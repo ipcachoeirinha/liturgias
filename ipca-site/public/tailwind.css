@@ -558,14 +558,6 @@ video {
   max-height: 900px !important;
 }
 
-.max-w-\[50\%\] {
-  max-width: 50% !important;
-}
-
-.max-w-\[60\%\] {
-  max-width: 60% !important;
-}
-
 .max-w-\[55\%\] {
   max-width: 55% !important;
 }
@@ -604,22 +596,6 @@ video {
 
 .font-bold {
   font-weight: 700 !important;
-}
-
-.leading-3 {
-  line-height: .75rem !important;
-}
-
-.leading-4 {
-  line-height: 1rem !important;
-}
-
-.leading-loose {
-  line-height: 2 !important;
-}
-
-.leading-relaxed {
-  line-height: 1.625 !important;
 }
 
 .leading-normal {
