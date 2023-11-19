@@ -121,7 +121,7 @@ export default function UmaIgrejaCheiaDeEsperanca() {
 
       <SlideWithBackground>
         <section>
-          <MainTitle>UMA IGREJA QUE NAO SE CANSA DE FAZER O BEM</MainTitle>
+          <MainTitle>UMA IGREJA CHEIA DE ESPERANÇA</MainTitle>
           <SubTitle>ALEGRA-SE AO RELEMBRAR AS BENÇÃOS DIVINA</SubTitle>
 
           <LiturgySteps>
@@ -135,7 +135,7 @@ export default function UmaIgrejaCheiaDeEsperanca() {
       </SlideWithBackground>
 
       <SlideWithBackground>
-        <MainTitle>UMA IGREJA QUE NAO SE CANSA DE FAZER O BEM</MainTitle>
+        <MainTitle>UMA IGREJA CHEIA DE ESPERANÇA</MainTitle>
         <SubTitle>ALIMENTA-SE CONTINUAMENTE DA PALAVRA</SubTitle>
 
         <LiturgySteps>
@@ -146,7 +146,7 @@ export default function UmaIgrejaCheiaDeEsperanca() {
 
       <SlideWithBackground>
         <section>
-          <MainTitle>UMA IGREJA QUE NAO SE CANSA DE FAZER O BEM</MainTitle>
+          <MainTitle>UMA IGREJA CHEIA DE ESPERANÇA</MainTitle>
           <SubTitle>ANUNCIA ESPERANÇA AOS AFLITOS</SubTitle>
 
           <LiturgySteps>
