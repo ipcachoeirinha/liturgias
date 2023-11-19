@@ -13,5 +13,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/102923-um-povo-que-se-ajuda-mutuamente">Um Povo que se Ajuda Mutuamente - 29 de Outubro de 2023</Link> <a className="" href="/liturgias/102923-um-povo-que-se-ajuda-mutuamente/download">Download</a><br />
     <Link className="" to="/liturgias/110523-uma-igreja-que-nao-se-cansa-de-fazer-o-bem">Uma Igreja Que Não Se Cansa de Fazer o Bem - 05 de Novembro de 2023</Link> <a className="" href="/liturgias/110523-uma-igreja-que-nao-se-cansa-de-fazer-o-bem/download">Download</a><br />
     <Link className="" to="/liturgias/111223-uma-igreja-centrada-na-cruz">Uma Igreja Centrada na Cruz - 12 de Novembro de 2023</Link> <a className="" href="/liturgias/111223-uma-igreja-centrada-na-cruz/download">Download</a><br />
+    <Link className="" to="/liturgias/111923-uma-igreja-cheia-de-esperanca">Uma Igreja Cheia de Esperança - 19 de Novembro de 2023</Link> <a className="" href="/liturgias/111923-uma-igreja-cheia-de-esperanca/download">Download</a><br />
   </div>)
 }
