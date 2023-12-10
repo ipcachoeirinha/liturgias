@@ -125,7 +125,7 @@ export default function AEncarnacaoDeJesusCristo() {
           <SubTitle>FOI ANUNCIADA PELOS PROFETAS</SubTitle>
 
           <LiturgySteps>
-            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.unison_reading}>: ISAÍAS 40:1-5</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.reading}>: ISAÍAS 40:1-5</LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.thankful_prayer}></LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.offering}></LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: A CHEGADA DO MESSIAS, nº 54</LiturgyStep>
