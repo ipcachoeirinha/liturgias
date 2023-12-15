@@ -35,7 +35,7 @@ export async function loader(remixLoaderContext) {
   return presentationSlideRemixLoader(remixLoaderContext, CDN_ASSETS_LIST)
 }
 
-export default function UmPovoQueSeAjudaMutuamente() {
+export default function UmaIgrejaCentradaNaCruz() {
   const [mode, assets] = useLoaderData()
 
   useEffect(() => {
@@ -124,7 +124,7 @@ export default function UmPovoQueSeAjudaMutuamente() {
 
       <SlideWithBackground>
         <section>
-          <MainTitle>UMA IGREJA QUE NAO SE CANSA DE FAZER O BEM</MainTitle>
+          <MainTitle>UMA IGREJA CENTRADA NA CRUZ</MainTitle>
           <SubTitle>ENTREGA AS PRIMÍCIAS COM GRATIDÃO</SubTitle>
 
           <LiturgySteps>
@@ -138,7 +138,7 @@ export default function UmPovoQueSeAjudaMutuamente() {
       </SlideWithBackground>
 
       <SlideWithBackground>
-        <MainTitle>UMA IGREJA QUE NAO SE CANSA DE FAZER O BEM</MainTitle>
+        <MainTitle>UMA IGREJA CENTRADA NA CRUZ</MainTitle>
         <SubTitle>ATENTA AOS ENSINOS DO SENHOR</SubTitle>
 
         <LiturgySteps>
@@ -148,7 +148,7 @@ export default function UmPovoQueSeAjudaMutuamente() {
       </SlideWithBackground>
 
       <SlideWithBackground>
-        <MainTitle>UMA IGREJA QUE NAO SE CANSA DE FAZER O BEM</MainTitle>
+        <MainTitle>UMA IGREJA CENTRADA NA CRUZ</MainTitle>
         <SubTitle>DESFRUTA DA COMUNHÃO COM O SALVADOR</SubTitle>
 
         <LiturgySteps>
