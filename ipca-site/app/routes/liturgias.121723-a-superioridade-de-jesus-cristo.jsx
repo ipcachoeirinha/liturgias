@@ -139,7 +139,16 @@ export default function ASuperioridadeDeJesusCristo() {
         <section>
           <MainTitle>SANTA CEIA</MainTitle>
         </section>
-        
+        <section>
+          <MainTitle>SANTA CEIA</MainTitle>
+          <audio data-autoplay><source
+            type="audio/mpeg"
+
+            src={getAssetUrl("ipcachoeirinha/rude-cruz-instrumental")}
+
+
+          />O seu navegador não suporta o elemento <code>audio</code>.</audio>
+        </section>
         <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-269")} />
       </SupperSlide>
 

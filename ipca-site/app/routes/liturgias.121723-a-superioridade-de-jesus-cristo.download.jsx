@@ -14,7 +14,8 @@ const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/uma-bencao-antiga-letra", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/what-a-beautiful-name-hillsong-cover-daniel-jang", extension: "mp3", resourceType: "video" },
 ]
-const ZIP_FILENAME = "111223-uma-igreja-centrada-na-cruz"
+
+const ZIP_FILENAME = "121723-a-superioridade-de-jesus-cristo"
 
 export async function loader(remixLoaderContext) {
   return downloadSlideRemixLoader(remixLoaderContext, ZIP_FILENAME, CDN_ASSETS_LIST, PAGE_TITLE, {...defaultConfig, width: 1600 })
