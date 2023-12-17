@@ -163,14 +163,17 @@ export default function ASuperioridadeDeJesusCristo() {
       </SlideWithBackground>
 
       <SlideWithBackground>
-        <MainTitle>A SUPERIORIDADE DE JESUS CRISTO</MainTitle>
-        <SubTitle>É A BASE DE NOSSA ESPERANÇA PARA O FUTURO</SubTitle>
+        <section>
+          <MainTitle>A SUPERIORIDADE DE JESUS CRISTO</MainTitle>
+          <SubTitle>É A BASE DE NOSSA ESPERANÇA PARA O FUTURO</SubTitle>
 
-        <LiturgySteps>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: A VINDA DO SENHOR, nº 292</LiturgyStep>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.ending_prayer}></LiturgyStep>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.blessings}></LiturgyStep>
-        </LiturgySteps>
+          <LiturgySteps>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: A VINDA DO SENHOR, nº 292</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.ending_prayer}></LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.blessings}></LiturgyStep>
+          </LiturgySteps>
+        </section>
+        <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-292")} />
       </SlideWithBackground>
 
       <SlideWithBackground>
