@@ -17,5 +17,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/120323-jesus-a-luz-do-mundo">Jesus, A Luz do Mundo - 03 de Dezembro de 2023</Link> <a className="" href="/liturgias/120323-jesus-a-luz-do-mundo/download">Download</a><br />
     <Link className="" to="/liturgias/121023-a-encarnacao-de-jesus-cristo">A Encarnação de Jesus Cristo - 10 de Dezembro de 2023</Link> <a className="" href="/liturgias/121023-a-encarnacao-de-jesus-cristo/download">Download</a><br />
     <Link className="" to="/liturgias/121723-a-superioridade-de-jesus-cristo">A Superioridade de Jesus Cristo - 17 de Dezembro de 2023</Link> <a className="" href="/liturgias/121723-a-superioridade-de-jesus-cristo/download">Download</a><br />
+    <Link className="" to="/liturgias/122423-uma-igreja-que-entende-o-verdadeiro-significado-do-natal">Uma Igreja Que Entende O Verdadeiro Significado Do Natal - 24 de Dezembro de 2023</Link> <a className="" href="/liturgias/122423-uma-igreja-que-entende-o-verdadeiro-significado-do-natal/download">Download</a><br />
   </div>)
 }
