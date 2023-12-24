@@ -1,12 +1,12 @@
 import defaultConfig from '../config/revealjs-default.json'
 import { downloadSlideRemixLoader } from '../lib.server'
 
-const PAGE_TITLE = "A Encarnação de Jesus Cristo - 10 de Dezembro de 2023"
+const PAGE_TITLE = "Uma Igreja Que Entende O Verdadeiro Significado Do Natal - 24 de Dezembro de 2023"
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
-  { id: "ipcachoeirinha/hino-237", extension: "mp4", resourceType: "video" },
-  { id: "ipcachoeirinha/hino-93", extension: "mp4", resourceType: "video" },
-  { id: "ipcachoeirinha/hino-54", extension: "mp4", resourceType: "video" },
+  { id: "ipcachoeirinha/hino-230", extension: "mp4", resourceType: "video" },
+  { id: "ipcachoeirinha/hino-78", extension: "mp4", resourceType: "video" },
+  { id: "ipcachoeirinha/hino-315", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-239", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-001-instrumental", extension: "mp3", resourceType: "video" },
   { id: "ipcachoeirinha/uma-bencao-antiga-letra", extension: "mp4", resourceType: "video" },
