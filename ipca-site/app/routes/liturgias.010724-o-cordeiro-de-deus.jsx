@@ -150,7 +150,7 @@ export default function AEncarnacaoDeJesusCristo() {
           <SubTitle>É O CAMINHO PARA A RECONCILIAÇÃO COM DEUS</SubTitle>
 
           <LiturgySteps>
-            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: A MENSAGEM REAL, nº 299</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: A MENSAGEM REAL, nº 288</LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.ending_prayer}></LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.blessings}></LiturgyStep>
           </LiturgySteps>
