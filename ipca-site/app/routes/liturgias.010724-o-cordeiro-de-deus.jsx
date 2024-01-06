@@ -14,6 +14,7 @@ import { VideoSlide } from '../components/ipca-default-theme/VideoSlide'
 const PAGE_TITLE = "O Cordeiro de Deus - 07 de Janeiro de 2024"
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
+  { id: "ipcachoeirinha/baptism-bg", extension: "png", resourceType: "image" },
   { id: "ipcachoeirinha/hino-3", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-269", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-104", extension: "mp4", resourceType: "video" },
@@ -47,6 +48,7 @@ export default function AEncarnacaoDeJesusCristo() {
 
   const getAssetUrl = getAssetUrlBuilder(mode, assets)
   const SlideWithBackground = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/cruz-wallpaper-light"))
+  const BaptismSlide = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/baptism-bg"))
 
   return (
     <RevealJsBaseElement>
@@ -125,12 +127,36 @@ export default function AEncarnacaoDeJesusCristo() {
           <SubTitle>SIMBOLIZA PUREZA E SACRIFÍCIO</SubTitle>
 
           <LiturgySteps>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>BATISMO INFANTIL</LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.reading}>: 1 PEDRO 1:18-19</LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.thankful_prayer}></LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.offering}></LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: LINDA MELODIA, nº 104</LiturgyStep>
           </LiturgySteps>
         </section>
+      </SlideWithBackground>
+
+      <BaptismSlide>
+        <section>
+          <MainTitle>BATISMO</MainTitle>
+          <SubTitle>INFANTIL</SubTitle>
+        </section>
+      </BaptismSlide>
+
+      <SlideWithBackground>
+        <section>
+          <MainTitle>O CORDEIRO DE DEUS</MainTitle>
+          <SubTitle>SIMBOLIZA PUREZA E SACRIFÍCIO</SubTitle>
+
+          <LiturgySteps>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>BATISMO INFANTIL</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.reading}>: 1 PEDRO 1:18-19</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.thankful_prayer}></LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.offering}></LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: LINDA MELODIA, nº 104</LiturgyStep>
+          </LiturgySteps>
+        </section>
+
         <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-104")} />
       </SlideWithBackground>
 

@@ -14,7 +14,8 @@ const _LITURGY_STEP_TYPES = {
     "worship_prayer": "ORAÇÃO DE ADORAÇÃO",
     "thankful_prayer": "ORAÇÃO DE AGRADECIMENTO",
     "ending_prayer": "ORAÇÃO FINAL",
-    "blessings": "BENÇÃO APOSTÓLICA"
+    "blessings": "BENÇÃO APOSTÓLICA",
+    "custom": ""
 }
 
 export const LITURGY_STEP_TYPES = {
@@ -33,7 +34,8 @@ export const LITURGY_STEP_TYPES = {
     "worship_prayer": "worship_prayer",
     "thankful_prayer": "thankful_prayer",
     "ending_prayer": "ending_prayer",
-    "blessings": "blessings"
+    "blessings": "blessings",
+    "custom": "custom",
 }
 
 export function LiturgyStep({ children, liturgyStepType }) {
