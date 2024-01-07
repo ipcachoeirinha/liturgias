@@ -4,6 +4,7 @@ import { downloadSlideRemixLoader } from '../lib.server'
 const PAGE_TITLE = "O Cordeiro de Deus - 07 de Janeiro de 2024"
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
+  { id: "ipcachoeirinha/baptism-bg", extension: "png", resourceType: "image" },
   { id: "ipcachoeirinha/hino-3", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-269", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-104", extension: "mp4", resourceType: "video" },
