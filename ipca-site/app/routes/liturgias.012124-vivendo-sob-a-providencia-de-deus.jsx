@@ -33,7 +33,7 @@ export async function loader(remixLoaderContext) {
   return presentationSlideRemixLoader(remixLoaderContext, CDN_ASSETS_LIST)
 }
 
-export default function AEncarnacaoDeJesusCristo() {
+export default function VivendoSobAProvidenciaDeDeus() {
   const [mode, assets] = useLoaderData()
 
   useEffect(() => {
@@ -129,7 +129,7 @@ export default function AEncarnacaoDeJesusCristo() {
           <LiturgySteps>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.reading}>: 1 JOÃO 3.17-18</LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.offering}></LiturgyStep>
-            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: OFERTAS, nº 55</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: OFERTAS, nº 58</LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.thankful_prayer}></LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>
             DADOS BANCÁRIOS:
