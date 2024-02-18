@@ -134,7 +134,6 @@ export default function UmPovoQueAdoraAoSenhor() {
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.thankful_prayer}></LiturgyStep>
           </LiturgySteps>
         </section>
-        <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-58")} />
       </SlideWithBackground>
 
       <SlideWithBackground>
