@@ -130,7 +130,7 @@ export default function UmPovoQueAdoraAoSenhor() {
           <LiturgySteps>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.alterned_reading}>: MATEUS 6.25-34</LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.offering}></LiturgyStep>
-            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: OFERTAS, nº 58</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>: Cânticos Congregacionais</LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.thankful_prayer}></LiturgyStep>
           </LiturgySteps>
         </section>
@@ -162,7 +162,6 @@ export default function UmPovoQueAdoraAoSenhor() {
       </SlideWithBackground>
 
       <SlideWithBackground>
-        <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/uma-bencao-antiga-letra")} />
         <section>
           <MainTitle>POSLÚDIO</MainTitle>
         </section>
