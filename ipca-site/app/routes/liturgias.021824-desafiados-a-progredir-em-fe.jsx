@@ -150,7 +150,7 @@ export default function UmPovoQueAdoraAoSenhor() {
       <SlideWithBackground>
         <section>
           <MainTitle>DESAFIADOS A PROGREDIR EM FÉ</MainTitle>
-          <SubTitle>CAMINHAMOS OLHANDO PARA CRISTO, AUTOR E CONSUMADOR DA NOSSA FÉ</SubTitle>
+          <SubTitle>CAMINHAMOS OLHANDO PARA CRISTO, <br/>AUTOR E CONSUMADOR DA NOSSA FÉ</SubTitle>
 
           <LiturgySteps>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: A CERTEZA DO CRENTE, nº 105</LiturgyStep>
