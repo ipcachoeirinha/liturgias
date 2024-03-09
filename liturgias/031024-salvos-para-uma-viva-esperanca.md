@@ -21,7 +21,7 @@ Hino Belas Palavras de Vida, nº 351
 Oração de intercessão
 Pregação: 1 Pedro 1.3-9 (Rev. Everton Piovesan)
 
-CAMINHAMOS OLHANDO PARA CRISTO, AUTOR E CONSUMADOR DA NOSSA FÉ
+AGUARDAMOS A ESPERANÇA INCORRUPTÍVEL RESERVADA NOS CÉUS PARA NÓS
 Hino Fidelidade do Cristão, nº 176
 Oração final
 Benção apostólica
