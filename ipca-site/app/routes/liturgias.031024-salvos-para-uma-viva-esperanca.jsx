@@ -82,7 +82,7 @@ export default function UmPovoQueAdoraAoSenhor() {
       <SlideWithBackground>
         <section>
           <MainTitle>SALVOS PARA UMA VIVA ESPERANÇA</MainTitle>
-          <SubTitle>CREMOS QUE SOMOS GUARDADOS<br/>PELO PODER DE DEUS ATÉ O FIM</SubTitle>
+          <SubTitle>CREMOS QUE SOMOS GUARDADOS<br />PELO PODER DE DEUS ATÉ O FIM</SubTitle>
 
           <LiturgySteps>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.reading}>: JOÃO 10.27-30</LiturgyStep>
@@ -108,7 +108,7 @@ export default function UmPovoQueAdoraAoSenhor() {
 
         <section>
           <MainTitle>SALVOS PARA UMA VIVA ESPERANÇA</MainTitle>
-          <SubTitle>CREMOS QUE SOMOS GUARDADOS<br/>PELO PODER DE DEUS ATÉ O FIM</SubTitle>
+          <SubTitle>CREMOS QUE SOMOS GUARDADOS<br />PELO PODER DE DEUS ATÉ O FIM</SubTitle>
 
           <LiturgySteps>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.reading}>: JOÃO 10.27-30</LiturgyStep>
@@ -129,25 +129,17 @@ export default function UmPovoQueAdoraAoSenhor() {
 
           <LiturgySteps>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: BELAS PALAVRAS DE VIDA, nº 351</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>ORAÇÃO DE INTERCESSÃO</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.preaching}>: 1 PEDRO 1.3-9 (Rev. Everton Piovesan)</LiturgyStep>
           </LiturgySteps>
         </section>
         <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-351")} />
       </SlideWithBackground>
 
       <SlideWithBackground>
-        <MainTitle>SALVOS PARA UMA VIVA ESPERANÇA</MainTitle>
-        <SubTitle>NOS ALEGRAMOS COM A REVELAÇÃO DE JESUS CRISTO MEDIANTE A PREGAÇÃO DO EVANGELHO</SubTitle>
-
-        <LiturgySteps>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>ORAÇÃO DE INTERCESSÃO</LiturgyStep>
-          <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.preaching}>: 1 PEDRO 1.3-9 (Rev. Everton Piovesan)</LiturgyStep>
-        </LiturgySteps>
-      </SlideWithBackground>
-
-      <SlideWithBackground>
         <section>
           <MainTitle>SALVOS PARA UMA VIVA ESPERANÇA</MainTitle>
-          <SubTitle>CAMINHAMOS OLHANDO PARA CRISTO, AUTOR E CONSUMADOR DA NOSSA FÉ</SubTitle>
+          <SubTitle>AGUARDAMOS A ESPERANÇA INCORRUPTÍVEL RESERVADA NOS CÉUS PARA NÓS</SubTitle>
 
           <LiturgySteps>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: FIDELIDADE DO CRISTÃO, nº 176</LiturgyStep>
