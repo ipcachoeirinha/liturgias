@@ -11,5 +11,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/021824-desafiados-a-progredir-em-fe">Desafiados a progredir em fé - 18 de Fevereiro de 2024</Link> <a className="" href="/liturgias/021824-desafiados-a-progredir-em-fe/download">Download</a><br />
     <Link className="" to="/liturgias/022524-uma-igreja-governada-por-um-justo-rei">Uma igreja governada por um Justo Rei - 25 de Fevereiro de 2024</Link> <a className="" href="/liturgias/022524-uma-igreja-governada-por-um-justo-rei/download">Download</a><br />
     <Link className="" to="/liturgias/031024-salvos-para-uma-viva-esperanca">Salvos para uma viva esperança - 10 de Março de 2024</Link> <a className="" href="/liturgias/031024-salvos-para-uma-viva-esperanca/download">Download</a><br />
+    <Link className="" to="/liturgias/031724-santificados-no-amor">Santificados no amor - 17 de Março de 2024</Link> <a className="" href="/liturgias/031724-santificados-no-amor/download">Download</a><br />
   </div>)
 }
