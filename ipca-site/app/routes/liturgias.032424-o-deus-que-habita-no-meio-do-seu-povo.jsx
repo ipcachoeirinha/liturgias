@@ -17,7 +17,7 @@ const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/hino-96", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-67", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-78", extension: "mp4", resourceType: "video" },
-  { id: "ipcachoeirinha/hino-351", extension: "mp4", resourceType: "video" },
+  { id: "ipcachoeirinha/projeto-sola-isaias-53", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-001-instrumental", extension: "mp3", resourceType: "video" },
   { id: "ipcachoeirinha/uma-bencao-antiga-letra", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/oracao-silenciosa-hino-208", extension: "mp3", resourceType: "video" },
@@ -86,9 +86,9 @@ export default function UmPovoQueAdoraAoSenhor() {
 
           <LiturgySteps>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.alterned_reading}>: SALMO 51</LiturgyStep>
-            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: CORAÇÃO QUEBRANTADO, nº 67</LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.silent_prayer}></LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.confession_prayer}></LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: CORAÇÃO QUEBRANTADO, nº 67</LiturgyStep>
           </LiturgySteps>
         </section>
 
@@ -111,9 +111,9 @@ export default function UmPovoQueAdoraAoSenhor() {
 
           <LiturgySteps>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.alterned_reading}>: SALMO 51</LiturgyStep>
-            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: CORAÇÃO QUEBRANTADO, nº 67</LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.silent_prayer}></LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.confession_prayer}></LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: CORAÇÃO QUEBRANTADO, nº 67</LiturgyStep>
           </LiturgySteps>
         </section>
 
@@ -132,7 +132,7 @@ export default function UmPovoQueAdoraAoSenhor() {
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>CÂNTICOS CONGREGACIONAIS</LiturgyStep>
           </LiturgySteps>
         </section>
-        {/* <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-351")} /> */}
+        <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/projeto-sola-isaias-53")} />
       </SlideWithBackground>
 
       <SlideWithBackground>

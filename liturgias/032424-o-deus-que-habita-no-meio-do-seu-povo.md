@@ -9,16 +9,16 @@ Elege e resgata por graça, e em resposta, seu povo obedece por aquilo que Ele j
 Alegra-se em ver corações quebrantados e contritos quando pecamos, estes, Ele não despreza
 
 • Leitura Bíblica Alternada: Salmo 51
-• Hino: "Coração Quebrantado (NC 067)
 • Oração Silenciosa (interlúdio musical)
 • Oração de Confissão
+• Hino: "Coração Quebrantado (NC 067)
 
 Requer contentamento na vida, não por causa dos bens que possuímos, mas contentamento em razão de uma vida submissa a Ele
 
 • Leitura Bíblica Alternada: Filipenses 4.10-20
 • Consagração de Dízimos e Ofertas
 • Oração de Gratidão
-• Cânticos Congregacionais
+• Cânticos Congregacionais (Projeto Sola - Isaías 53)
 
 Chama o seu povo para que recebam a sua orientação atentamente
 
