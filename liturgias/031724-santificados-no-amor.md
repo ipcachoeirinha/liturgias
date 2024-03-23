@@ -10,7 +10,7 @@ Oração de adoração
 
 2. RECONHECEREMOS QUÃO PECADORES NÓS SOMOS
 Leitura bíblica alternada: 1 João 4.7-21
-Oração silenciosa
+Oração silenciosa (interludio musical)
 Oração de confissão
 Hino Sinceridade, nº 74
 
@@ -23,7 +23,7 @@ Oração de gratidão
 
 4. NOS DELEITAREMOS EM SUA SANTA PALAVRA
 Oração pelas crianças
-Pregação: 1 Pedro 1.22-25 (Rev. Marcos Santana)
+Pregação: Santos no Amor - 1 Pedro 1.22-25 (Rev. Marcos Santana) 
 Hino Ao Pé da Cruz, nº 107
 
 Oração final
