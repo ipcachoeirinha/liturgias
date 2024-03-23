@@ -13,7 +13,7 @@ Alegra-se em ver corações quebrantados e contritos quando pecamos, estes, Ele 
 • Oração Silenciosa (interlúdio musical)
 • Oração de Confissão
 
-Requer contentamento na vida, não por causa dos bens que possuimos, mas contentamento em razão de uma vida submissa a Ele
+Requer contentamento na vida, não por causa dos bens que possuímos, mas contentamento em razão de uma vida submissa a Ele
 
 • Leitura Bíblica Alternada: Filipenses 4.10-20
 • Consagração de Dízimos e Ofertas
