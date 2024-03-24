@@ -7,7 +7,7 @@ const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/hino-96", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-67", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-78", extension: "mp4", resourceType: "video" },
-  { id: "ipcachoeirinha/hino-351", extension: "mp4", resourceType: "video" },
+  { id: "ipcachoeirinha/projeto-sola-isaias-53", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-001-instrumental", extension: "mp3", resourceType: "video" },
   { id: "ipcachoeirinha/uma-bencao-antiga-letra", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/oracao-silenciosa-hino-208", extension: "mp3", resourceType: "video" },
