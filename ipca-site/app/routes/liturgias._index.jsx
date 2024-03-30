@@ -13,5 +13,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/031024-salvos-para-uma-viva-esperanca">Salvos para uma viva esperança - 10 de Março de 2024</Link> <a className="" href="/liturgias/031024-salvos-para-uma-viva-esperanca/download">Download</a><br />
     <Link className="" to="/liturgias/031724-santificados-no-amor">Santificados no amor - 17 de Março de 2024</Link> <a className="" href="/liturgias/031724-santificados-no-amor/download">Download</a><br />
     <Link className="" to="/liturgias/032424-o-deus-que-habita-no-meio-do-seu-povo">O Deus que habita no meio do seu povo - 24 de Março de 2024</Link> <a className="" href="/liturgias/032424-o-deus-que-habita-no-meio-do-seu-povo/download">Download</a><br />
+    <Link className="" to="/liturgias/033124-a-ressurreicao-de-jesus-cristo">A Ressurreição de Jesus Cristo - 31 de Março de 2024</Link> <a className="" href="/liturgias/033124-a-ressurreicao-de-jesus-cristo/download">Download</a><br />
   </div>)
 }
