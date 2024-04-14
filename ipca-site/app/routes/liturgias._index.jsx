@@ -15,6 +15,7 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/032424-o-deus-que-habita-no-meio-do-seu-povo">O Deus que habita no meio do seu povo - 24 de Março de 2024</Link> <a className="" href="/liturgias/032424-o-deus-que-habita-no-meio-do-seu-povo/download">Download</a><br />
     <Link className="" to="/liturgias/033124-a-ressurreicao-de-jesus-cristo">A Ressurreição de Jesus Cristo - 31 de Março de 2024</Link> <a className="" href="/liturgias/033124-a-ressurreicao-de-jesus-cristo/download">Download</a><br />
     <Link className="" to="/liturgias/040724-uma-igreja-firmada-na-misericordia-de-deus">Uma Igreja Firmada na Misericórdia de Deus - 07 de Abril de 2024</Link> <a className="" href="/liturgias/040724-uma-igreja-firmada-na-misericordia-de-deus/download">Download</a><br />
-    <Link className="" to="/liturgias/041424-um-povo-nascido-do-espirito">Um Povo Nascido do Espírito - 14 de Abril de 2024</Link> <a className="" href="/liturgias/041424-um-povo-nascido-do-espirito/download">Download</a><br />
+    <Link className="" to="/liturgias/041424-uma-igreja-cheia-de-mansidao">Uma Igreja Cheia de Mansidão - 14 de Abril de 2024</Link> <a className="" href="/liturgias/041424-uma-igreja-cheia-de-mansidao/download">Download</a><br />
+    {/* <Link className="" to="/liturgias/041424-um-povo-nascido-do-espirito">Um Povo Nascido do Espírito - 21 de Abril de 2024</Link> <a className="" href="/liturgias/041424-um-povo-nascido-do-espirito/download">Download</a><br /> */}
   </div>)
 }
