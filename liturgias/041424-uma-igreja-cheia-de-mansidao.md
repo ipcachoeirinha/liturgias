@@ -10,7 +10,7 @@ ADORA AO SENHOR DE TODO O CORAÇÃO
 
 RECONHECE SUA MISÉRIA DIANTE DO SENHOR
 •	Leitura Bíblica: MATEUS 11.28-29
-•   Oração Silenciosa (interlúdio musical)
+•	Oração Silenciosa (interlúdio musical)
 •	Oração de Confissão
 •	Hino Perdão, nº 71
 
