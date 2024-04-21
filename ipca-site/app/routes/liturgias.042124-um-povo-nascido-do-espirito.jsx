@@ -11,13 +11,15 @@ import { LiturgySteps } from '../components/ipca-default-theme/LiturgyStepsList'
 import { LITURGY_STEP_TYPES, LiturgyStep } from '../components/ipca-default-theme/LiturgyStep'
 import { VideoSlide } from '../components/ipca-default-theme/VideoSlide'
 
-const PAGE_TITLE = "Um Povo Nascido do Espírito - 14 de Abril de 2024"
+const PAGE_TITLE = "Um Povo Nascido do Espírito - 21 de Abril de 2024"
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
+  { id: "ipcachoeirinha/santa-ceia-bg", extension: "png", resourceType: "image" },
   { id: "ipcachoeirinha/hino-18", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-78", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-135", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-114", extension: "mp4", resourceType: "video" },
+  { id: "ipcachoeirinha/hino-340", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-001-instrumental", extension: "mp3", resourceType: "video" },
   { id: "ipcachoeirinha/uma-bencao-antiga-letra", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/oracao-silenciosa-hino-208", extension: "mp3", resourceType: "video" }
@@ -33,7 +35,7 @@ export async function loader(remixLoaderContext) {
   return presentationSlideRemixLoader(remixLoaderContext, CDN_ASSETS_LIST)
 }
 
-export default function UmaIgrejaFirmadaNaMisericordiaDeDeus() {
+export default function UmPovoNascidoDoEspirito() {
   const [mode, assets] = useLoaderData()
 
   useEffect(() => {
@@ -47,6 +49,7 @@ export default function UmaIgrejaFirmadaNaMisericordiaDeDeus() {
 
   const getAssetUrl = getAssetUrlBuilder(mode, assets)
   const SlideWithBackground = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/cruz-wallpaper-light"))
+  const SupperSlide = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/santa-ceia-bg"))
 
   return (
     <RevealJsBaseElement>
@@ -152,6 +155,32 @@ export default function UmaIgrejaFirmadaNaMisericordiaDeDeus() {
           <SubTitle>TEM A ESPERANÇA DA VIDA ETERNA ASSEGURADA POR DEUS</SubTitle>
 
           <LiturgySteps>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.supper}></LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: BRILHO CELESTE, nº 114</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.ending_prayer}></LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.blessings}></LiturgyStep>
+          </LiturgySteps>
+        </section>
+        <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-114")} />
+      </SlideWithBackground>
+
+      <SupperSlide>
+        <section>
+          <MainTitle>SANTA CEIA</MainTitle>
+        </section>
+        <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-340")} />
+        <section>
+          <MainTitle>SANTA CEIA</MainTitle>
+        </section>
+      </SupperSlide>
+
+      <SlideWithBackground>
+        <section>
+          <MainTitle>UM POVO NASCIDO DO ESPÍRITO</MainTitle>
+          <SubTitle>TEM A ESPERANÇA DA VIDA ETERNA ASSEGURADA POR DEUS</SubTitle>
+
+          <LiturgySteps>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.supper}></LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: BRILHO CELESTE, nº 114</LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.ending_prayer}></LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.blessings}></LiturgyStep>

@@ -26,6 +26,7 @@ ESCUTA COM ATENÇÃO A EXPOSIÇÃO DAS ESCRITURAS
 •	Pregação: João 3.1-15
 
 TEM A ESPERANÇA DA VIDA ETERNA ASSEGURADA POR DEUS
+•	Santa Ceia
 •	Hino Brilho Celeste, nº 114
 •	Oração final
 •	Benção apostólica
