@@ -19,5 +19,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/042124-um-povo-nascido-do-espirito">Um Povo Nascido do Espírito - 21 de Abril de 2024</Link> <a className="" href="/liturgias/042124-um-povo-nascido-do-espirito/download">Download</a><br />
     <Link className="" to="/liturgias/042824-o-amor-de-deus">O Amor de Deus - 28 de Abril de 2024</Link> <a className="" href="/liturgias/042824-o-amor-de-deus/download">Download</a><br />
     <Link className="" to="/liturgias/050524-cultivando-a-humildade">Cultivando a Humildade - 05 de Maio de 2024</Link> <a className="" href="/liturgias/050524-cultivando-a-humildade/download">Download</a><br />
+    <Link className="" to="/liturgias/063024-quando-a-igreja-confia-no-senhor">Quando a igreja confia no Senhor - 30 de Junho de 2024</Link> <a className="" href="/liturgias/063024-quando-a-igreja-confia-no-senhor/download">Download</a><br />
   </div>)
 }
