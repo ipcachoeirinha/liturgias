@@ -18,7 +18,7 @@ CONFIA NA FIDELIDADE DE DEUS
 SE APEGA À CERTEZA DA PRESENÇA DE DEUS
 •	Leitura bíblica uníssona: Salmo 23
 •	Oração pastoral
-•	Cânticos congregacionais
+•	Hino Culto à Trindade, nº 4
 •	Consagração de Dízimos e Ofertas
 
 DESFRUTA DA OBRA DE CRISTO
