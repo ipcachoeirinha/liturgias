@@ -11,9 +11,10 @@ import { LiturgySteps } from '../components/ipca-default-theme/LiturgyStepsList'
 import { LITURGY_STEP_TYPES, LiturgyStep } from '../components/ipca-default-theme/LiturgyStep'
 import { VideoSlide } from '../components/ipca-default-theme/VideoSlide'
 
-const PAGE_TITLE = "Cultivando a Humildade - 05 de Maio de 2024"
+const PAGE_TITLE = "Cultivando a Humildade - 28 de Julho de 2024"
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
+  { id: "ipcachoeirinha/santa-ceia-bg", extension: "png", resourceType: "image" },
   { id: "ipcachoeirinha/hino-17", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-128", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-218", extension: "mp4", resourceType: "video" },
@@ -47,6 +48,7 @@ export default function UmaIgrejaCheiaDeMansidao() {
 
   const getAssetUrl = getAssetUrlBuilder(mode, assets)
   const SlideWithBackground = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/cruz-wallpaper-light"))
+  const SupperSlide = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/santa-ceia-bg"))
 
   return (
     <RevealJsBaseElement>
@@ -82,7 +84,7 @@ export default function UmaIgrejaCheiaDeMansidao() {
       <SlideWithBackground>
         <section>
           <MainTitle>CULTIVANDO A HUMILDADE</MainTitle>
-          <SubTitle>PRIORIZAMOS A VONTADE DIVINA EM RELAÇÃO A PRÓPRIA VONTADE</SubTitle>
+          <SubTitle>PRIORIZAMOS A VONTADE DIVINA<br/>EM RELAÇÃO À PRÓPRIA VONTADE</SubTitle>
 
           <LiturgySteps>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.unison_reading}>: JEREMIAS 17.5</LiturgyStep>
@@ -127,12 +129,37 @@ export default function UmaIgrejaCheiaDeMansidao() {
           <LiturgySteps>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.unison_reading}>: MATEUS 11.29</LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.unison_reading}>: 2 CORÍNTIOS 3.18</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.supper}></LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.thankful_prayer}></LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.offering}></LiturgyStep>
-            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: PRECIOSA COMUNHÃO, nº 128</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>CÂNTICOS CONGREGACIONAIS</LiturgyStep>
           </LiturgySteps>
         </section>
-        <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-128")} />
+      </SlideWithBackground>
+
+      <SupperSlide>
+        <section>
+          <MainTitle>SANTA CEIA</MainTitle>
+        </section>
+      </SupperSlide>
+
+      <SlideWithBackground>
+        <section>
+          <MainTitle>CULTIVANDO A HUMILDADE</MainTitle>
+          <SubTitle>DEDICAMOS TEMPO PARA ESTAR EM COMUNHÃO COM CRISTO</SubTitle>
+
+          <LiturgySteps>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.unison_reading}>: MATEUS 11.29</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.unison_reading}>: 2 CORÍNTIOS 3.18</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.supper}></LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.thankful_prayer}></LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.offering}></LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>CÂNTICOS CONGREGACIONAIS</LiturgyStep>
+          </LiturgySteps>
+        </section>
+        <section>
+          <MainTitle>CÂNTICOS CONGREGACIONAIS</MainTitle>
+        </section>
       </SlideWithBackground>
 
       <SlideWithBackground>

@@ -1,4 +1,4 @@
-5 de maio de 2024
+28 de julho de 2024
 18h, Igreja Presbiteriana de Cachoeirinha
 
 CULTIVANDO A HUMILDADE
@@ -18,9 +18,10 @@ PRIORIZAMOS A VONTADE DIVINA EM RELAÇÃO A PRÓPRIA VONTADE
 DEDICAMOS TEMPO PARA ESTAR EM COMUNHÃO COM CRISTO
 •	Leitura bíblica uníssona: Mateus 11.29
 •	Leitura Bíblica uníssona: 2 Coríntios 3.18
+•   Santa Ceia
 •	Oração de gratidão
 •	Consagração dos dízimos e ofertas
-•	Hino Preciosa Comunhão, nº 128
+•	Cânticos Congregacionais
 
 DIRECIONAMOS A ATENÇÃO PARA CRISTO
 •	Oração pelas crianças
