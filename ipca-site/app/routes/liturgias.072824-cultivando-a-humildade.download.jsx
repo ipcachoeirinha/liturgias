@@ -4,6 +4,7 @@ import { downloadSlideRemixLoader } from '../lib.server'
 const PAGE_TITLE = "Cultivando a Humildade - 28 de Julho de 2024"
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
+  { id: "ipcachoeirinha/santa-ceia-bg", extension: "png", resourceType: "image" },
   { id: "ipcachoeirinha/hino-17", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-128", extension: "mp4", resourceType: "video" },
   { id: "ipcachoeirinha/hino-218", extension: "mp4", resourceType: "video" },
