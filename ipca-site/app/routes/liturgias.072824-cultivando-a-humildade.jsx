@@ -10,6 +10,7 @@ import { SubTitle } from '../components/ipca-default-theme/SubTitle'
 import { LiturgySteps } from '../components/ipca-default-theme/LiturgyStepsList'
 import { LITURGY_STEP_TYPES, LiturgyStep } from '../components/ipca-default-theme/LiturgyStep'
 import { VideoSlide } from '../components/ipca-default-theme/VideoSlide'
+import { createLyricsSlideSection } from '../components/ipca-default-theme/LyricsSlide'
 
 const PAGE_TITLE = "Cultivando a Humildade - 28 de Julho de 2024"
 const CDN_ASSETS_LIST = [
@@ -49,6 +50,7 @@ export default function UmaIgrejaCheiaDeMansidao() {
   const getAssetUrl = getAssetUrlBuilder(mode, assets)
   const SlideWithBackground = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/cruz-wallpaper-light"))
   const SupperSlide = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/santa-ceia-bg"))
+  const LyricsSlide = createLyricsSlideSection({ backgroundUrl: null })
 
   return (
     <RevealJsBaseElement>
@@ -84,7 +86,7 @@ export default function UmaIgrejaCheiaDeMansidao() {
       <SlideWithBackground>
         <section>
           <MainTitle>CULTIVANDO A HUMILDADE</MainTitle>
-          <SubTitle>PRIORIZAMOS A VONTADE DIVINA<br/>EM RELAÇÃO À PRÓPRIA VONTADE</SubTitle>
+          <SubTitle>PRIORIZAMOS A VONTADE DIVINA<br />EM RELAÇÃO À PRÓPRIA VONTADE</SubTitle>
 
           <LiturgySteps>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.unison_reading}>: JEREMIAS 17.5</LiturgyStep>
@@ -143,6 +145,68 @@ export default function UmaIgrejaCheiaDeMansidao() {
         </section>
       </SupperSlide>
 
+      <LyricsSlide>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Tomem o pão e o vinho</p>
+          <p className="text-[68px] font-bold leading-normal">Que são o Meu corpo e sangue que dou por vocês</p>
+          <p className="text-[68px] font-bold leading-normal">Lembrem que em breve Eu volto</p>
+          <p className="text-[68px] font-bold leading-normal">Pra juntos cearmos à mesa no reino de Deus</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Tomem o pão e o vinho</p>
+          <p className="text-[68px] font-bold leading-normal">Que são o Meu corpo e sangue que dou por vocês</p>
+          <p className="text-[68px] font-bold leading-normal">Lembrem que em breve Eu volto</p>
+          <p className="text-[68px] font-bold leading-normal">Pra juntos cearmos à mesa no reino de Deus</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Eu Sou o Pão da vida, da vida</p>
+          <p className="text-[68px] font-bold leading-normal">Quem vem a Mim, nunca mais terá fome</p>
+          <p className="text-[68px] font-bold leading-normal">Quem crê em Mim não terá sede</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Tomem o pão e o vinho</p>
+          <p className="text-[68px] font-bold leading-normal">Que são o Meu corpo e sangue que dou por vocês</p>
+          <p className="text-[68px] font-bold leading-normal">Lembrem que em breve Eu volto</p>
+          <p className="text-[68px] font-bold leading-normal">Pra juntos cearmos à mesa no reino de Deus</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Venham a Mim</p>
+          <p className="text-[68px] font-bold leading-normal">Os cansados, os cansados</p>
+          <p className="text-[68px] font-bold leading-normal">E Eu lhes darei o alívio pra alma</p>
+          <p className="text-[68px] font-bold leading-normal">E Eu lhes darei o Meu descanso</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Lembrem-se, Eu sou o bom Pastor</p>
+          <p className="text-[68px] font-bold leading-normal">Lembrem-se, àqueles que o Pai me deu</p>
+          <p className="text-[68px] font-bold leading-normal">Têm a vida eterna e não perecerão</p>
+          <p className="text-[68px] font-bold leading-normal">Estão em Minhas mãos e não se perderão</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Por Meu sangue derramado</p>
+          <p className="text-[68px] font-bold leading-normal">Os pecados são perdoados</p>
+          <p className="text-[68px] font-bold leading-normal">O Meu corpo sim é dado</p>
+          <p className="text-[68px] font-bold leading-normal">Por vocês, por vocês</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Por Meu sangue derramado</p>
+          <p className="text-[68px] font-bold leading-normal">Os pecados são perdoados</p>
+          <p className="text-[68px] font-bold leading-normal">O Meu corpo sim é dado</p>
+          <p className="text-[68px] font-bold leading-normal">Por vocês, por vocês, por vocês</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Tomem o pão e o vinho</p>
+          <p className="text-[68px] font-bold leading-normal">Que são o Meu corpo e sangue que dou por vocês</p>
+          <p className="text-[68px] font-bold leading-normal">Lembrem que em breve Eu volto</p>
+          <p className="text-[68px] font-bold leading-normal">Pra juntos cearmos à mesa no reino de Deus</p>
+        </section>
+      </LyricsSlide>
+
+      <SupperSlide>
+        <section>
+          <MainTitle>SANTA CEIA</MainTitle>
+        </section>
+      </SupperSlide>
+
       <SlideWithBackground>
         <section>
           <MainTitle>CULTIVANDO A HUMILDADE</MainTitle>
@@ -157,10 +221,95 @@ export default function UmaIgrejaCheiaDeMansidao() {
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>CÂNTICOS CONGREGACIONAIS</LiturgyStep>
           </LiturgySteps>
         </section>
-        <section>
-          <MainTitle>CÂNTICOS CONGREGACIONAIS</MainTitle>
-        </section>
       </SlideWithBackground>
+
+      <LyricsSlide>
+        <section className="text-left text-white bg-black">
+          <p className="text-[72px] font-bold leading-normal">Ele é exaltado</p>
+          <p className="text-[72px] font-bold leading-normal">O Rei é exaltado nos céus</p>
+          <p className="text-[72px] font-bold leading-normal">Eu o louvarei</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[72px] font-bold leading-normal">Ele é exaltado</p>
+          <p className="text-[72px] font-bold leading-normal">Pra sempre exaltado</p>
+          <p className="text-[72px] font-bold leading-normal">O Seu nome louvarei</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[72px] font-bold leading-normal">Ele é o Senhor</p>
+          <p className="text-[72px] font-bold leading-normal">Sua verdade vai sempre reinar</p>
+          <p className="text-[72px] font-bold leading-normal">Terra e céus</p>
+          <p className="text-[72px] font-bold leading-normal">Glorificam seu Santo nome</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[72px] font-bold leading-normal">Ele é exaltado</p>
+          <p className="text-[72px] font-bold leading-normal">O Rei é exaltado nos céus</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[72px] font-bold leading-normal">Ele é exaltado</p>
+          <p className="text-[72px] font-bold leading-normal">O Rei é exaltado nos céus</p>
+          <p className="text-[72px] font-bold leading-normal">Eu o louvarei</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[72px] font-bold leading-normal">Ele é exaltado</p>
+          <p className="text-[72px] font-bold leading-normal">Pra sempre exaltado</p>
+          <p className="text-[72px] font-bold leading-normal">O Seu nome louvarei</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[72px] font-bold leading-normal">Ele é o Senhor</p>
+          <p className="text-[72px] font-bold leading-normal">Sua verdade vai sempre reinar</p>
+          <p className="text-[72px] font-bold leading-normal">Terra e céus</p>
+          <p className="text-[72px] font-bold leading-normal">Glorificam seu Santo nome</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[72px] font-bold leading-normal">Ele é exaltado</p>
+          <p className="text-[72px] font-bold leading-normal">O Rei é exaltado nos céus</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[72px] font-bold leading-normal">Ele é o Senhor</p>
+          <p className="text-[72px] font-bold leading-normal">Sua verdade vai sempre reinar</p>
+          <p className="text-[72px] font-bold leading-normal">Terra e céus</p>
+          <p className="text-[72px] font-bold leading-normal">Glorificam seu Santo nome</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[72px] font-bold leading-normal">Ele é exaltado</p>
+          <p className="text-[72px] font-bold leading-normal">O Rei é exaltado nos céus</p>
+        </section>
+      </LyricsSlide>
+
+      <LyricsSlide>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Deus, somente Deus</p>
+          <p className="text-[68px] font-bold leading-normal">Criou o mundo e o que nele há</p>
+          <p className="text-[68px] font-bold leading-normal">O ser que pode respirar</p>
+          <p className="text-[68px] font-bold leading-normal">Existe pra mostrar</p>
+          <p className="text-[68px] font-bold leading-normal">A glória do Senhor</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Deus, somente Deus</p>
+          <p className="text-[68px] font-bold leading-normal">Os Seus mistérios pode revelar</p>
+          <p className="text-[68px] font-bold leading-normal">Os Seus desígnios quem jamais um dia conheceu</p>
+          <p className="text-[68px] font-bold leading-normal">Pois Deus somente é Deus</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Deus, somente Deus</p>
+          <p className="text-[68px] font-bold leading-normal">Domina o trono do universo</p>
+          <p className="text-[68px] font-bold leading-normal">Que a voz da criação se erga para dar</p>
+          <p className="text-[68px] font-bold leading-normal">Louvor somente a Deus</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Deus, somente Deus</p>
+          <p className="text-[68px] font-bold leading-normal">Eternamente em nós há de inspirar</p>
+          <p className="text-[68px] font-bold leading-normal">A alegria de adorar</p>
+          <p className="text-[68px] font-bold leading-normal">Desejo de exaltar a Deus</p>
+          <p className="text-[68px] font-bold leading-normal">Somente a Deus</p>
+        </section>
+        <section className="text-left text-white bg-black">
+          <p className="text-[68px] font-bold leading-normal">Deus, somente Deus</p>
+          <p className="text-[68px] font-bold leading-normal">Domina o trono do universo</p>
+          <p className="text-[68px] font-bold leading-normal">Que a voz da criação se erga para dar</p>
+          <p className="text-[68px] font-bold leading-normal">Louvor somente a Deus</p>
+        </section>
+      </LyricsSlide>
 
       <SlideWithBackground>
         <section>
