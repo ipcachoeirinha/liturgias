@@ -21,5 +21,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/063024-quando-a-igreja-confia-no-senhor">Quando a igreja confia no Senhor - 30 de Junho de 2024</Link> <a className="" href="/liturgias/063024-quando-a-igreja-confia-no-senhor/download">Download</a><br />
     <Link className="" to="/liturgias/070724-uma-igreja-encorajada-no-senhor">Uma igreja encorajada no Senhor - 07 de Julho de 2024</Link> <a className="" href="/liturgias/070724-uma-igreja-encorajada-no-senhor/download">Download</a><br />
     <Link className="" to="/liturgias/072824-cultivando-a-humildade">Cultivando a Humildade - 28 de Julho de 2024</Link> <a className="" href="/liturgias/072824-cultivando-a-humildade/download">Download</a><br />
+    <Link className="" to="/liturgias/080424-o-compromisso-missionario-da-igreja">O Compromisso Missionário da Igreja - 04 de Agosto de 2024</Link> <a className="" href="/liturgias/080424-o-compromisso-missionario-da-igreja/download">Download</a><br />
   </div>)
 }
