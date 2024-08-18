@@ -23,5 +23,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/072824-cultivando-a-humildade">Cultivando a Humildade - 28 de Julho de 2024</Link> <a className="" href="/liturgias/072824-cultivando-a-humildade/download">Download</a><br />
     <Link className="" to="/liturgias/080424-o-compromisso-missionario-da-igreja">O Compromisso Missionário da Igreja - 04 de Agosto de 2024</Link> <a className="" href="/liturgias/080424-o-compromisso-missionario-da-igreja/download">Download</a><br />
     <Link className="" to="/liturgias/081124-a-igreja-em-adoracao">A Igreja em Adoração - 11 de Agosto de 2024</Link> <a className="" href="/liturgias/081124-a-igreja-em-adoracao/download">Download</a><br />
+    <Link className="" to="/liturgias/081824-o-salvador-do-mundo">O Salvador do Mundo - 18 de Agosto de 2024</Link> <a className="" href="/liturgias/081824-o-salvador-do-mundo/download">Download</a><br />
   </div>)
 }
