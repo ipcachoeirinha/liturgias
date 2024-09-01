@@ -1,7 +1,7 @@
 import defaultConfig from '../config/revealjs-default.json'
 import { downloadSlideRemixLoader } from '../lib.server'
 
-const PAGE_TITLE = "O DEUS QUE NOS ENCONTRA<br/>EM NOSSA NECESSIDADE - 01 de Setembro de 2024"
+const PAGE_TITLE = "O Deus que nos encontra em nossa necessidade - 01 de Setembro de 2024"
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
   { id: "ipcachoeirinha/hino-3", extension: "mp4", resourceType: "video" },

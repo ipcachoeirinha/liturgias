@@ -11,7 +11,7 @@ import { LiturgySteps } from '../components/ipca-default-theme/LiturgyStepsList'
 import { LITURGY_STEP_TYPES, LiturgyStep } from '../components/ipca-default-theme/LiturgyStep'
 import { VideoSlide } from '../components/ipca-default-theme/VideoSlide'
 
-const PAGE_TITLE = "O DEUS QUE NOS ENCONTRA<br/>EM NOSSA NECESSIDADE - 01 de Setembro de 2024"
+const PAGE_TITLE = "O Deus que nos encontra em nossa necessidade - 01 de Setembro de 2024"
 const CDN_ASSETS_LIST = [
   { id: "ipcachoeirinha/cruz-wallpaper-light", extension: "jpg", resourceType: "image" },
   { id: "ipcachoeirinha/hino-3", extension: "mp4", resourceType: "video" },
