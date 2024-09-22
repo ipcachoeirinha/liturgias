@@ -27,5 +27,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/082524-desenvolvemos-a-fe-em-meio-ao-sofrimento">Desenvolvemos a fé em meio ao sofrimento - 25 de Agosto de 2024</Link> <a className="" href="/liturgias/082524-desenvolvemos-a-fe-em-meio-ao-sofrimento/download">Download</a><br />
     <Link className="" to="/liturgias/090124-o-deus-que-nos-encontra-em-nossa-necessidade">O Deus que nos encontra em nossa necessidade - 01 de Setembro de 2024</Link> <a className="" href="/liturgias/090124-o-deus-que-nos-encontra-em-nossa-necessidade/download">Download</a><br />
     <Link className="" to="/liturgias/091524-servindo-uns-aos-outros">Servindo uns aos outros - 15 de Setembro de 2024</Link> <a className="" href="/liturgias/091524-servindo-uns-aos-outros/download">Download</a><br />
+    <Link className="" to="/liturgias/092224-quando-a-igreja-confia-no-senhor">Quando a igreja confia no Senhor - 22 de Setembro de 2024</Link> <a className="" href="/liturgias/092224-quando-a-igreja-confia-no-senhor/download">Download</a><br />
   </div>)
 }
