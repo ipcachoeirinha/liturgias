@@ -28,5 +28,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/090124-o-deus-que-nos-encontra-em-nossa-necessidade">O Deus que nos encontra em nossa necessidade - 01 de Setembro de 2024</Link> <a className="" href="/liturgias/090124-o-deus-que-nos-encontra-em-nossa-necessidade/download">Download</a><br />
     <Link className="" to="/liturgias/091524-servindo-uns-aos-outros">Servindo uns aos outros - 15 de Setembro de 2024</Link> <a className="" href="/liturgias/091524-servindo-uns-aos-outros/download">Download</a><br />
     <Link className="" to="/liturgias/092224-quando-a-igreja-confia-no-senhor">Quando a igreja confia no Senhor - 22 de Setembro de 2024</Link> <a className="" href="/liturgias/092224-quando-a-igreja-confia-no-senhor/download">Download</a><br />
+    <Link className="" to="/liturgias/092924-uma-igreja-comprometida-a-seu-supremo-pastor-jesus-cristo">Uma igreja comprometida a seu Supremo Pastor, Jesus Cristo - 29 de Setembro de 2024</Link> <a className="" href="/liturgias/092924-uma-igreja-comprometida-a-seu-supremo-pastor-jesus-cristo/download">Download</a><br />
   </div>)
 }
