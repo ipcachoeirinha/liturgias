@@ -30,5 +30,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/092224-quando-a-igreja-confia-no-senhor">Quando a igreja confia no Senhor - 22 de Setembro de 2024</Link> <a className="" href="/liturgias/092224-quando-a-igreja-confia-no-senhor/download">Download</a><br />
     <Link className="" to="/liturgias/092924-uma-igreja-comprometida-a-seu-supremo-pastor-jesus-cristo">Uma igreja comprometida a seu Supremo Pastor, Jesus Cristo - 29 de Setembro de 2024</Link> <a className="" href="/liturgias/092924-uma-igreja-comprometida-a-seu-supremo-pastor-jesus-cristo/download">Download</a><br />
     <Link className="" to="/liturgias/100624-o-salvador-do-mundo">O Salvador do Mundo - 06 de Outubro de 2024</Link> <a className="" href="/liturgias/100624-o-salvador-do-mundo/download">Download</a><br />
+    <Link className="" to="/liturgias/101324-a-gloriosa-igreja-triunfante">A Gloriosa Igreja Triunfante - 13 de Outubro de 2024</Link> <a className="" href="/liturgias/101324-a-gloriosa-igreja-triunfante/download">Download</a><br />
   </div>)
 }
