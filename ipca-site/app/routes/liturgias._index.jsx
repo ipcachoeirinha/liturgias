@@ -32,5 +32,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/100624-o-salvador-do-mundo">O Salvador do Mundo - 06 de Outubro de 2024</Link> <a className="" href="/liturgias/100624-o-salvador-do-mundo/download">Download</a><br />
     <Link className="" to="/liturgias/101324-a-gloriosa-igreja-triunfante">A Gloriosa Igreja Triunfante - 13 de Outubro de 2024</Link> <a className="" href="/liturgias/101324-a-gloriosa-igreja-triunfante/download">Download</a><br />
     <Link className="" to="/liturgias/102024-igreja-de-cristo-comprometida-com-o-anuncio-do-evangelho">Igreja de Cristo comprometida com o avanço do Evangelho - 20 de Outubro de 2024</Link> <a className="" href="/liturgias/102024-igreja-de-cristo-comprometida-com-o-anuncio-do-evangelho/download">Download</a><br />
+    <Link className="" to="/liturgias/102624-santificados-pela-palavra-de-deus">Santificados pela Palavra de Deus - 26 de Outubro de 2024</Link> <a className="" href="/liturgias/102624-santificados-pela-palavra-de-deus/download">Download</a><br />
   </div>)
 }
