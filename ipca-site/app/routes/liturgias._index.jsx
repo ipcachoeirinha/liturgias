@@ -36,5 +36,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/102724-a-autoridade-das-escrituras">A Autoridade das Escrituras - 27 de Outubro de 2024</Link> <a className="" href="/liturgias/102724-a-autoridade-das-escrituras/download">Download</a><br />
     <Link className="" to="/liturgias/110324-vivendo-o-perdao-biblico">Vivendo o perdão bíblico - 03 de Novembro de 2024</Link> <a className="" href="/liturgias/110324-vivendo-o-perdao-biblico/download">Download</a><br />
     <Link className="" to="/liturgias/111024-progredindo-espiritualmente">Progredindo Espiritualmente - 10 de Novembro de 2024</Link> <a className="" href="/liturgias/111024-progredindo-espiritualmente/download">Download</a><br />
+    <Link className="" to="/liturgias/111724-uma-igreja-com-o-coracao-centrado-em-deus">Uma Igreja com o coração centrado em Deus - 17 de Novembro de 2024</Link> <a className="" href="/liturgias/111724-uma-igreja-com-o-coracao-centrado-em-deus/download">Download</a><br />
   </div>)
 }
