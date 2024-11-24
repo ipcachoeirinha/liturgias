@@ -131,7 +131,7 @@ export default function SlidePage() {
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.alterned_reading}>: ATOS 5.32-37</LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.thankful_prayer}></LiturgyStep>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.offering}></LiturgyStep>
-            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: GRATIDÃO, nº 59</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>CÂNTICO CONGREGACIONAL</LiturgyStep>
           </LiturgySteps>
         </section>
         <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-59")} />
