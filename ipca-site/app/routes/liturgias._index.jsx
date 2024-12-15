@@ -39,5 +39,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/111724-uma-igreja-com-o-coracao-centrado-em-deus">Uma Igreja com o coração centrado em Deus - 17 de Novembro de 2024</Link> <a className="" href="/liturgias/111724-uma-igreja-com-o-coracao-centrado-em-deus/download">Download</a><br />
     <Link className="" to="/liturgias/112424-gratos-por-pertencer-a-igreja-de-cristo">Gratos por pertencer à igreja de Cristo - 24 de Novembro de 2024</Link> <a className="" href="/liturgias/112424-gratos-por-pertencer-a-igreja-de-cristo/download">Download</a><br />
     <Link className="" to="/liturgias/120124-a-divindade-de-jesus-cristo">A Divindade de Jesus Cristo - 1 de Dezembro de 2024</Link> <a className="" href="/liturgias/120124-a-divindade-de-jesus-cristo/download">Download</a><br />
+    <Link className="" to="/liturgias/120824-jesus-o-poderoso-filho-de-deus">Jesus, O Poderoso Filho de Deus - 8 de Dezembro de 2024</Link> <a className="" href="/liturgias/120824-jesus-o-poderoso-filho-de-deus/download">Download</a><br />
   </div>)
 }
