@@ -318,7 +318,7 @@ export default function SlidePage() {
 
           <LiturgySteps>
             <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.pray_for_children}></LiturgyStep>
-            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.preaching}>: Lucas 2.21-25 (Rev. Arnaldo Matias)</LiturgyStep>
+            <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.preaching}>: Lucas 2.21-35 (Rev. Arnaldo Matias)</LiturgyStep>
           </LiturgySteps>
         </section>
       </SlideWithBackground>
