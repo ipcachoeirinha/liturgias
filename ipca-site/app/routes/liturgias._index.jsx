@@ -42,5 +42,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/120824-jesus-o-poderoso-filho-de-deus">Jesus, O Poderoso Filho de Deus - 8 de Dezembro de 2024</Link> <a className="" href="/liturgias/120824-jesus-o-poderoso-filho-de-deus/download">Download</a><br />
     <Link className="" to="/liturgias/121524-a-alegria-do-natal">A Alegria do Natal - 15 de Dezembro de 2024</Link> <a className="" href="/liturgias/121524-a-alegria-do-natal/download">Download</a><br />
     <Link className="" to="/liturgias/122224-uma-alma-que-engrandece-ao-senhor">Uma alma que engrandece ao Senhor - 22 de Dezembro de 2024</Link> <a className="" href="/liturgias/122224-uma-alma-que-engrandece-ao-senhor/download">Download</a><br />
+    <Link className="" to="/liturgias/122924-a-amada-igreja-de-cristo">A amada igreja de Cristo - 29 de Dezembro de 2024</Link> <a className="" href="/liturgias/122924-a-amada-igreja-de-cristo/download">Download</a><br />
   </div>)
 }
