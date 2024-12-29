@@ -151,6 +151,13 @@ export default function SlidePage() {
       </SlideWithBackground>
 
       <SlideWithBackground>
+        <VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/uma-bencao-antiga-letra")} />
+        <section>
+          <MainTitle>POSLÚDIO</MainTitle>
+        </section>
+      </SlideWithBackground>
+      
+      <SlideWithBackground>
         <section>
           <MainTitle>AVISOS</MainTitle>
         </section>
