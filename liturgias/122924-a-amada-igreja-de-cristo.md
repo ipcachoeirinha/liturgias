@@ -24,3 +24,4 @@ Pregação: Bel. Marcelo Mittelstädt  João 1:1-5
 Hino O Grande Amor de Deus, nº 42
 Consagração dos dízimos e Ofertas
 Oração Final
+Benção Antiga
