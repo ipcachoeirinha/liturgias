@@ -44,5 +44,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/122224-uma-alma-que-engrandece-ao-senhor">Uma alma que engrandece ao Senhor - 22 de Dezembro de 2024</Link> <a className="" href="/liturgias/122224-uma-alma-que-engrandece-ao-senhor/download">Download</a><br />
     <Link className="" to="/liturgias/122924-a-amada-igreja-de-cristo">A amada igreja de Cristo - 29 de Dezembro de 2024</Link> <a className="" href="/liturgias/122924-a-amada-igreja-de-cristo/download">Download</a><br />
     <Link className="" to="/liturgias/010525-a-alegria-na-expansao-do-evangelho">A Alegria Na Expansão Do Evangelho - 05 de Janeiro de 2025</Link> <a className="" href="/liturgias/010525-a-alegria-na-expansao-do-evangelho/download">Download</a><br />
+    <Link className="" to="/liturgias/011225-a-alegria-na-expansao-do-evangelho">A Alegria Na Expansão Do Evangelho - 12 de Janeiro de 2025</Link> <a className="" href="/liturgias/011225-a-alegria-na-expansao-do-evangelho/download">Download</a><br />
   </div>)
 }
