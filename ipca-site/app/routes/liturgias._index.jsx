@@ -47,5 +47,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/011225-a-alegria-na-expansao-do-evangelho">A Alegria Na Expansão Do Evangelho - 12 de Janeiro de 2025</Link> <a className="" href="/liturgias/011225-a-alegria-na-expansao-do-evangelho/download">Download</a><br />
     <Link className="" to="/liturgias/011925-alegria-em-meio-ao-sofrimento">Alegria em meio ao sofrimento - 19 de Janeiro de 2025</Link> <a className="" href="/liturgias/011925-alegria-em-meio-ao-sofrimento/download">Download</a><br />
     <Link className="" to="/liturgias/012625-a-alegria-de-servir-a-cristo">A Alegria de Servir a Cristo - 26 de Janeiro de 2025</Link> <a className="" href="/liturgias/012625-a-alegria-de-servir-a-cristo/download">Download</a><br />
+    <Link className="" to="/liturgias/020225-vivendo-como-cidadao-do-ceu">Vivendo como cidadão do Ceu - 2 de Fevereiro de 2025</Link> <a className="" href="/liturgias/020225-vivendo-como-cidadao-do-ceu/download">Download</a><br />
   </div>)
 }
