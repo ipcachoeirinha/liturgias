@@ -51,5 +51,6 @@ export default function Liturgias() {
     <Link className="" to="/liturgias/020925-percorrendo-um-caminho-de-humildade">Percorrendo um caminho de humildade - 9 de Fevereiro de 2025</Link> <a className="" href="/liturgias/020925-percorrendo-um-caminho-de-humildade/download">Download</a><br />
     <Link className="" to="/liturgias/021625-o-triunfo-do-nosso-redentor">O Triunfo do nosso Redentor - 16 de Fevereiro de 2025</Link> <a className="" href="/liturgias/021625-o-triunfo-do-nosso-redentor/download">Download</a><br />
     <Link className="" to="/liturgias/022325-vivendo-a-luz-do-evangelho">Vivendo à Luz do Evangelho - 23 de Fevereiro de 2025</Link> <a className="" href="/liturgias/022325-vivendo-a-luz-do-evangelho/download">Download</a><br />
+    <Link className="" to="/liturgias/030225-vivendo-como-embaixadores-de-cristo">Vivendo como embaixadores de Cristo - 02 de Março de 2025</Link> <a className="" href="/liturgias/030225-vivendo-como-embaixadores-de-cristo/download">Download</a><br />
   </div>)
 }
