@@ -247,6 +247,14 @@ export default function SlidePage() {
 </section>
 
 <section className="bg-black">
+  <p className="text-zinc-50 text-[65px] font-bold text-left leading-none mb-8">Pela cruz me chamou</p>
+  <p className="text-zinc-50 text-[65px] font-bold text-left leading-none mb-8">Gentilmente, me atraiu</p>
+  <p className="text-zinc-50 text-[65px] font-bold text-left leading-none mb-8">E eu, sem palavras</p>
+  <p className="text-zinc-50 text-[65px] font-bold text-left leading-none mb-8">Me aproximo, quebrantado</p>
+  <p className="text-zinc-50 text-[65px] font-bold text-left leading-none mb-8">Por seu amor</p>
+</section>
+
+<section className="bg-black">
   <p className="text-zinc-50 text-[65px] font-bold text-left leading-none mb-8">Impressionante é o seu amor</p>
   <p className="text-zinc-50 text-[65px] font-bold text-left leading-none mb-8">Me redimiu e me mostrou, o quanto é fiel</p>
 </section>
