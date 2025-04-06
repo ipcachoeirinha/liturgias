@@ -39,6 +39,6 @@ export const LITURGY_STEP_TYPES = {
 }
 
 export function LiturgyStep({ children, liturgyStepType }) {
-    return <li className="text-green-800 text-5xl mb-8 tracking-wider font-bold">{_LITURGY_STEP_TYPES[liturgyStepType]}{children}</li>
+    return <li className="text-green-900 text-6xl mb-8 tracking-wider font-bold">{_LITURGY_STEP_TYPES[liturgyStepType]}{children}</li>
 }
 
