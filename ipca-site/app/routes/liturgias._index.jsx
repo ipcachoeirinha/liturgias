@@ -3,6 +3,9 @@ import { Link } from '@remix-run/react'
 export default function Liturgias() {
   return (<div>
     {/* NEXT_LINK */}
+<Link className="" to="/liturgias/042025-a-ressurreicao-de-cristo">A RESSURREIÇÃO DE CRISTO - 20 de Abril de 2025</Link> <a className="" href="/liturgias/042025-a-ressurreicao-de-cristo/download">Download</a><br />
+<Link className="" to="/liturgias/041325-o-segredo-do-contentamento">O Segredo do Contentamento - 13 de Abril de 2025</Link> <a className="" href="/liturgias/041325-o-segredo-do-contentamento/download">Download</a><br />
+<Link className="" to="/liturgias/040625-vivendo-diante-de-deus">Vivendo Diante de Deus - 06 de Abril de 2025</Link> <a className="" href="/liturgias/040625-vivendo-diante-de-deus/download">Download</a><br />
 <Link className="" to="/liturgias/033025-reconhecendo-a-verdadeira-alegria">Reconhecendo A Verdadeira Alegria - 30 de Março de 2025</Link> <a className="" href="/liturgias/033025-reconhecendo-a-verdadeira-alegria/download">Download</a><br />
 <Link className="" to="/liturgias/032325-prosseguindo-para-eternidade">Prosseguindo Para Eternidade - 23 de Março de 2025</Link> <a className="" href="/liturgias/032325-prosseguindo-para-eternidade/download">Download</a><br />
     <p>Antigos</p>
