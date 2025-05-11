@@ -3,6 +3,9 @@ import { Link } from '@remix-run/react'
 export default function Liturgias() {
   return (<div>
     {/* NEXT_LINK */}
+<Link className="" to="/liturgias/051125-a-comunhao-dos-redimidos">A Comunhão dos Redimidos - 11 de Maio de 2025</Link> <a className="" href="/liturgias/051125-a-comunhao-dos-redimidos/download">Download</a><br />
+<Link className="" to="/liturgias/050425-a-felicidade-dos-que-temem-ao-senhor">A Felicidade dos que temem ao Senhor - 04 de Maio de 2025</Link> <a className="" href="/liturgias/050425-a-felicidade-dos-que-temem-ao-senhor/download">Download</a><br />
+<Link className="" to="/liturgias/042725-deus-e-suficiente">Deus é Suficiente - 27 de Abril de 2025</Link> <a className="" href="/liturgias/042725-deus-e-suficiente/download">Download</a><br />
 <Link className="" to="/liturgias/042025-a-ressurreicao-de-cristo">A RESSURREIÇÃO DE CRISTO - 20 de Abril de 2025</Link> <a className="" href="/liturgias/042025-a-ressurreicao-de-cristo/download">Download</a><br />
 <Link className="" to="/liturgias/041325-o-segredo-do-contentamento">O Segredo do Contentamento - 13 de Abril de 2025</Link> <a className="" href="/liturgias/041325-o-segredo-do-contentamento/download">Download</a><br />
 <Link className="" to="/liturgias/040625-vivendo-diante-de-deus">Vivendo Diante de Deus - 06 de Abril de 2025</Link> <a className="" href="/liturgias/040625-vivendo-diante-de-deus/download">Download</a><br />
