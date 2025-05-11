@@ -217,7 +217,7 @@ export default function SlidePage() {
             <SubTitle>ATRAVÉS DA PALAVRA DE DEUS SOMOS ENSINADOS A VIVERMOS EM COMUNHÃO COM DEUS E COM NOSSOS IRMÃOS</SubTitle>
 
             <LiturgySteps>
-                <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.preaching}>: Salmo 133 (Rev. Marcos Santana)</LiturgyStep>
+                <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.preaching}>: Salmo 133</LiturgyStep>
             </LiturgySteps>
         </section>
         {/*<VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-3")} />*/}
