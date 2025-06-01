@@ -60,12 +60,43 @@ const slides = [
         subtitle: "",
         steps: [
             { type: "song", name: "Sonda-me" },
+            { type: "supper" },
             { type: "ending_prayer" },
             { type: "blessings" }
         ],
         songLyrics: "sonda-me.txt",
         title: title
-    }
+    },
+    {
+        id: "supper",
+        subtitle: "",
+        steps: [
+            
+        ],
+        songLyrics: "nada-alem-do-sangue.txt",
+        title: "Santa Ceia"
+    },
+    {
+        id: "supper",
+        subtitle: "",
+        steps: [
+            
+        ],
+        songLyrics: "",
+        title: "Santa Ceia"
+    },
+    {
+        id: "after-preaching",
+        subtitle: "",
+        steps: [
+            { type: "song", name: "Sonda-me" },
+            { type: "supper" },
+            { type: "ending_prayer" },
+            { type: "blessings" }
+        ],
+        songLyrics: "",
+        title: title
+    },
 ]
 
 const assets = [
