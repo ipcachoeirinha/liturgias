@@ -144,7 +144,7 @@ export function prepareLyrics(lyrics) {
         .split(/\n\s*\n/)
         .map(block =>
             `<section className="bg-white dark:bg-black">\n` +
-            block.split('\n').map(line => `  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-none mb-12">${line}</p>`).join('\n') +
+            block.split('\n').map(line => `  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">${line}</p>`).join('\n') +
             `\n</section>`
         )
         .join('\n\n')
