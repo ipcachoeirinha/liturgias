@@ -3200,6 +3200,10 @@ video {
   font-weight:700 !important
 }
 
+.leading-\[1\.2\]{
+  line-height:1.2 !important
+}
+
 .leading-none{
   line-height:1 !important
 }
@@ -3274,20 +3278,6 @@ video {
 .underline{
   text-decoration-line:underline !important
 }
-
-/* @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-html,
-body {
-  @apply bg-white;
-
-  @media (prefers-color-scheme: dark) {
-    color-scheme: light;
-  }
-} */
 
 .hover\:bg-blue-600:hover{
   --tw-bg-opacity:1 !important;
