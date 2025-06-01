@@ -1,5 +1,5 @@
 import { useLoaderData } from 'react-router'
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import defaultConfig from '../../../config/revealjs-default.json'
 import { getAssetUrlBuilder } from '../../../lib'
 import { presentationSlideRemixLoader } from '../../../lib.server'
@@ -26,22 +26,22 @@ export async function loader(remixLoaderContext) {
 
 export default function SlidePage() {
   const [mode, assets] = useLoaderData()
+  const deckDivRef = useRef(null)
+  const deckRef = useRef(null)
 
   useEffect(() => {
     async function loadReveal() {
-      const RevealModule = await import('reveal.js');
-      const Reveal = RevealModule.default;
+      const Reveal = await import("reveal.js")
 
-      const deck = new Reveal();
-      deck.initialize({
+      if (deckRef.current) return
+      deckRef.current = new Reveal.default(deckDivRef.current, {
         ...defaultConfig,
         width: 1600
-      });
+      })
     }
-
-    if (typeof window !== 'undefined') {
-      loadReveal();
-    }
+    loadReveal().then(() => {
+      deckRef.current.initialize()
+    })
   }, [])
 
   const getAssetUrl = getAssetUrlBuilder(mode, assets)
@@ -49,7 +49,7 @@ export default function SlidePage() {
   const SupperSlide = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/santa-ceia-bg"))
 
   return (
-    <RevealJsBaseElement>
+    <RevealJsBaseElement ref={deckDivRef}>
       <SlideWithBackground>
         <MainTitle>:MAIN_TITLE</MainTitle>
       </SlideWithBackground>
