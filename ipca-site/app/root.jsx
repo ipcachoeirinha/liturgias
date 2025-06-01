@@ -3,7 +3,6 @@ import '../node_modules/reveal.js/dist/reset.css'
 import '../node_modules/reveal.js/dist/reveal.css'
 
 import {
-  Link,
   Links,
   LiveReload,
   Meta,

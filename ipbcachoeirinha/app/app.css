@@ -1,0 +1,4 @@
+@import "../node_modules/reveal.js/dist/reveal.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
