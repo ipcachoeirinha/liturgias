@@ -1,0 +1,30 @@
+# fly.toml app configuration file generated for ipcachoeirinha-5690 on 2023-09-08T17:14:56-03:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "ipcachoeirinha-5690"
+primary_region = "gru"
+swap_size_mb = 512
+
+[build]
+
+[http_service]
+  internal_port = 3000
+  force_https = true
+  auto_stop_machines = false
+  auto_start_machines = true
+  min_machines_running = 1
+  processes = ["app"]
+
+[checks]
+  [checks.status]
+    port = 3000
+    type = "http"
+    interval = "10s"
+    timeout = "2s"
+    grace_period = "5s"
+    method = "GET"
+    path = "/healthcheck"
+    protocol = "http"
+    tls_skip_verify = false
