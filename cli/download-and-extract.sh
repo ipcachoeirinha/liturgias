@@ -1,6 +1,6 @@
 eval $(node args.js)
 
-downloadUrl="http://localhost:3000/liturgias/${URL}/download"
+downloadUrl="http://localhost:3000/liturgia/${URL}/download"
 outputDir="/mnt/c/Users/Usuario/Downloads" 
 
 echo "Baixando arquivo ZIP..."

@@ -9,7 +9,7 @@ const routeFile = `${appRoot}/routes.js`
 const liturgiasRouteFileContent = fs.readFileSync(liturgiasRouteFile, { encoding: "utf-8" })
 
 const linkTemplate = `
-    <Link className="" to="/liturgias/:URL">:TITLE</Link> <a className="" href="/liturgia/:URL/download">Download</a><br/>`
+    <Link className="" to="/liturgia/:URL">:TITLE</Link> <a className="" href="/liturgia/:URL/download">Download</a><br/>`
 const link = linkTemplate
     .replace(":TITLE", args.htmlTitle)
     .replaceAll(":URL", args.url)
