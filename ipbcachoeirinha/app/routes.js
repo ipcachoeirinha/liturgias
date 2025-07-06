@@ -7,6 +7,8 @@ const routes = [
     route("/liturgias", "routes/liturgias.jsx"),
     
     // SLIDE_ROUTES
+    route("/liturgia/070525-celebrando-ao-senhor-com-gratidao", "routes/slides/202507/070525-celebrando-ao-senhor-com-gratidao.jsx"),
+    route("/liturgia/070525-celebrando-ao-senhor-com-gratidao/download", "routes/slides/202507/070525-celebrando-ao-senhor-com-gratidao.download.jsx"),
     route("/liturgia/062925-uma-igreja-que-ama-a-deus-acima-de-tudo", "routes/slides/202506/062925-uma-igreja-que-ama-a-deus-acima-de-tudo.jsx"),
     route("/liturgia/062925-uma-igreja-que-ama-a-deus-acima-de-tudo/download", "routes/slides/202506/062925-uma-igreja-que-ama-a-deus-acima-de-tudo.download.jsx"),
     route("/liturgia/061525-uma-igreja-perseguida", "routes/slides/202506/061525-uma-igreja-perseguida.jsx"),
