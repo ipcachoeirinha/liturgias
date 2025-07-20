@@ -36,7 +36,7 @@ export default function SlidePage() {
       if (deckRef.current) return
       deckRef.current = new Reveal.default(deckDivRef.current, {
         ...defaultConfig,
-        width: 1600
+        width: 1700
       })
     }
     loadReveal().then(() => {

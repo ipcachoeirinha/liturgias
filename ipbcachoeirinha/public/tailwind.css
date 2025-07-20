@@ -3177,8 +3177,16 @@ video {
   font-size:72px !important
 }
 
+.text-\[78px\]{
+  font-size:78px !important
+}
+
 .text-\[84px\]{
   font-size:84px !important
+}
+
+.text-\[88px\]{
+  font-size:88px !important
 }
 
 .text-lg{
@@ -3202,10 +3210,6 @@ video {
 
 .leading-\[1\.2\]{
   line-height:1.2 !important
-}
-
-.leading-none{
-  line-height:1 !important
 }
 
 .leading-normal{
