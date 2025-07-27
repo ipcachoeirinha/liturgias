@@ -47,6 +47,7 @@ export default function SlidePage() {
   const getAssetUrl = getAssetUrlBuilder(mode, assets)
   const SlideWithBackground = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/cruz-wallpaper-light"))
   const SupperSlide = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/santa-ceia-bg"))
+  const BackgroundSlide = createSlideSectionWithBackgroundImage(getAssetUrl("ipcachoeirinha/background"))
 
   return (
     <RevealJsBaseElement ref={deckDivRef}>

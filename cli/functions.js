@@ -17,7 +17,7 @@ export function createSlideSession(slideData) {
                 :STEPS
             </LiturgySteps>
         </section>
-        {/*<VideoSlide videoUrl={getAssetUrl("ipcachoeirinha/hino-3")} />*/}
+        :EXTEND_SLIDE
     </SlideWithBackground>
     `
 
@@ -29,6 +29,7 @@ export function createSlideSession(slideData) {
         .replace(":MAIN_TITLE", slideData.title.toLocaleUpperCase())
         .replace(":SUBTITLE", slideData.subtitle.toLocaleUpperCase())
         .replace(":STEPS", steps)
+        .replace(":EXTEND_SLIDE", slideData.id === "preaching"? addBackgroundSection(slideData) : "")
 
     return slide
 }
@@ -113,6 +114,10 @@ export function createSongLyricsSlide(pathToLyrics) {
         console.log(error.message)
         return `<SlideWithBackground><section>${error.message}</section></SlideWithBackground>`
     }
+}
+
+export function addBackgroundSection(slide) {
+    return `<BackgroundSlide></BackgroundSlide>`
 }
 
 export function createBcwSlide(bcwData) {

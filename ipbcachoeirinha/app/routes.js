@@ -7,6 +7,8 @@ const routes = [
     route("/liturgias", "routes/liturgias.jsx"),
     
     // SLIDE_ROUTES
+    route("/liturgia/072725-o-juizo-comeca-pela-casa-de-deus", "routes/slides/202507/072725-o-juizo-comeca-pela-casa-de-deus.jsx"),
+    route("/liturgia/072725-o-juizo-comeca-pela-casa-de-deus/download", "routes/slides/202507/072725-o-juizo-comeca-pela-casa-de-deus.download.jsx"),
     route("/liturgia/072025-superando-os-obstaculos-da-evangelizacao", "routes/slides/202507/072025-superando-os-obstaculos-da-evangelizacao.jsx"),
     route("/liturgia/072025-superando-os-obstaculos-da-evangelizacao/download", "routes/slides/202507/072025-superando-os-obstaculos-da-evangelizacao.download.jsx"),
     route("/liturgia/070525-celebrando-ao-senhor-com-gratidao", "routes/slides/202507/070525-celebrando-ao-senhor-com-gratidao.jsx"),
