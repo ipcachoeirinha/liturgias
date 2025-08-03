@@ -29,9 +29,27 @@ export function createSlideSession(slideData) {
         .replace(":MAIN_TITLE", slideData.title.toLocaleUpperCase())
         .replace(":SUBTITLE", slideData.subtitle.toLocaleUpperCase())
         .replace(":STEPS", steps)
-        .replace(":EXTEND_SLIDE", slideData.id === "preaching"? addBackgroundSection(slideData) : "")
+        .replace(":EXTEND_SLIDE", slideData.id === "preaching"? createTextSlides(slideData) + addBackgroundSection(slideData) : "") // TODO: isso não tá legal
 
     return slide
+}
+
+export function createTextSlides(slideData) {
+    const template = `
+        <section>
+            <MainTitle>:MAIN_TITLE</MainTitle>
+            :TEXT
+        </section>`
+    const paragraphTemplate = `
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>:TEXT</p>`
+
+    const text = slideData.text
+        .map(text => template
+            .replace(":MAIN_TITLE", text.ref.toLocaleUpperCase())
+            .replace(":TEXT", text.text.map(t => paragraphTemplate.replace(":TEXT", t)).join("\n")))
+        .join("\n")
+
+    return text
 }
 
 export function createSupperSlide(slideData) {
