@@ -3,6 +3,8 @@ import { Link } from 'react-router'
 export default function Liturgias() {
   return (<div>
     {/* NEXT_LINK */}
+    <Link className="" to="/liturgia/081725-o-futuro-glorioso-do-povo-de-deus">O Futuro Glorioso do Povo de Deus - 17 de Agosto de 2025</Link> <a className="" href="/liturgia/081725-o-futuro-glorioso-do-povo-de-deus/download">Download</a><br/>
+    <Link className="" to="/liturgia/081025-o-povo-sofre-por-lideres-maus">O Povo Sofre Por Líderes Maus - 10 de Agosto de 2025</Link> <a className="" href="/liturgia/081025-o-povo-sofre-por-lideres-maus/download">Download</a><br/>
     <Link className="" to="/liturgia/080325-a-esperanca-vem-do-senhor">A Esperança Vem do Senhor - 03 de Agosto de 2025</Link> <a className="" href="/liturgia/080325-a-esperanca-vem-do-senhor/download">Download</a><br/>
     <Link className="" to="/liturgia/072725-o-juizo-comeca-pela-casa-de-deus">O Juízo Começa Pela Casa de Deus - 27 de Julho de 2025</Link> <a className="" href="/liturgia/072725-o-juizo-comeca-pela-casa-de-deus/download">Download</a><br/>
     <Link className="" to="/liturgia/072025-superando-os-obstaculos-da-evangelizacao">Superando Os Obstáculos Da Evangelização - 20 de Julho de 2025</Link> <a className="" href="/liturgia/072025-superando-os-obstaculos-da-evangelizacao/download">Download</a><br/>

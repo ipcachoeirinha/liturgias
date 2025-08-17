@@ -146,17 +146,18 @@ export function createBcwSlide(bcwData) {
               <MainTitle>BREVE CATECISMO DE WESTMINSTER</MainTitle>
               <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>PERGUNTA :NUMBER: :QUESTION</p>
             </section>
-            <section>
-              <MainTitle>RESPOSTA</MainTitle>
-              <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>:ANSWER</p>
-            </section>
+            :ANSWER
           </SlideWithBackground>
     `
+    const answerTemplate = `            <section>
+              <MainTitle>RESPOSTA</MainTitle>
+              <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>:ANSWER</p>
+            </section>`
 
     const slide = template
         .replace(":NUMBER", questionNumber)
         .replace(":QUESTION", question)
-        .replace(":ANSWER", answer)
+        .replace(":ANSWER", answer.map(t => answerTemplate.replace(":ANSWER", t)).join("\n"))
 
     return slide
 }

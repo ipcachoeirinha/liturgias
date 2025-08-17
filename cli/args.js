@@ -1,121 +1,135 @@
 const slidesFolder = "202508"
-const date = "080325"
-const slug = "a-esperanca-vem-do-senhor"
-const title = "A ESPERANÇA VEM DO SENHOR"
-const htmlTitle = "A Esperança Vem do Senhor - 03 de Agosto de 2025"
-const bcwQuestionNumber = 31
-const bcwQuestion = "O que é vocação eficaz?"
-const bcwAnswer = `Vocação eficaz é a obra do Espírito Santo pela qual, convencendo-nos de nosso
-pecado e de nossa miséria, iluminando nosso entendimento pelo conhecimento de Cristo,
-e renovando a nossa vontade, ele nos persuade e habilita a abraçar Jesus Cristo, que nos é
-oferecido de graça no evangelho.`
+const date = "081725"
+const slug = "o-futuro-glorioso-do-povo-de-deus"
+const title = "O FUTURO GLORIOSO DO POVO DE DEUS"
+const htmlTitle = "O Futuro Glorioso do Povo de Deus - 17 de Agosto de 2025"
+const bcwQuestionNumber = 33
+const bcwQuestion = "O que é justificação?"
+const bcwAnswer = [`Justificação é um ato da livre graça de Deus, no qual ele perdoa todos os
+nossos pecados e nos aceita como justos diante Dele, somente por causa da justiça de
+Cristo a nós imputada, e recebida só pela fé.`]
 
 const slides = [
     {
         id: "worship",
-        subtitle: "SOMOS CONVOCADOS A ADORAR AO SENHOR O REI JUSTO",
+        subtitle: "DESFRUTAMOS DO FUTURO GLORIOSO DA ETERNIDADE QUANDO NOS REUNIMOS PARA ADORAR AO SENHOR",
         steps: [
-            { type: "reading", "text": "João 18.33-37" },
-            { type: "hymn", name: "Deus dos Antigos", id: "18" },
+            { type: "alterned_reading", "text": "Isaias 43.1-13" },
+            { type: "hymn", name: "Vencendo Vem Jesus", id: "147" },
             { type: "worship_prayer" }
         ],
-        songLyrics: "18-deus-dos-antigos.txt",
+        songLyrics: "147-vencendo-vem-jesus.txt",
         title: title
     },
     {
         id: "confession",
-        subtitle: "O EVANGELHO NOS MOSTRA QUE PECAMOS CONTRA O SENHOR, MAS EM CRISTO RECEBEMOS O SEU PERDÃO",
+        subtitle: "MESMO EM UM MUNDO CAÍDO PODEMOS TER A CERTEZA QUE O NOSSO DEUS É CONOSCO, NADA NESTE MUNDO PODE NOS SEPARAR DESSE GRANDE AMOR",
         steps: [
-            { type: "reading", "text": "Hebreus 4.14-16" },
-            { type: "song", name: "Vasos Quebrados", id: "" },
+            { type: "reading", "text": "Romanos 8.31-39" },
+            { type: "song", name: "Eu me Rendo aos Teus pés", id: "" },
             { type: "confession_prayer" },
             { type: "bcw-question", questionNumber: bcwQuestionNumber }
         ],
         bcw: { questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
-        songLyrics: "vasos-quebrados.txt",
+        songLyrics: "eu-me-rendo.txt",
         title: title
     },
     {
         id: "offering",
         subtitle: `SOMOS GRATOS AO SENHOR POR PODERMOS PARTICIPAR DE SUA GRANDE MISSÃO`,
         steps: [
-            { type: "reading", "text": "Hebreus 1.1-4" },
+            { type: "reading", "text": "Provérbios 3.9-10" },
             { type: "offering" },
-            { type: "hymn", name: "O Deus Fiel", id: "32" },
+            { type: "song", name: "Santo Pra sempre", id: "" },
             { type: "custom", value: "Oração" }
         ],
-        songLyrics: "32-o-deus-fiel.txt",
+        songLyrics: "santo-pra-sempre.txt",
         title: title
     },
     {
         id: "preaching",
         subtitle: "POR MEIO DO EVANGELHO SOMOS ALIMENTADOS ESPIRITUALMENTE",
         steps: [
-            { type: "preaching", text: "Miquéias 2.1-13", speaker: "Rev. Marcos Santana" }
+            { type: "preaching", text: "Miquéias 4.1-13", speaker: "Rev. Marcos Santana" }
         ],
         title: title,
         songLyrics: false,
         text: [{
-            "ref": "Miquéias 2.1-13",
+            "ref": "Miquéias 4.1-13",
             "text": [
-                `¹ Ai daqueles que, no seu leito, imaginam a iniquidade e maquinam o mal! À luz da alva, o praticam, porque o poder está em suas mãos.`,
-                `² Se cobiçam campos, os arrebatam; se casas, as tomam; assim, fazem violência a um homem e à sua casa, a uma pessoa e à sua herança.`,
+                `¹ Mas, nos últimos dias, acontecerá que o monte da Casa do Senhor será estabelecido no cimo dos montes e se elevará sobre os outeiros, e para ele afluirão os povos.`
             ]
         },
         {
-            "ref": "Miquéias 2.1-13",
+            "ref": "Miquéias 4.1-13",
             "text": [
-                `³ Portanto, assim diz o Senhor: Eis que projeto mal contra esta família, do qual não tirareis a vossa cerviz; e não andareis altivamente, porque o tempo será mau.`,
+                `² Irão muitas nações e dirão: Vinde, e subamos ao monte do Senhor e à casa do Deus de Jacó, para que nos ensine os seus caminhos, e andemos pelas suas veredas; porque de Sião procederá a lei, e a palavra do Senhor, de Jerusalém.`
             ]
         },
         {
-            "ref": "Miquéias 2.1-13",
+            "ref": "Miquéias 4.1-13",
             "text": [
-                `⁴ Naquele dia, se criará contra vós outros um provérbio, se levantará pranto lastimoso e se dirá: Estamos inteiramente desolados! A porção do meu povo, Deus a troca! Como me despoja! Reparte os nossos campos aos rebeldes!`,
+                `³ Ele julgará entre muitos povos e corrigirá nações poderosas e longínquas; estes converterão as suas espadas em relhas de arados e suas lanças, em podadeiras; uma nação não levantará a espada contra outra nação, nem aprenderão mais a guerra.`    
             ]
         },
         {
-            "ref": "Miquéias 2.1-13",
+            "ref": "Miquéias 4.1-13",
             "text": [
-                `⁵ Portanto, não terás, na congregação do Senhor, quem, pela sorte, lançando o cordel, meça possessões.`,
-                `⁶ Não babujeis, dizem eles. Não babujeis tais coisas, porque a desgraça não cairá sobre nós.`,
+                `⁴ Mas assentar-se-á cada um debaixo da sua videira e debaixo da sua figueira, e não haverá quem os espante, porque a boca do Senhor dos Exércitos o disse.`
             ]
         },
         {
-            "ref": "Miquéias 2.1-13",
+            "ref": "Miquéias 4.1-13",
             "text": [
-                `⁷ Tais coisas anunciadas não alcançarão a casa de Jacó. Está irritado o Espírito do Senhor? São estas as suas obras? Sim, as minhas palavras fazem o bem ao que anda retamente;`,
+                `⁵ Porque todos os povos andam, cada um em nome do seu deus; mas, quanto a nós, andaremos em o nome do Senhor, nosso Deus, para todo o sempre.`
             ]
         },
         {
-            "ref": "Miquéias 2.1-13",
+            "ref": "Miquéias 4.1-13",
             "text": [
-                `⁸ mas, há pouco, se levantou o meu povo como inimigo; além da roupa, roubais a capa àqueles que passam seguros, sem pensar em guerra.`,
-                `⁹ Lançais fora as mulheres de meu povo do seu lar querido; dos filhinhos delas tirais a minha glória, para sempre.`,
+                `⁶ Naquele dia, diz o Senhor, congregarei os que coxeiam e recolherei os que foram expulsos e os que eu afligira.`,
             ]
         },
         {
-            "ref": "Miquéias 2.1-13",
+            "ref": "Miquéias 4.1-13",
             "text": [
-                `¹⁰ Levantai-vos e ide-vos embora, porque não é lugar aqui de descanso; ide-vos por causa da imundícia que destrói, sim, que destrói dolorosamente.`,
+                `⁷ Dos que coxeiam farei a parte restante e dos que foram arrojados para longe, uma poderosa nação; e o Senhor reinará sobre eles no monte Sião, desde agora e para sempre.`,
             ]
         },
         {
-            "ref": "Miquéias 2.1-13",
+            "ref": "Miquéias 4.1-13",
             "text": [
-                `¹¹ Se houver alguém que, seguindo o vento da falsidade, mentindo, diga: Eu te profetizarei do vinho e da bebida forte, será este tal o profeta deste povo.`,
+                `⁸ A ti, ó torre do rebanho, monte da filha de Sião, a ti virá; sim, virá o primeiro domínio, o reino da filha de Jerusalém.`,
             ]
         },
         {
-            "ref": "Miquéias 2.1-13",
+            "ref": "Miquéias 4.1-13",
             "text": [
-                `¹² Certamente, te ajuntarei todo, ó Jacó; certamente, congregarei o restante de Israel; pô-los-ei todos juntos, como ovelhas no aprisco, como rebanho no meio do seu pasto; farão grande ruído, por causa da multidão dos homens.`,
+                `⁹ Agora, por que tamanho grito? Não há rei em ti? Pereceu o teu conselheiro? Apoderou-se de ti a dor como da que está para dar à luz?`,
             ]
         },
         {
-            "ref": "Miquéias 2.1-13",
+            "ref": "Miquéias 4.1-13",
             "text": [
-                `¹³ Subirá diante deles o que abre caminho; eles romperão, entrarão pela porta e sairão por ela; e o seu Rei irá adiante deles; sim, o Senhor, à sua frente.`
+                `¹⁰ Sofre dores e esforça-te, ó filha de Sião, como a que está para dar à luz, porque, agora, sairás da cidade, e habitarás no campo, e virás até à Babilônia; ali, porém, serás libertada; ali, te remirá o Senhor das mãos dos teus inimigos.`,
+            ]
+        },
+        {
+            "ref": "Miquéias 4.1-13",
+            "text": [
+                `¹¹ Acham-se, agora, congregadas muitas nações contra ti, que dizem: Seja profanada, e vejam os nossos olhos o seu desejo sobre Sião.`,
+            ]
+        },
+        {
+            "ref": "Miquéias 4.1-13",
+            "text": [
+                `¹² Mas não sabem os pensamentos do Senhor, nem lhe entendem o plano que as ajuntou como feixes na eira.`,
+            ]
+        },
+        {
+            "ref": "Miquéias 4.1-13",
+            "text": [
+                `¹³ Levanta-te e debulha, ó filha de Sião, porque farei de ferro o teu chifre e de bronze, as tuas unhas; e esmiuçarás a muitos povos, e o seu ganho será dedicado ao Senhor, e os seus bens, ao Senhor de toda a terra. `,
             ]
         }]
     },
@@ -123,33 +137,33 @@ const slides = [
         id: "after-preaching",
         subtitle: "",
         steps: [
-            { type: "song", name: "Te Louvarei", id: "" },
-            { type: "supper" },
+            { type: "hymn", name: "Ao Deus Grandioso", id: "26" },
+            // { type: "supper" },
             { type: "ending_prayer" },
             { type: "blessings" }
         ],
-        songLyrics: "te-louvarei.txt",
+        songLyrics: "26-ao-deus-grandioso.txt",
         title: title
     },
-    {
-        id: "supper",
-        subtitle: "",
-        steps: [
+    // {
+    //     id: "supper",
+    //     subtitle: "",
+    //     steps: [
 
-        ],
-        songLyrics: "bem-mais-que-tudo.txt",
-        title: "Santa Ceia"
-    },
-    {
-        id: "after-supper",
-        subtitle: "",
-        steps: [
-            { type: "ending_prayer" },
-            { type: "blessings" }
-        ],
-        songLyrics: false,
-        title: title
-    },
+    //     ],
+    //     songLyrics: "bem-mais-que-tudo.txt",
+    //     title: "Santa Ceia"
+    // },
+    // {
+    //     id: "after-supper",
+    //     subtitle: "",
+    //     steps: [
+    //         { type: "ending_prayer" },
+    //         { type: "blessings" }
+    //     ],
+    //     songLyrics: false,
+    //     title: title
+    // },
 ]
 
 const assets = [

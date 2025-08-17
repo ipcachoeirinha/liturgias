@@ -7,6 +7,10 @@ const routes = [
     route("/liturgias", "routes/liturgias.jsx"),
     
     // SLIDE_ROUTES
+    route("/liturgia/081725-o-futuro-glorioso-do-povo-de-deus", "routes/slides/202508/081725-o-futuro-glorioso-do-povo-de-deus.jsx"),
+    route("/liturgia/081725-o-futuro-glorioso-do-povo-de-deus/download", "routes/slides/202508/081725-o-futuro-glorioso-do-povo-de-deus.download.jsx"),
+    route("/liturgia/081025-o-povo-sofre-por-lideres-maus", "routes/slides/202508/081025-o-povo-sofre-por-lideres-maus.jsx"),
+    route("/liturgia/081025-o-povo-sofre-por-lideres-maus/download", "routes/slides/202508/081025-o-povo-sofre-por-lideres-maus.download.jsx"),
     route("/liturgia/080325-a-esperanca-vem-do-senhor", "routes/slides/202508/080325-a-esperanca-vem-do-senhor.jsx"),
     route("/liturgia/080325-a-esperanca-vem-do-senhor/download", "routes/slides/202508/080325-a-esperanca-vem-do-senhor.download.jsx"),
     route("/liturgia/072725-o-juizo-comeca-pela-casa-de-deus", "routes/slides/202507/072725-o-juizo-comeca-pela-casa-de-deus.jsx"),
