@@ -173,3 +173,14 @@ export function prepareLyrics(lyrics) {
         )
         .join('\n\n')
 }
+
+export function getBibleText(ref) {
+    const text = fs.readFileSync("./bible-text.txt", { encoding: "utf-8" })
+    const textAsArray = text.split("\n").filter(t => t.trim().length > 0).map(t => {
+        return {
+            ref: ref,
+            text: [t.trim()]
+    }})
+
+    return textAsArray
+}
