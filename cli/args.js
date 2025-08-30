@@ -1,45 +1,46 @@
 import { getBibleText } from './functions.js'
 
 const slidesFolder = "202508"
-const date = "082425"
-const slug = "uma-igreja-que-adora-verdadeiramente"
-const title = "UMA IGREJA QUE ADORA VERDADEIRAMENTE"
-const htmlTitle = "Uma igreja que adora verdadeiramente - 24 de Agosto de 2025"
-const bcwQuestionNumber = 34
-const bcwQuestion = "O que é adoção?"
-const bcwAnswer = [`Adoção é um ato da livre graça de Deus, pelo qual somos recebidos no número
-dos filhos de Deus, e temos direito a todos os seus privilégios.`]
+const date = "083125"
+const slug = "adorando-a-cristo-nosso-rei-pastor-e-juiz"
+const title = "ADORANDO A CRISTO NOSSO REI, PASTOR E JUÍZ"
+const htmlTitle = "Adorando a Cristo nosso Rei, Pastor e Juíz - 31 de Agosto de 2025"
+const bcwQuestionNumber = 35
+const bcwQuestion = "O que é santificação?"
+const bcwAnswer = [`Santificação é a obra da livre graça de Deus, pela qual somos renovados
+em todo o nosso ser, segundo a imagem de Deus, habilitados a morrer cada vez
+mais para o pecado e a viver para a retidão.`]
 
 const slides = [
     {
         id: "worship",
-        subtitle: "UMA IGREJA QUE ADORA VERDADEIRAMENTE, BUSCA ADORAR DE CORAÇÃO",
+        subtitle: "LOUVAMOS A CRISTO NOSSO REI, PASTOR E JUÍZ POR MEIO DA ADORAÇÃO",
         steps: [
-            { type: "reading", "text": "Salmo 9.1-2" },
-            { type: "hymn", name: "A Igreja em Adoração", id: "03" },
+            { type: "reading", "text": "Salmo 24" },
+            { type: "hymn", name: "Rei Sublime", id: "19" },
             { type: "worship_prayer" }
         ],
-        songLyrics: "3-a-igreja-em-adoracao.txt",
+        songLyrics: "19-rei-sublime.txt",
         title: title
     },
     {
         id: "confession",
-        subtitle: "UMA IGREJA QUE ADORA VERDADEIRAMENTE, CONFESSA A FALSA ADORAÇÃO",
+        subtitle: "RECONHECEMOS A GRANDEZA DO NOSSO REI E PASTOR JESUS CRISTO E UM DIA ELE VIRÁ PARA NOS JULGAR",
         steps: [
-            { type: "reading", "text": "Isaías 29:13-16" },
-            { type: "song", name: "Coração Quebrantado", id: "67" },
+            { type: "alterned_reading", "text": "Romanos 5.12-21" },
+            { type: "hymn", name: "A revelação de Deus", id: "22" },
             { type: "confession_prayer" },
             { type: "bcw-question", questionNumber: bcwQuestionNumber }
         ],
         bcw: { questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
-        songLyrics: "67-coracao-quebrantado.txt",
+        songLyrics: "22-os-ceus-proclamam.txt",
         title: title
     },
     {
         id: "offering",
-        subtitle: `UMA IGREJA QUE ADORA VERDADEIRAMENTE, ADORA COM OFERTAS DE GRATIDÃO`,
+        subtitle: `AGRADECEMOS COM NOSSOS DÍZIMOS E OFERTAS AO BOM PASTOR QUE DOOU A SUA VIDA POR NÓS`,
         steps: [
-            { type: "reading", "text": "Salmo 50.14" },
+            { type: "reading", "text": "João 10.11-18" },
             { type: "offering" },
             { type: "song", name: "Grandes São as Tuas obras", id: "" },
             { type: "custom", value: "Oração" }
@@ -51,22 +52,22 @@ const slides = [
         id: "preaching",
         subtitle: "UMA IGREJA QUE ADORA VERDADEIRAMENTE, OUVE A PALAVRA EM CONTRIÇÃO",
         steps: [
-            { type: "preaching", text: "João 4.43-54", speaker: "Sem. João Gabriel" }
+            { type: "preaching", text: "Miquéias 5.2-15", speaker: "Rev. Marcos Santana" }
         ],
         title: title,
         songLyrics: false,
-        text: getBibleText("João 4.43-54")
+        text: getBibleText("Miquéias 5.2-15")
     },
     {
         id: "after-preaching",
         subtitle: "",
         steps: [
-            { type: "hymn", name: "Firmeza na Fé", id: "93" },
+            { type: "song", name: "Em espírito e em verdade", id: "93" },
             // { type: "supper" },
             { type: "ending_prayer" },
             { type: "blessings" }
         ],
-        songLyrics: "93-firmeza-na-fe.txt",
+        songLyrics: "em-espirito-e-em-verdade.txt",
         title: title
     },
     // {

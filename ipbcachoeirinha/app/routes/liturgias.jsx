@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 export default function Liturgias() {
   return (<div>
     {/* NEXT_LINK */}
+    <Link className="" to="/liturgia/083125-adorando-a-cristo-nosso-rei-pastor-e-juiz">Adorando a Cristo nosso Rei, Pastor e Juíz - 31 de Agosto de 2025</Link> <a className="" href="/liturgia/083125-adorando-a-cristo-nosso-rei-pastor-e-juiz/download">Download</a><br/>
     <Link className="" to="/liturgia/082425-uma-igreja-que-adora-verdadeiramente">Uma igreja que adora verdadeiramente - 24 de Agosto de 2025</Link> <a className="" href="/liturgia/082425-uma-igreja-que-adora-verdadeiramente/download">Download</a><br/>
     <Link className="" to="/liturgia/081725-o-futuro-glorioso-do-povo-de-deus">O Futuro Glorioso do Povo de Deus - 17 de Agosto de 2025</Link> <a className="" href="/liturgia/081725-o-futuro-glorioso-do-povo-de-deus/download">Download</a><br/>
     <Link className="" to="/liturgia/081025-o-povo-sofre-por-lideres-maus">O Povo Sofre Por Líderes Maus - 10 de Agosto de 2025</Link> <a className="" href="/liturgia/081025-o-povo-sofre-por-lideres-maus/download">Download</a><br/>
