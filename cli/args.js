@@ -1,94 +1,96 @@
 import { getBibleText } from './functions.js'
 
-const slidesFolder = "202508"
-const date = "083125"
-const slug = "adorando-a-cristo-nosso-rei-pastor-e-juiz"
-const title = "ADORANDO A CRISTO NOSSO REI, PASTOR E JUÍZ"
-const htmlTitle = "Adorando a Cristo nosso Rei, Pastor e Juíz - 31 de Agosto de 2025"
-const bcwQuestionNumber = 35
-const bcwQuestion = "O que é santificação?"
-const bcwAnswer = [`Santificação é a obra da livre graça de Deus, pela qual somos renovados
-em todo o nosso ser, segundo a imagem de Deus, habilitados a morrer cada vez
-mais para o pecado e a viver para a retidão.`]
+const slidesFolder = "202509"
+const date = "090725"
+const slug = "o-que-o-senhor-espera-do-seu-povo"
+const title = "O QUE O SENHOR ESPERA DO SEU POVO?"
+const htmlTitle = "O Que o Senhor Espera do Seu Povo - 7 de Setembro de 2025"
+const bcwQuestionNumber = 36
+const bcwQuestion = "Quais são as bênçãos que nesta vida acompanham a justificação, a adoção e a santificação, ou delas procedem?"
+const bcwAnswer = [`As bênçãos que nesta vida acompanham a justificação, a adoção e a
+santificação, ou delas procedem, são: certeza do amor de Deus, paz de
+consciência, gozo no Espírito Santo, aumento de graça e perseverança nela até ao
+fim.`]
 
 const slides = [
     {
         id: "worship",
-        subtitle: "LOUVAMOS A CRISTO NOSSO REI, PASTOR E JUÍZ POR MEIO DA ADORAÇÃO",
+        subtitle: "O SENHOR ESPERA QUE SEU POVO O ADORE VERDADEIRAMENTE",
         steps: [
-            { type: "reading", "text": "Salmo 24" },
-            { type: "hymn", name: "Rei Sublime", id: "19" },
+            { type: "reading", "text": "Salmo 96.6-7b" },
+            { type: "hymn", name: "A criação e Seu criador", id: "10" },
             { type: "worship_prayer" }
         ],
-        songLyrics: "19-rei-sublime.txt",
+        songLyrics: "10-a-criacao-e-seu-criador.txt",
         title: title
     },
     {
         id: "confession",
-        subtitle: "RECONHECEMOS A GRANDEZA DO NOSSO REI E PASTOR JESUS CRISTO E UM DIA ELE VIRÁ PARA NOS JULGAR",
+        subtitle: "O SENHOR ESPERA QUE SEU POVO CONFESSE SEUS PECADOS",
         steps: [
-            { type: "alterned_reading", "text": "Romanos 5.12-21" },
-            { type: "hymn", name: "A revelação de Deus", id: "22" },
+            { type: "reading", "text": "Isaías 29.13-16" },
+            { type: "reading", "text": "salmo 15" },
+            { type: "song", name: "Vasos Quebrados", id: "22" },
             { type: "confession_prayer" },
             { type: "bcw-question", questionNumber: bcwQuestionNumber }
         ],
         bcw: { questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
-        songLyrics: "22-os-ceus-proclamam.txt",
+        songLyrics: "vasos-quebrados.txt",
         title: title
     },
     {
         id: "offering",
-        subtitle: `AGRADECEMOS COM NOSSOS DÍZIMOS E OFERTAS AO BOM PASTOR QUE DOOU A SUA VIDA POR NÓS`,
+        subtitle: `O SENHOR ESPERA FIDELIDADE DO SEU POVO`,
         steps: [
-            { type: "reading", "text": "João 10.11-18" },
+            { type: "reading", "text": "2 Coríntios 9.6" },
             { type: "offering" },
-            { type: "song", name: "Grandes São as Tuas obras", id: "" },
+            { type: "hymn", name: "Firme nas promessas", id: "177" },
             { type: "custom", value: "Oração" }
         ],
-        songLyrics: "rei-das-nacoes.txt",
+        songLyrics: "177-firme-nas-promessas.txt",
         title: title
     },
     {
         id: "preaching",
-        subtitle: "UMA IGREJA QUE ADORA VERDADEIRAMENTE, OUVE A PALAVRA EM CONTRIÇÃO",
+        subtitle: "O SENHOR ESPERA QUE SEU POVO OUÇA A SUA PALAVRA",
         steps: [
-            { type: "preaching", text: "Miquéias 5.2-15", speaker: "Rev. Marcos Santana" }
+            { type: "preaching", text: "Miquéias 6.1-16", speaker: "Rev. Marcos Santana" }
         ],
         title: title,
         songLyrics: false,
-        text: getBibleText("Miquéias 5.2-15")
+        text: getBibleText("Miquéias 6.1-16")
     },
     {
         id: "after-preaching",
         subtitle: "",
         steps: [
-            { type: "song", name: "Em espírito e em verdade", id: "93" },
-            // { type: "supper" },
+            { type: "song", name: "Jesus é o Centro", id: "93" },
+            { type: "supper" },
             { type: "ending_prayer" },
             { type: "blessings" }
         ],
-        songLyrics: "em-espirito-e-em-verdade.txt",
+        songLyrics: "jesus-e-o-centro.txt",
         title: title
     },
-    // {
-    //     id: "supper",
-    //     subtitle: "",
-    //     steps: [
+    {
+        id: "supper",
+        subtitle: "",
+        steps: [
 
-    //     ],
-    //     songLyrics: "bem-mais-que-tudo.txt",
-    //     title: "Santa Ceia"
-    // },
-    // {
-    //     id: "after-supper",
-    //     subtitle: "",
-    //     steps: [
-    //         { type: "ending_prayer" },
-    //         { type: "blessings" }
-    //     ],
-    //     songLyrics: false,
-    //     title: title
-    // },
+        ],
+        songLyrics: false,
+        title: "Santa Ceia"
+    },
+    {
+        id: "after-supper",
+        subtitle: "",
+        steps: [
+            { type: "ending_prayer" },
+            { type: "blessings" }
+        ],
+        songLyrics: false,
+        title: title
+    },
 ]
 
 const assets = [

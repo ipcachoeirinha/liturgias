@@ -7,6 +7,8 @@ const routes = [
     route("/liturgias", "routes/liturgias.jsx"),
     
     // SLIDE_ROUTES
+    route("/liturgia/090725-o-que-o-senhor-espera-do-seu-povo", "routes/slides/202509/090725-o-que-o-senhor-espera-do-seu-povo.jsx"),
+    route("/liturgia/090725-o-que-o-senhor-espera-do-seu-povo/download", "routes/slides/202509/090725-o-que-o-senhor-espera-do-seu-povo.download.jsx"),
     route("/liturgia/083125-adorando-a-cristo-nosso-rei-pastor-e-juiz", "routes/slides/202508/083125-adorando-a-cristo-nosso-rei-pastor-e-juiz.jsx"),
     route("/liturgia/083125-adorando-a-cristo-nosso-rei-pastor-e-juiz/download", "routes/slides/202508/083125-adorando-a-cristo-nosso-rei-pastor-e-juiz.download.jsx"),
     route("/liturgia/082425-uma-igreja-que-adora-verdadeiramente", "routes/slides/202508/082425-uma-igreja-que-adora-verdadeiramente.jsx"),
