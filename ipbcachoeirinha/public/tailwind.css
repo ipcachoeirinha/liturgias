@@ -2974,6 +2974,10 @@ video {
   height:100% !important
 }
 
+.max-h-\[--slide-height\]{
+  max-height:var(--slide-height) !important
+}
+
 .min-h-\[260px\]{
   min-height:260px !important
 }

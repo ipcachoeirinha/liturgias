@@ -1,35 +1,33 @@
 import { getBibleText } from './functions.js'
 
 const slidesFolder = "202509"
-const date = "090725"
-const slug = "o-que-o-senhor-espera-do-seu-povo"
-const title = "O QUE O SENHOR ESPERA DO SEU POVO?"
-const htmlTitle = "O Que o Senhor Espera do Seu Povo - 7 de Setembro de 2025"
-const bcwQuestionNumber = 36
-const bcwQuestion = "Quais são as bênçãos que nesta vida acompanham a justificação, a adoção e a santificação, ou delas procedem?"
-const bcwAnswer = [`As bênçãos que nesta vida acompanham a justificação, a adoção e a
-santificação, ou delas procedem, são: certeza do amor de Deus, paz de
-consciência, gozo no Espírito Santo, aumento de graça e perseverança nela até ao
-fim.`]
+const date = "092125"
+const slug = "o-deus-que-perdoa-pecados"
+const title = "O DEUS QUE PERDOA PECADOS"
+const htmlTitle = "O Deus que perdoa pecados - 21 de Setembro de 2025"
+const bcwQuestionNumber = 37
+const bcwQuestion = "Quais são as bênçãos que os crentes recebem de Cristo na hora da morte?"
+const bcwAnswer = [`A alma dos fiéis, na hora da morte, é aperfeiçoada em santidade
+e imediatamente entra na glória; e o corpo, que continua unido a Cristo,
+descansa na sepultura até a ressurreição.`]
 
 const slides = [
     {
         id: "worship",
-        subtitle: "O SENHOR ESPERA QUE SEU POVO O ADORE VERDADEIRAMENTE",
+        subtitle: "O DEUS QUE PERDOA PECADOS, DEVE SER ADORADO POR SUA MISERICÓRDIA",
         steps: [
-            { type: "reading", "text": "Salmo 96.6-7b" },
-            { type: "hymn", name: "A criação e Seu criador", id: "10" },
+            { type: "alterned_reading", "text": "Salmo 40" },
+            { type: "hymn", name: "Deus dos antigos", id: "18" },
             { type: "worship_prayer" }
         ],
-        songLyrics: "10-a-criacao-e-seu-criador.txt",
+        songLyrics: "18-deus-dos-antigos.txt",
         title: title
     },
     {
         id: "confession",
-        subtitle: "O SENHOR ESPERA QUE SEU POVO CONFESSE SEUS PECADOS",
+        subtitle: "O DEUS QUE PERDOA PECADOS, REVELA O PECADO EM NOSSO CORAÇÃO",
         steps: [
-            { type: "reading", "text": "Isaías 29.13-16" },
-            { type: "reading", "text": "salmo 15" },
+            { type: "unison_reading", "text": "Marcos 7:21-23" },
             { type: "song", name: "Vasos Quebrados", id: "22" },
             { type: "confession_prayer" },
             { type: "bcw-question", questionNumber: bcwQuestionNumber }
@@ -40,57 +38,57 @@ const slides = [
     },
     {
         id: "offering",
-        subtitle: `O SENHOR ESPERA FIDELIDADE DO SEU POVO`,
+        subtitle: `O DEUS QUE PERDOA PECADOS, MOSTRA SUA GRAÇA AO PERDOAR SEU POVO`,
         steps: [
-            { type: "reading", "text": "2 Coríntios 9.6" },
+            { type: "reading", "text": "Miquéias 7:18-20" },
             { type: "offering" },
-            { type: "hymn", name: "Firme nas promessas", id: "177" },
+            { type: "hymn", name: "O Deus fiel", id: "32" },
             { type: "custom", value: "Oração" }
         ],
-        songLyrics: "177-firme-nas-promessas.txt",
+        songLyrics: "32-o-deus-fiel.txt",
         title: title
     },
     {
         id: "preaching",
-        subtitle: "O SENHOR ESPERA QUE SEU POVO OUÇA A SUA PALAVRA",
+        subtitle: "O DEUS QUE PERDOA PECADOS, FALA AO CORAÇÃO DO SEU POVO",
         steps: [
-            { type: "preaching", text: "Miquéias 6.1-16", speaker: "Rev. Marcos Santana" }
+            { type: "preaching", text: "Marcos 2:1-12", speaker: "Sem. Vinícius Genuíno" }
         ],
         title: title,
         songLyrics: false,
-        text: getBibleText("Miquéias 6.1-16")
+        text: getBibleText("Marcos 2:1-12")
     },
     {
         id: "after-preaching",
         subtitle: "",
         steps: [
-            { type: "song", name: "Jesus é o Centro", id: "93" },
-            { type: "supper" },
+            { type: "song", name: "Te Louvarei", id: "93" },
+            // { type: "supper" },
             { type: "ending_prayer" },
-            { type: "blessings" }
+            // { type: "blessings" }
         ],
-        songLyrics: "jesus-e-o-centro.txt",
+        songLyrics: "te-louvarei.txt",
         title: title
     },
-    {
-        id: "supper",
-        subtitle: "",
-        steps: [
+    // {
+    //     id: "supper",
+    //     subtitle: "",
+    //     steps: [
 
-        ],
-        songLyrics: false,
-        title: "Santa Ceia"
-    },
-    {
-        id: "after-supper",
-        subtitle: "",
-        steps: [
-            { type: "ending_prayer" },
-            { type: "blessings" }
-        ],
-        songLyrics: false,
-        title: title
-    },
+    //     ],
+    //     songLyrics: false,
+    //     title: "Santa Ceia"
+    // },
+    // {
+    //     id: "after-supper",
+    //     subtitle: "",
+    //     steps: [
+    //         { type: "ending_prayer" },
+    //         { type: "blessings" }
+    //     ],
+    //     songLyrics: false,
+    //     title: title
+    // },
 ]
 
 const assets = [
