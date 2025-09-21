@@ -2,7 +2,7 @@ import defaultConfig from '../../../config/revealjs-default.json'
 import { downloadSlideRemixLoader } from '../../../lib.server'
 
 const PAGE_TITLE = "O Deus que perdoa pecados - 21 de Setembro de 2025"
-const CDN_ASSETS_LIST = [{"id":"ipcachoeirinha/cruz-wallpaper-light","extension":"jpg","resourceType":"image"},{"id":"ipcachoeirinha/santa-ceia-bg","extension":"png","resourceType":"image"},{"id":"ipcachoeirinha/background","extension":"png","resourceType":"image"}]
+const CDN_ASSETS_LIST = [{"id":"ipcachoeirinha/cruz-wallpaper-light","extension":"jpg","resourceType":"image"},{"id":"ipcachoeirinha/aviso-uph-27-set-25","extension":"jpg","resourceType":"image"},{"id":"ipcachoeirinha/aviso-almoco-28-set-25","extension":"jpg","resourceType":"image"},{"id":"ipcachoeirinha/santa-ceia-bg","extension":"png","resourceType":"image"},{"id":"ipcachoeirinha/background","extension":"png","resourceType":"image"}]
 
 const ZIP_FILENAME = "092125-o-deus-que-perdoa-pecados.zip"
 
