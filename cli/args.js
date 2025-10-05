@@ -1,73 +1,72 @@
 import { getBibleText } from './functions.js'
 
-const slidesFolder = "202509"
-const date = "092125"
-const slug = "o-deus-que-perdoa-pecados"
-const title = "O DEUS QUE PERDOA PECADOS"
-const htmlTitle = "O Deus que perdoa pecados - 21 de Setembro de 2025"
-const bcwQuestionNumber = 37
-const bcwQuestion = "Quais são as bênçãos que os crentes recebem de Cristo na hora da morte?"
-const bcwAnswer = [`A alma dos fiéis, na hora da morte, é aperfeiçoada em santidade
-e imediatamente entra na glória; e o corpo, que continua unido a Cristo,
-descansa na sepultura até a ressurreição.`]
+const slidesFolder = "202510"
+const date = "100525"
+const slug = "a-igreja-que-recebe-a-novidade-do-evangelho"
+const title = "A IGREJA QUE RECEBE A NOVIDADE DO EVANGELHO"
+const htmlTitle = "A igreja que recebe a novidade do evangelho - 05 de Outubro de 2025"
+const bcwQuestionNumber = 39
+const bcwQuestion = "Qual é o dever que Deus exige do homem?"
+const bcwAnswer = [`O dever que Deus exige do homem é obediência à sua vontade
+revelada.`]
 
 const slides = [
     {
         id: "worship",
-        subtitle: "O DEUS QUE PERDOA PECADOS, DEVE SER ADORADO POR SUA MISERICÓRDIA",
+        subtitle: "A IGREJA QUE RECEBE A NOVIDADE DO EVANGELHO, ADORA A DEUS EM ESPÍRITO E EM VERDADE",
         steps: [
-            { type: "alterned_reading", "text": "Salmo 40" },
-            { type: "hymn", name: "Deus dos antigos", id: "18" },
+            { type: "reading", "text": "João 4.23-24" },
+            { type: "hymn", name: "Trindade Santíssima", id: "11" },
             { type: "worship_prayer" }
         ],
-        songLyrics: "18-deus-dos-antigos.txt",
+        songLyrics: "11-trindade-santissima.txt",
         title: title
     },
     {
         id: "confession",
-        subtitle: "O DEUS QUE PERDOA PECADOS, REVELA O PECADO EM NOSSO CORAÇÃO",
+        subtitle: "A IGREJA QUE RECEBE A NOVIDADE DO EVANGELHO, DEIXA SEUS PECADOS PARA TRÁS",
         steps: [
-            { type: "unison_reading", "text": "Marcos 7:21-23" },
-            { type: "song", name: "Vasos Quebrados", id: "22" },
+            { type: "reading", "text": "Efésios 4.17-24" },
+            { type: "hymn", name: "Sinceridade", id: "74" },
             { type: "confession_prayer" },
             { type: "bcw-question", questionNumber: bcwQuestionNumber }
         ],
         bcw: { questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
-        songLyrics: "vasos-quebrados.txt",
+        songLyrics: "74-sinceridade.txt",
         title: title
     },
     {
         id: "offering",
-        subtitle: `O DEUS QUE PERDOA PECADOS, MOSTRA SUA GRAÇA AO PERDOAR SEU POVO`,
+        subtitle: `A IGREJA QUE RECEBE A NOVIDADE DO EVANGELHO, CELEBRA AO SENHOR COM SEUS DIZÍMOS E OFERTAS`,
         steps: [
-            { type: "reading", "text": "Miquéias 7:18-20" },
+            { type: "reading", "text": "Provérbios 3.9-10" },
             { type: "offering" },
-            { type: "hymn", name: "O Deus fiel", id: "32" },
+            { type: "song", name: "Quebrantado", id: "32" },
             { type: "custom", value: "Oração" }
         ],
-        songLyrics: "32-o-deus-fiel.txt",
+        songLyrics: "quebrantado.txt",
         title: title
     },
     {
         id: "preaching",
-        subtitle: "O DEUS QUE PERDOA PECADOS, FALA AO CORAÇÃO DO SEU POVO",
+        subtitle: "A IGREJA QUE RECEBE A NOVIDADE DO EVANGELHO, TEM SEU CORAÇÃO RENOVADO PELA PALAVRA DE DEUS",
         steps: [
-            { type: "preaching", text: "Marcos 2:1-12", speaker: "Sem. Vinícius Genuíno" }
+            { type: "preaching", text: "Marcos 2.18-22", speaker: "Sem. Vinícius Genuíno" }
         ],
         title: title,
         songLyrics: false,
-        text: getBibleText("Marcos 2:1-12")
+        text: getBibleText("Marcos 2.18-22")
     },
     {
         id: "after-preaching",
         subtitle: "",
         steps: [
-            { type: "song", name: "Te Louvarei", id: "93" },
+            { type: "song", name: "Me Derramar", id: "93" },
             // { type: "supper" },
             { type: "ending_prayer" },
             // { type: "blessings" }
         ],
-        songLyrics: "te-louvarei.txt",
+        songLyrics: "me-derramar.txt",
         title: title
     },
     // {

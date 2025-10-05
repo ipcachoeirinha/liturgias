@@ -7,6 +7,8 @@ const routes = [
     route("/liturgias", "routes/liturgias.jsx"),
     
     // SLIDE_ROUTES
+    route("/liturgia/100525-a-igreja-que-recebe-a-novidade-do-evangelho", "routes/slides/202510/100525-a-igreja-que-recebe-a-novidade-do-evangelho.jsx"),
+    route("/liturgia/100525-a-igreja-que-recebe-a-novidade-do-evangelho/download", "routes/slides/202510/100525-a-igreja-que-recebe-a-novidade-do-evangelho.download.jsx"),
     route("/liturgia/092125-o-deus-que-perdoa-pecados", "routes/slides/202509/092125-o-deus-que-perdoa-pecados.jsx"),
     route("/liturgia/092125-o-deus-que-perdoa-pecados/download", "routes/slides/202509/092125-o-deus-que-perdoa-pecados.download.jsx"),
     route("/liturgia/090725-o-que-o-senhor-espera-do-seu-povo", "routes/slides/202509/090725-o-que-o-senhor-espera-do-seu-povo.jsx"),
