@@ -1,21 +1,21 @@
 import { getBibleText } from './functions.js'
 
 const slidesFolder = "202510"
-const date = "100525"
-const slug = "a-igreja-que-recebe-a-novidade-do-evangelho"
-const title = "A IGREJA QUE RECEBE A NOVIDADE DO EVANGELHO"
-const htmlTitle = "A igreja que recebe a novidade do evangelho - 05 de Outubro de 2025"
-const bcwQuestionNumber = 39
-const bcwQuestion = "Qual é o dever que Deus exige do homem?"
-const bcwAnswer = [`O dever que Deus exige do homem é obediência à sua vontade
-revelada.`]
+const date = "101225"
+const slug = "jesus-a-palavra-final-de-deus"
+const title = "JESUS, A PALAVRA FINAL DE DEUS"
+const htmlTitle = "Jesus, a Palavra Final de Deus - 12 de Outubro de 2025"
+const bcwQuestionNumber = 40
+const bcwQuestion = "O que Deus revelou primeiramente ao homem para regra de sua obediência?"
+const bcwAnswer = [`A regra que Deus revelou primeiramente ao homem para sua
+obediência foi a lei moral.`]
 
 const slides = [
     {
         id: "worship",
-        subtitle: "A IGREJA QUE RECEBE A NOVIDADE DO EVANGELHO, ADORA A DEUS EM ESPÍRITO E EM VERDADE",
+        subtitle: "JESUS, A PALAVRA FINAL DE DEUS, DEVE SER ADORADO EM ESPÍRITO E EM VERDADE",
         steps: [
-            { type: "reading", "text": "João 4.23-24" },
+            { type: "alterned_reading", "text": "João 1.1-14" },
             { type: "hymn", name: "Trindade Santíssima", id: "11" },
             { type: "worship_prayer" }
         ],
@@ -24,70 +24,70 @@ const slides = [
     },
     {
         id: "confession",
-        subtitle: "A IGREJA QUE RECEBE A NOVIDADE DO EVANGELHO, DEIXA SEUS PECADOS PARA TRÁS",
+        subtitle: "JESUS, A PALAVRA FINAL DE DEUS, VEIO A ESSE MUNDO E POR MEIO DELE FOMOS PERDOADOS",
         steps: [
-            { type: "reading", "text": "Efésios 4.17-24" },
-            { type: "hymn", name: "Sinceridade", id: "74" },
+            { type: "reading", "text": "Colossenses 1.13-23" },
+            { type: "song", name: "Colossenses 1", id: "74" },
             { type: "confession_prayer" },
             { type: "bcw-question", questionNumber: bcwQuestionNumber }
         ],
         bcw: { questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
-        songLyrics: "74-sinceridade.txt",
+        songLyrics: "colossenses-1.txt",
         title: title
     },
     {
         id: "offering",
-        subtitle: `A IGREJA QUE RECEBE A NOVIDADE DO EVANGELHO, CELEBRA AO SENHOR COM SEUS DIZÍMOS E OFERTAS`,
+        subtitle: `JESUS, A PALAVRA FINAL DE DEUS, É CELEBRADO POR SUA IGREJA COM SEUS DIZÍMOS E OFERTAS`,
         steps: [
-            { type: "reading", "text": "Provérbios 3.9-10" },
+            { type: "reading", "text": "Filipenses 2.5-11" },
             { type: "offering" },
-            { type: "song", name: "Quebrantado", id: "32" },
+            { type: "song", name: "maranata", id: "32" },
             { type: "custom", value: "Oração" }
         ],
-        songLyrics: "quebrantado.txt",
+        songLyrics: "maranata.txt",
         title: title
     },
     {
         id: "preaching",
-        subtitle: "A IGREJA QUE RECEBE A NOVIDADE DO EVANGELHO, TEM SEU CORAÇÃO RENOVADO PELA PALAVRA DE DEUS",
+        subtitle: "JESUS, A PALAVRA FINAL DE DEUS, TRANSFORMA O NOSSO CORAÇÃO PARA COMPREENSÃO DO EVANGELHO ANUNCIADO",
         steps: [
-            { type: "preaching", text: "Marcos 2.18-22", speaker: "Sem. Vinícius Genuíno" }
+            { type: "preaching", text: "Hebreus 1.1-4", speaker: "Rev. Marcos Santana" }
         ],
         title: title,
         songLyrics: false,
-        text: getBibleText("Marcos 2.18-22")
+        text: getBibleText("Hebreus 1.1-4")
     },
     {
         id: "after-preaching",
         subtitle: "",
         steps: [
-            { type: "song", name: "Me Derramar", id: "93" },
-            // { type: "supper" },
+            { type: "song", name: "Só em ti", id: "93" },
+            { type: "supper" },
             { type: "ending_prayer" },
-            // { type: "blessings" }
+            { type: "blessings" }
         ],
-        songLyrics: "me-derramar.txt",
+        songLyrics: "so-em-ti.txt",
         title: title
     },
-    // {
-    //     id: "supper",
-    //     subtitle: "",
-    //     steps: [
+    {
+        id: "supper",
+        subtitle: "",
+        steps: [
 
-    //     ],
-    //     songLyrics: false,
-    //     title: "Santa Ceia"
-    // },
-    // {
-    //     id: "after-supper",
-    //     subtitle: "",
-    //     steps: [
-    //         { type: "ending_prayer" },
-    //         { type: "blessings" }
-    //     ],
-    //     songLyrics: false,
-    //     title: title
-    // },
+        ],
+        songLyrics: "jesus-e-o-centro.txt",
+        title: "Santa Ceia"
+    },
+    {
+        id: "after-supper",
+        subtitle: "",
+        steps: [
+            { type: "ending_prayer" },
+            { type: "blessings" }
+        ],
+        songLyrics: false,
+        title: title
+    },
 ]
 
 const assets = [
