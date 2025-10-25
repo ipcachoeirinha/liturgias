@@ -1,10 +1,10 @@
 import { getBibleText } from './functions.js'
 
 const slidesFolder = "202510"
-const date = "101925"
-const slug = "seja-fiel-ate-a-morte"
-const title = "SEJA FIEL ATÉ A MORTE"
-const htmlTitle = "Seja Fiel Até a Morte - 19 de Outubro de 2025"
+const date = "102625"
+const slug = "a-igreja-que-adora-a-deus-de-forma-verdadeira"
+const title = "A IGREJA QUE ADORA A DEUS DE FORMA VERDADEIRA"
+const htmlTitle = "A igreja que adora a Deus de forma verdadeira - 26 de Outubro de 2025"
 const bcwQuestionNumber = 41
 const bcwQuestion = "Onde a lei moral está resumidamente compreendida?"
 const bcwAnswer = [`A lei moral está resumidamente compreendida nos Dez
@@ -13,60 +13,60 @@ Mandamentos.`]
 const slides = [
   {
     id: "worship",
-    subtitle: "UMA IGREJA FIEL AO SENHOR O ADORA EM ESPÍRITO E EM VERDADE",
+    subtitle: "O ADORA EM ESPÍRITO E EM VERDADE",
     steps: [
-      { type: "alterned_reading", "text": "Salmo 103" },
-      { type: "hymn", name: "Firme nas promessas", id: "177" },
+      { type: "reading", "text": "João 4:23-24" },
+      { type: "song", name: "Em Espirito e em verdade", id: "177" },
       { type: "worship_prayer" }
     ],
-    songLyrics: "177-firme-nas-promessas.txt",
+    songLyrics: "em-espirito-e-em-verdade.txt",
     title: title
   },
   {
     id: "confession",
-    subtitle: "UMA IGREJA FIEL AO SENHOR RECONHECE SEUS PECADOS E MAZELAS E OS CONFESSAM AO SENHOR",
+    subtitle: "VIVE UMA VIDA PURA",
     steps: [
-      { type: "reading", "text": "1 João 1.5-10" },
-      { type: "song", name: "Só em ti", id: "74" },
+      { type: "reading", "text": "Efésios 5:3-12" },
+      { type: "hymn", name: "Coração Quebrantado", id: "67" },
       { type: "confession_prayer" },
-      { type: "bcw-question", questionNumber: bcwQuestionNumber }
+      // { type: "bcw-question", questionNumber: bcwQuestionNumber }
     ],
-    bcw: { questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
-    songLyrics: "so-em-ti.txt",
+    bcw: false, //{ questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
+    songLyrics: "67-coracao-quebrantado.txt",
     title: title
   },
   {
     id: "offering",
-    subtitle: `UMA IGREJA FIEL AO SENHOR TEM PRAZER EM CELEBRÁ-LO COM SEUS DÍZIMOS E OFERTAS`,
+    subtitle: `TEM SEUS PECADOS PERDOADOS MEDIANTE A FÉ`,
     steps: [
-      { type: "reading", "text": "Provérbios 3.9-10" },
+      { type: "reading", "text": "Colossenses 3:15-17" },
       { type: "offering" },
-      { type: "song", name: "Jesus em tua presença", id: "32" },
-      { type: "custom", value: "Oração" }
+      { type: "song", name: "Quebrantado", id: "32" },
+      { type: "custom", value: "Oração de Gratidão" }
     ],
-    songLyrics: "jesus-em-tua-presenca.txt",
+    songLyrics: "quebrantado.txt",
     title: title
   },
   {
     id: "preaching",
-    subtitle: "JESUS, A PALAVRA FINAL DE DEUS, TRANSFORMA O NOSSO CORAÇÃO PARA COMPREENSÃO DO EVANGELHO ANUNCIADO",
+    subtitle: "É INSTRUÍDA POR SUA PALAVRA",
     steps: [
-      { type: "preaching", text: "Apocalipse 2.8-11", speaker: "Rev. André Silvério" }
+      { type: "preaching", text: "Tiago 1:26-27", speaker: "Sem. Vinícius Genuíno" }
     ],
     title: title,
     songLyrics: false,
-    text: getBibleText("Apocalipse 2.8-11")
+    text: getBibleText("Tiago 1:26-27")
   },
   {
     id: "after-preaching",
     subtitle: "",
     steps: [
-      { type: "hymn", name: "Castelo Forte", id: "155" },
+      { type: "song", name: "Venho Senhor Minha Vida Oferecer", id: "155" },
       // { type: "supper" },
       { type: "ending_prayer" },
-      { type: "blessings" }
+      // { type: "blessings" }
     ],
-    songLyrics: "155-castelo-forte.txt",
+    songLyrics: "venho-senhor-minha-vida-oferecer.txt",
     title: title
   },
   // {
