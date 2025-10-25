@@ -1,6 +1,8 @@
 import fs from 'fs'
 import AdmZip from 'adm-zip'
 import { cloudinary } from './cloudinary.server'
+import { getAsset } from "./utils.server/get-asset"
+import { getTemplateFilepath } from "./utils.server/get-template-filepath"
 
 export async function downloadSlideRemixLoader(remixLoaderContext, zipFilename, cdnAssetsList, pageTitle, revealjsConfig) {
     const { request } = remixLoaderContext
@@ -49,7 +51,7 @@ export async function createSlidesZipFile(indexHtmlContent, assetsToDownload) {
     zip.addFile("ipcachoeirinha/reset.css", await fs.promises.readFile('./node_modules/reveal.js/dist/reset.css'))
     zip.addFile("ipcachoeirinha/reveal.css", await fs.promises.readFile('./node_modules/reveal.js/dist/reveal.css'))
     zip.addFile("ipcachoeirinha/reveal.js", await fs.promises.readFile('./node_modules/reveal.js/dist/reveal.js'))
-    zip.addFile("ipcachoeirinha/tailwind.css", await fs.promises.readFile('./public/tailwind.css'))
+    zip.addFile("ipcachoeirinha/tailwind.css", await fs.promises.readFile(getAsset("tailwind.css")))
 
     const promises = await Promise.all(assetsToDownload.map(asset => {
         const { url } = asset
@@ -81,7 +83,7 @@ async function getRoutePageFile(routeUrl) {
 }
 
 export async function exportSlidePage(routeUrl, pageTitle, revealConfig, assets) {
-    let template = (await fs.promises.readFile("./public/template.html", { encoding: "utf-8" }))
+    let template = (await fs.promises.readFile(getTemplateFilepath(), { encoding: "utf-8" }))
     const currentPageHtml = await getRoutePageFile(routeUrl)
     const revealElement = extractRevealElementFromHtmlText(currentPageHtml)
 

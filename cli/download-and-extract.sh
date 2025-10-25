@@ -1,4 +1,4 @@
-eval $(node args.js)
+eval $(bun run args.js)
 
 downloadUrl="http://localhost:3000/liturgia/${URL}/download"
 outputDir="/mnt/c/Users/Usuario/Downloads" 
