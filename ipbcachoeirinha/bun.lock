@@ -7,7 +7,7 @@
         "@react-router/node": "7.9.4",
         "@react-router/serve": "7.9.4",
         "adm-zip": "0.5.16",
-        "cloudinary": "1.40.0",
+        "cloudinary": "1.41.3",
         "isbot": "5.1.31",
         "react": "19.2.0",
         "react-dom": "19.2.0",
@@ -303,7 +303,7 @@
 
     "chokidar": ["chokidar@4.0.3", "", { "dependencies": { "readdirp": "^4.0.1" } }, "sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA=="],
 
-    "cloudinary": ["cloudinary@1.40.0", "", { "dependencies": { "cloudinary-core": "^2.13.0", "core-js": "^3.30.1", "lodash": "^4.17.21", "q": "^1.5.1" } }, "sha512-Fifkl8NRw/M+Enw4cKCXc6e0Or28c5y6RVGYS3OCLzT1W8EfBt416FURhLuuL/S4BCVv8bSilmnM746kCtth3g=="],
+    "cloudinary": ["cloudinary@1.41.3", "", { "dependencies": { "cloudinary-core": "^2.13.0", "core-js": "^3.30.1", "lodash": "^4.17.21", "q": "^1.5.1" } }, "sha512-4o84y+E7dbif3lMns+p3UW6w6hLHEifbX/7zBJvaih1E9QNMZITENQ14GPYJC4JmhygYXsuuBb9bRA3xWEoOfg=="],
 
     "cloudinary-core": ["cloudinary-core@2.13.1", "", { "peerDependencies": { "lodash": ">=4.0" } }, "sha512-z53GPNWnvU0Zi+ns8CIVbZBfj7ps/++zDvwIyiFuq5p1MoK+KUCg0k5mBceDDHTnx1gHmHUd9aohS+gDxPNt6w=="],
 

@@ -6,9 +6,16 @@ import path from "path"
 function copyFilesPlugin() {
   return {
     name: "copy-files",
-    closeBundle() {
+    writeBundle(options, bundle) {
+      const isSsrBundle = options.dir
+        && options.dir.endsWith("build" + path.sep + "server");
+
+      if(!isSsrBundle) {
+        return;
+      }
+      console.info('Copiando arquivos para build/server');
       const projectRoot = process.cwd();
-      const buildFolder = `${projectRoot}/build/server`;
+      const buildFolder = options.dir;
       const filesToCopy = [
         `${projectRoot}/app/templates/template.html`,
       ]
@@ -21,6 +28,8 @@ function copyFilesPlugin() {
         const fileName = path.basename(file);
         fs.copyFileSync(file, `${buildFolder}/${fileName}`);
       });
+
+      console.info('Arquivos copiados');
     }
   }
 }
