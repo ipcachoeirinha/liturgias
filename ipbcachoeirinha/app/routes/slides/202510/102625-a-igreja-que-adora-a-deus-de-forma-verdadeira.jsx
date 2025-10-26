@@ -259,7 +259,7 @@ export default function SlidePage() {
 <SlideWithBackground>
         <section>
             <MainTitle>A IGREJA QUE ADORA A DEUS DE FORMA VERDADEIRA</MainTitle>
-            <SubTitle></SubTitle>
+            <SubTitle>SE COMPROMETE A VIVÊ-LA</SubTitle>
 
             <LiturgySteps>
                 <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>CANÇÃO: VENHO SENHOR MINHA VIDA OFERECER</LiturgyStep>

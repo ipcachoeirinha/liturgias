@@ -59,7 +59,7 @@ const slides = [
   },
   {
     id: "after-preaching",
-    subtitle: "",
+    subtitle: "SE COMPROMETE A VIVÊ-LA",
     steps: [
       { type: "song", name: "Venho Senhor Minha Vida Oferecer", id: "155" },
       // { type: "supper" },
