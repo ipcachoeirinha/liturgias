@@ -1,10 +1,10 @@
 import { getBibleText } from './functions.js'
 
-const slidesFolder = "202510"
-const date = "102625"
-const slug = "a-igreja-que-adora-a-deus-de-forma-verdadeira"
-const title = "A IGREJA QUE ADORA A DEUS DE FORMA VERDADEIRA"
-const htmlTitle = "A igreja que adora a Deus de forma verdadeira - 26 de Outubro de 2025"
+const slidesFolder = "202511"
+const date = "110125"
+const slug = "uma-igreja-que-ama-ao-senhor"
+const title = "UMA IGREJA QUE AMA AO SENHOR"
+const htmlTitle = "Uma Igreja que ama ao Senhor - 01 de Novembro de 2025"
 const bcwQuestionNumber = 41
 const bcwQuestion = "Onde a lei moral está resumidamente compreendida?"
 const bcwAnswer = [`A lei moral está resumidamente compreendida nos Dez
@@ -13,20 +13,21 @@ Mandamentos.`]
 const slides = [
   {
     id: "worship",
-    subtitle: "O ADORA EM ESPÍRITO E EM VERDADE",
+    subtitle: "LOUVA-O POR CAUSA DO SEU AMOR",
     steps: [
-      { type: "reading", "text": "João 4:23-24" },
-      { type: "song", name: "Em Espirito e em verdade", id: "177" },
+      { type: "unison_reading", "text": "Naum 1.7" },
+      { type: "unison_reading", "text": "Jeremias 31.3" },
+      { type: "song", name: "Ele É Exaltado", id: "177" },
       { type: "worship_prayer" }
     ],
-    songLyrics: "em-espirito-e-em-verdade.txt",
+    songLyrics: "ele-e-exaltado.txt",
     title: title
   },
   {
     id: "confession",
-    subtitle: "VIVE UMA VIDA PURA",
+    subtitle: "CLAMA POR DIVINO FAVOR",
     steps: [
-      { type: "reading", "text": "Efésios 5:3-12" },
+      { type: "alterned_reading", "text": "Obadias 1.11-14" },
       { type: "hymn", name: "Coração Quebrantado", id: "67" },
       { type: "confession_prayer" },
       // { type: "bcw-question", questionNumber: bcwQuestionNumber }
@@ -37,36 +38,36 @@ const slides = [
   },
   {
     id: "offering",
-    subtitle: `TEM SEUS PECADOS PERDOADOS MEDIANTE A FÉ`,
+    subtitle: `AGRADECE COM ALEGRE LOUVOR`,
     steps: [
-      { type: "reading", "text": "Colossenses 3:15-17" },
+      { type: "reading", "text": "1 Pedro 1.3-9" },
       { type: "offering" },
-      { type: "song", name: "Quebrantado", id: "32" },
+      { type: "song", name: "Grande é o Senhor", id: "32" },
       { type: "custom", value: "Oração de Gratidão" }
     ],
-    songLyrics: "quebrantado.txt",
+    songLyrics: "grande-e-o-senhor.txt",
     title: title
   },
   {
     id: "preaching",
-    subtitle: "É INSTRUÍDA POR SUA PALAVRA",
+    subtitle: "ATENTA À PALAVRA COM FERVOR",
     steps: [
-      { type: "preaching", text: "Tiago 1:26-27", speaker: "Sem. Vinícius Genuíno" }
+      { type: "preaching", text: "Cânticos 1.2-4", speaker: "Ev. João Gabriel Machado" }
     ],
     title: title,
     songLyrics: false,
-    text: getBibleText("Tiago 1:26-27")
+    text: getBibleText("Cânticos 1.2-4")
   },
   {
     id: "after-preaching",
-    subtitle: "SE COMPROMETE A VIVÊ-LA",
+    subtitle: "VIVE NA PALAVRA COM VIGOR",
     steps: [
-      { type: "song", name: "Venho Senhor Minha Vida Oferecer", id: "155" },
+      { type: "hymn", name: "A Igreja em Adoração", id: "3" },
       // { type: "supper" },
       { type: "ending_prayer" },
       // { type: "blessings" }
     ],
-    songLyrics: "venho-senhor-minha-vida-oferecer.txt",
+    songLyrics: "3-a-igreja-em-adoracao.txt",
     title: title
   },
   // {
