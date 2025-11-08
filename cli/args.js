@@ -55,7 +55,7 @@ const slides = [
     ],
     title: title,
     songLyrics: false,
-    text: getBibleText("9:13-18 9:13-18")
+    text: getBibleText("Provérbios 9:13-18")
   },
   {
     id: "after-preaching",

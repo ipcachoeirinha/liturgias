@@ -1,12 +1,6 @@
-¹³ A loucura é mulher apaixonada, é ignorante
-  e não sabe coisa alguma.
-¹⁴ Assenta-se à porta de sua casa,
-  nas alturas da cidade, toma uma cadeira,
-¹⁵ para dizer aos que passam
-  e seguem direito o seu caminho:
-¹⁶ Quem é simples, volte-se para aqui.
-  E aos faltos de senso diz:
-¹⁷ As águas roubadas são doces,
-  e o pão comido às ocultas é agradável.
-¹⁸ Eles, porém, não sabem que ali estão os mortos,
-  que os seus convidados estão nas profundezas do inferno.
+¹³ A loucura é mulher apaixonada, é ignorante<br/>e não sabe coisa alguma.
+¹⁴ Assenta-se à porta de sua casa,<br/>nas alturas da cidade, toma uma cadeira,
+¹⁵ para dizer aos que passam<br/>e seguem direito o seu caminho:
+¹⁶ Quem é simples, volte-se para aqui.<br/>E aos faltos de senso diz:
+¹⁷ As águas roubadas são doces,<br/>e o pão comido às ocultas é agradável.
+¹⁸ Eles, porém, não sabem que ali estão os mortos,<br/>que os seus convidados estão nas profundezas do inferno.

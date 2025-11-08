@@ -307,75 +307,39 @@ export default function SlidePage() {
         </section>
         
         <section>
-            <MainTitle>9:13-18 9:13-18</MainTitle>
+            <MainTitle>PROVÉRBIOS 9:13-18</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹³ A loucura é mulher apaixonada, é ignorante</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹³ A loucura é mulher apaixonada, é ignorante<br/>e não sabe coisa alguma.</p>
         </section>
 
         <section>
-            <MainTitle>9:13-18 9:13-18</MainTitle>
+            <MainTitle>PROVÉRBIOS 9:13-18</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>e não sabe coisa alguma.</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁴ Assenta-se à porta de sua casa,<br/>nas alturas da cidade, toma uma cadeira,</p>
         </section>
 
         <section>
-            <MainTitle>9:13-18 9:13-18</MainTitle>
+            <MainTitle>PROVÉRBIOS 9:13-18</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁴ Assenta-se à porta de sua casa,</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁵ para dizer aos que passam<br/>e seguem direito o seu caminho:</p>
         </section>
 
         <section>
-            <MainTitle>9:13-18 9:13-18</MainTitle>
+            <MainTitle>PROVÉRBIOS 9:13-18</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>nas alturas da cidade, toma uma cadeira,</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁶ Quem é simples, volte-se para aqui.<br/>E aos faltos de senso diz:</p>
         </section>
 
         <section>
-            <MainTitle>9:13-18 9:13-18</MainTitle>
+            <MainTitle>PROVÉRBIOS 9:13-18</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁵ para dizer aos que passam</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁷ As águas roubadas são doces,<br/>e o pão comido às ocultas é agradável.</p>
         </section>
 
         <section>
-            <MainTitle>9:13-18 9:13-18</MainTitle>
+            <MainTitle>PROVÉRBIOS 9:13-18</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>e seguem direito o seu caminho:</p>
-        </section>
-
-        <section>
-            <MainTitle>9:13-18 9:13-18</MainTitle>
-            
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁶ Quem é simples, volte-se para aqui.</p>
-        </section>
-
-        <section>
-            <MainTitle>9:13-18 9:13-18</MainTitle>
-            
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>E aos faltos de senso diz:</p>
-        </section>
-
-        <section>
-            <MainTitle>9:13-18 9:13-18</MainTitle>
-            
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁷ As águas roubadas são doces,</p>
-        </section>
-
-        <section>
-            <MainTitle>9:13-18 9:13-18</MainTitle>
-            
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>e o pão comido às ocultas é agradável.</p>
-        </section>
-
-        <section>
-            <MainTitle>9:13-18 9:13-18</MainTitle>
-            
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁸ Eles, porém, não sabem que ali estão os mortos,</p>
-        </section>
-
-        <section>
-            <MainTitle>9:13-18 9:13-18</MainTitle>
-            
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>que os seus convidados estão nas profundezas do inferno.</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁸ Eles, porém, não sabem que ali estão os mortos,<br/>que os seus convidados estão nas profundezas do inferno.</p>
         </section><BackgroundSlide></BackgroundSlide>
     </SlideWithBackground>
     
