@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 export default function Liturgias() {
   return (<div>
     {/* NEXT_LINK */}
+    <Link className="" to="/liturgia/110925-o-deus-de-toda-sabedoria">O Deus de toda sabedoria - 09 de Novembro de 2025</Link> <a className="" href="/liturgia/110925-o-deus-de-toda-sabedoria/download">Download</a><br/>
     <Link className="" to="/liturgia/110125-uma-igreja-que-ama-ao-senhor">Uma Igreja que ama ao Senhor - 01 de Novembro de 2025</Link> <a className="" href="/liturgia/110125-uma-igreja-que-ama-ao-senhor/download">Download</a><br/>
     <Link className="" to="/liturgia/102625-a-igreja-que-adora-a-deus-de-forma-verdadeira">A igreja que adora a Deus de forma verdadeira - 26 de Outubro de 2025</Link> <a className="" href="/liturgia/102625-a-igreja-que-adora-a-deus-de-forma-verdadeira/download">Download</a><br/>
     <Link className="" to="/liturgia/101925-seja-fiel-ate-a-morte">Seja Fiel Até a Morte - 19 de Outubro de 2025</Link> <a className="" href="/liturgia/101925-seja-fiel-ate-a-morte/download">Download</a><br/>

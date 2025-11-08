@@ -1,10 +1,10 @@
 import { getBibleText } from './functions.js'
 
 const slidesFolder = "202511"
-const date = "110125"
-const slug = "uma-igreja-que-ama-ao-senhor"
-const title = "UMA IGREJA QUE AMA AO SENHOR"
-const htmlTitle = "Uma Igreja que ama ao Senhor - 01 de Novembro de 2025"
+const date = "110925"
+const slug = "o-deus-de-toda-sabedoria"
+const title = "O DEUS DE TODA SABEDORIA"
+const htmlTitle = "O Deus de toda sabedoria - 09 de Novembro de 2025"
 const bcwQuestionNumber = 41
 const bcwQuestion = "Onde a lei moral está resumidamente compreendida?"
 const bcwAnswer = [`A lei moral está resumidamente compreendida nos Dez
@@ -13,10 +13,9 @@ Mandamentos.`]
 const slides = [
   {
     id: "worship",
-    subtitle: "LOUVA-O POR CAUSA DO SEU AMOR",
+    subtitle: "É LOUVADO PELA PRONFUNDIDADE DE SUA SABEDORIA E CONHECIMENTO",
     steps: [
-      { type: "unison_reading", "text": "Naum 1.7" },
-      { type: "unison_reading", "text": "Jeremias 31.3" },
+      { type: "alterned_reading", "text": "Romanos 11:33-36" },
       { type: "song", name: "Ele É Exaltado", id: "177" },
       { type: "worship_prayer" }
     ],
@@ -25,49 +24,49 @@ const slides = [
   },
   {
     id: "confession",
-    subtitle: "CLAMA POR DIVINO FAVOR",
+    subtitle: "CONHECE NOSSOS PECADOS E NOS CHAMA AO ARREPENDIMENTO",
     steps: [
-      { type: "alterned_reading", "text": "Obadias 1.11-14" },
-      { type: "hymn", name: "Coração Quebrantado", id: "67" },
+      { type: "reading", "text": "Jeremias 17.5-10" },
+      { type: "song", name: "Bondade de Deus", id: "67" },
       { type: "confession_prayer" },
       // { type: "bcw-question", questionNumber: bcwQuestionNumber }
     ],
     bcw: false, //{ questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
-    songLyrics: "67-coracao-quebrantado.txt",
+    songLyrics: "bondade-de-deus.txt",
     title: title
   },
   {
     id: "offering",
-    subtitle: `AGRADECE COM ALEGRE LOUVOR`,
+    subtitle: `NOS DÁ REDENÇÃO EM CRISTO JESUS`,
     steps: [
-      { type: "reading", "text": "1 Pedro 1.3-9" },
+      { type: "unison_reading", "text": "1 Coríntios 1.30-31" },
       { type: "offering" },
-      { type: "song", name: "Grande é o Senhor", id: "32" },
+      { type: "song", name: "Vim para adorar-te", id: "32" },
       { type: "custom", value: "Oração de Gratidão" }
     ],
-    songLyrics: "grande-e-o-senhor.txt",
+    songLyrics: "vim-para-adorar-te.txt",
     title: title
   },
   {
     id: "preaching",
-    subtitle: "ATENTA À PALAVRA COM FERVOR",
+    subtitle: "EDIFICA SUA IGREJA POR MEIO DE SUA PALAVRA",
     steps: [
-      { type: "preaching", text: "Cânticos 1.2-4", speaker: "Ev. João Gabriel Machado" }
+      { type: "preaching", text: "Provérbios 9:13-18", speaker: "Sem. Vinícius Genuíno" }
     ],
     title: title,
     songLyrics: false,
-    text: getBibleText("Cânticos 1.2-4")
+    text: getBibleText("9:13-18 9:13-18")
   },
   {
     id: "after-preaching",
-    subtitle: "VIVE NA PALAVRA COM VIGOR",
+    subtitle: "NOS ENVIA PARA VIVERMOS EM SEUS CAMINHOS",
     steps: [
-      { type: "hymn", name: "A Igreja em Adoração", id: "3" },
+      { type: "hymn", name: "Rude Cruz", id: "266" },
       // { type: "supper" },
       { type: "ending_prayer" },
       // { type: "blessings" }
     ],
-    songLyrics: "3-a-igreja-em-adoracao.txt",
+    songLyrics: "266-rude-cruz.txt",
     title: title
   },
   // {
