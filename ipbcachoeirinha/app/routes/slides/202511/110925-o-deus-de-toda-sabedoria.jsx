@@ -216,7 +216,84 @@ export default function SlidePage() {
     </SlideWithBackground>
     
 <SlideWithBackground><section className="bg-white dark:bg-black">
-  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12"></p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Luz do mundo vieste à terra</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Pra que eu pudesse te ver</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Tua beleza me leva a adorar-Te</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Contigo quero viver</p>
+</section>
+
+<section className="bg-white dark:bg-black">
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para adorar-Te</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para prostrar-me</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para dizer que és meu Deus</p>
+</section>
+
+<section className="bg-white dark:bg-black">
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">És totalmente amável</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Totalmente digno</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Tão maravilhoso para mim</p>
+</section>
+
+<section className="bg-white dark:bg-black">
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Eterno Rei exaltado nas alturas</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Glorioso nos céus</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Humilde vieste à terra que criaste</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Por amor, pobre se fez</p>
+</section>
+
+<section className="bg-white dark:bg-black">
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para adorar-Te</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para prostrar-me</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para dizer que és meu Deus</p>
+</section>
+
+<section className="bg-white dark:bg-black">
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">És totalmente amável</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Totalmente digno</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Tão maravilhoso para mim</p>
+</section>
+
+<section className="bg-white dark:bg-black">
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para adorar-Te</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para prostrar-me</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para dizer que és meu Deus</p>
+</section>
+
+<section className="bg-white dark:bg-black">
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">És totalmente amável</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Totalmente digno</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Tão maravilhoso para mim</p>
+</section>
+
+<section className="bg-white dark:bg-black">
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Eu nunca saberei o preço</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Dos meus pecados lá na cruz</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Eu nunca saberei o preço</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Dos meus pecados lá na cruz</p>
+</section>
+
+<section className="bg-white dark:bg-black">
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para adorar-Te</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para prostrar-me</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para dizer que és meu Deus</p>
+</section>
+
+<section className="bg-white dark:bg-black">
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">És totalmente amável</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Totalmente digno</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Tão maravilhoso para mim</p>
+</section>
+
+<section className="bg-white dark:bg-black">
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para adorar-Te</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para prostrar-me</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vim para dizer que és meu Deus</p>
+</section>
+
+<section className="bg-white dark:bg-black">
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">És totalmente amável</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Totalmente digno</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Tão maravilhoso para mim</p>
 </section></SlideWithBackground>
 
 <SlideWithBackground>
