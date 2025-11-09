@@ -309,37 +309,37 @@ export default function SlidePage() {
         <section>
             <MainTitle>PROVÉRBIOS 9:13-18</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹³ A loucura é mulher apaixonada, é ignorante<br/>e não sabe coisa alguma.</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹³ A loucura é mulher apaixonada, é ignorante e não sabe coisa alguma.</p>
         </section>
 
         <section>
             <MainTitle>PROVÉRBIOS 9:13-18</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁴ Assenta-se à porta de sua casa,<br/>nas alturas da cidade, toma uma cadeira,</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁴ Assenta-se à porta de sua casa, nas alturas da cidade, toma uma cadeira,</p>
         </section>
 
         <section>
             <MainTitle>PROVÉRBIOS 9:13-18</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁵ para dizer aos que passam<br/>e seguem direito o seu caminho:</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁵ para dizer aos que passam e seguem direito o seu caminho:</p>
         </section>
 
         <section>
             <MainTitle>PROVÉRBIOS 9:13-18</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁶ Quem é simples, volte-se para aqui.<br/>E aos faltos de senso diz:</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁶ Quem é simples, volte-se para aqui. E aos faltos de senso diz:</p>
         </section>
 
         <section>
             <MainTitle>PROVÉRBIOS 9:13-18</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁷ As águas roubadas são doces,<br/>e o pão comido às ocultas é agradável.</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁷ As águas roubadas são doces, e o pão comido às ocultas é agradável.</p>
         </section>
 
         <section>
             <MainTitle>PROVÉRBIOS 9:13-18</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁸ Eles, porém, não sabem que ali estão os mortos,<br/>que os seus convidados estão nas profundezas do inferno.</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁸ Eles, porém, não sabem que ali estão os mortos, que os seus convidados estão nas profundezas do inferno.</p>
         </section><BackgroundSlide></BackgroundSlide>
     </SlideWithBackground>
     
