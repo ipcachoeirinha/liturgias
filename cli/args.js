@@ -60,7 +60,7 @@ const slides = [
   },
   {
     id: "after-preaching",
-    subtitle: "NOS ENVIA PARA VIVERMOS EM SEUS CAMINHOS",
+    subtitle: "",
     steps: [
       { type: "song", name: "63", id: "266" },
       // { type: "supper" },
