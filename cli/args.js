@@ -65,7 +65,7 @@ const slides = [
       { type: "song", name: "63", id: "266" },
       // { type: "supper" },
       { type: "ending_prayer" },
-      // { type: "blessings" }
+      { type: "blessings" }
     ],
     songLyrics: "63.txt",
     title: title
