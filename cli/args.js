@@ -1,72 +1,73 @@
 import { getBibleText } from './functions.js'
 
 const slidesFolder = "202511"
-const date = "110925"
-const slug = "o-deus-de-toda-sabedoria"
-const title = "O DEUS DE TODA SABEDORIA"
-const htmlTitle = "O Deus de toda sabedoria - 09 de Novembro de 2025"
-const bcwQuestionNumber = 41
-const bcwQuestion = "Onde a lei moral está resumidamente compreendida?"
-const bcwAnswer = [`A lei moral está resumidamente compreendida nos Dez
-Mandamentos.`]
+const date = "111625"
+const slug = "uma-igreja-vitoriosa"
+const title = "UMA IGREJA VITORIOSA"
+const htmlTitle = "Uma igreja vitoriosa - 16 de Novembro de 2025"
+const bcwQuestionNumber = 42
+const bcwQuestion = "Em que se resumem os Dez Mandamentos?"
+const bcwAnswer = [`Os dez mandamentos se resumem em amar ao Senhor nosso Deus
+de todo o nosso coração, de toda a nossa alma, de todas as nossas forças e de todo o nosso
+entendimento; e ao nosso próximo como a nós mesmos.`]
 
 const slides = [
   {
     id: "worship",
-    subtitle: "É LOUVADO PELA PRONFUNDIDADE DE SUA SABEDORIA E CONHECIMENTO",
+    subtitle: "ADORA AO SENHOR COM MUITA ALEGRIA",
     steps: [
-      { type: "alterned_reading", "text": "Romanos 11:33-36" },
-      { type: "song", name: "Ele É Exaltado", id: "177" },
+      { type: "alterned_reading", "text": "Salmo 96" },
+      { type: "hymn", name: "Trindade Santíssima", id: "11" },
       { type: "worship_prayer" }
     ],
-    songLyrics: "ele-e-exaltado.txt",
+    songLyrics: "11-trindade-santissima.txt",
     title: title
   },
   {
     id: "confession",
-    subtitle: "CONHECE NOSSOS PECADOS E NOS CHAMA AO ARREPENDIMENTO",
+    subtitle: "RECONHECE SEUS PECADOS E MAZELAS E OS CONFESSAM AO SENHOR",
     steps: [
-      { type: "reading", "text": "Jeremias 17.5-10" },
-      { type: "song", name: "Bondade de Deus", id: "67" },
+      { type: "unison_reading", "text": "Apocalipse 19.11-16" },
+      { type: "song", name: "Santo para sempre", id: "67" },
       { type: "confession_prayer" },
-      // { type: "bcw-question", questionNumber: bcwQuestionNumber }
+      { type: "bcw-question", questionNumber: bcwQuestionNumber }
     ],
-    bcw: false, //{ questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
-    songLyrics: "bondade-de-deus.txt",
+    bcw: { questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
+    songLyrics: "santo-pra-sempre.txt",
     title: title
   },
   {
     id: "offering",
-    subtitle: `NOS DÁ REDENÇÃO EM CRISTO JESUS`,
+    subtitle: `TEM PRAZER EM CELEBRAR AO SENHOR COM SEUS DÍZIMOS E OFERTAS`,
     steps: [
-      { type: "unison_reading", "text": "1 Coríntios 1.30-31" },
+      { type: "reading", "text": "Salmo 100" },
       { type: "offering" },
-      { type: "song", name: "Vim para adorar-te", id: "32" },
+      { type: "song", name: "Rei das Nações", id: "32" },
       { type: "custom", value: "Oração de Gratidão" }
     ],
-    songLyrics: "vim-para-adorar-te.txt",
+    songLyrics: "rei-das-nacoes.txt",
     title: title
   },
   {
     id: "preaching",
-    subtitle: "EDIFICA SUA IGREJA POR MEIO DE SUA PALAVRA",
+    subtitle: "ESPERA ARDENTEMENTE PELAS PALAVRAS DE VIDA ETERNA",
     steps: [
-      { type: "preaching", text: "Provérbios 9:13-18", speaker: "Sem. Vinícius Genuíno" }
+      { type: "preaching", text: "Salmo 149", speaker: "Rev. Marcos Santana" }
     ],
     title: title,
     songLyrics: false,
-    text: getBibleText("Provérbios 9:13-18")
+    text: getBibleText("Salmo 149")
   },
   {
     id: "after-preaching",
     subtitle: "NOS ENVIA PARA VIVERMOS EM SEUS CAMINHOS",
     steps: [
-      { type: "hymn", name: "Rude Cruz", id: "266" },
+      { type: "song", name: "63", id: "266" },
       // { type: "supper" },
       { type: "ending_prayer" },
       // { type: "blessings" }
     ],
-    songLyrics: "266-rude-cruz.txt",
+    songLyrics: "63.txt",
     title: title
   },
   // {
