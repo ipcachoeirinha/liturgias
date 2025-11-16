@@ -392,11 +392,12 @@ entendimento; e ao nosso próximo como a nós mesmos.</p>
 <SlideWithBackground>
         <section>
             <MainTitle>UMA IGREJA VITORIOSA</MainTitle>
-            <SubTitle>NOS ENVIA PARA VIVERMOS EM SEUS CAMINHOS</SubTitle>
+            <SubTitle></SubTitle>
 
             <LiturgySteps>
                 <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>CANÇÃO: 63</LiturgyStep>
 <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.ending_prayer}></LiturgyStep>
+<LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.blessings}></LiturgyStep>
             </LiturgySteps>
         </section>
         
