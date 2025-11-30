@@ -1,21 +1,22 @@
 import { getBibleText } from './functions.js'
 
 const slidesFolder = "202511"
-const date = "112325"
-const slug = "uma-igreja-madura-em-cristo"
-const title = "UMA IGREJA MADURA EM CRISTO"
-const htmlTitle = "Uma igreja madura em Cristo - 23 de Novembro de 2025"
-const bcwQuestionNumber = 43
-const bcwQuestion = "Qual é o prefácio dos dez mandamentos?"
-const bcwAnswer = [`O prefácio dos dez mandamentos é: “Eu sou o Senhor teu Deus, que te tirei da
-terra do Egito, da casa da servidão”.`]
+const date = "113025"
+const slug = "uma-igreja-que-honra-seu-proximo"
+const title = "UMA IGREJA QUE HONRA SEU PRÓXIMO"
+const htmlTitle = "Uma igreja que honra seu próximo - 30 de Novembro de 2025"
+const bcwQuestionNumber = 44
+const bcwQuestion = "O que nos ensina o prefácio dos Dez Mandamentos?"
+const bcwAnswer = [`O prefácio dos Dez Mandamentos ensina-nos que nós
+temos a obrigação de guardar todos os mandamentos de Deus, por
+ser ele o Senhor nosso Deus e nosso Redentor.`]
 
 const slides = [
   {
     id: "worship",
-    subtitle: "SABE QUE SOMENTE O SENHOR É DIGNO DE TODA ADORAÇÃO",
+    subtitle: "ADORA AO SENHOR DE FORMA UNÍSSONA",
     steps: [
-      { type: "alterned_reading", "text": "Salmo 98" },
+      { type: "unison_reading", "text": "Salmo 148" },
       { type: "song", name: "Ajuntamento", id: "11" },
       { type: "worship_prayer" }
     ],
@@ -24,9 +25,9 @@ const slides = [
   },
   {
     id: "confession",
-    subtitle: "RECONHECE OS SEUS PECADOS E CONFESSA-OS AO SENHOR",
+    subtitle: "CONFESSA SUA DISPLICÊNCIA EM AMAR AS AUTORIDADES",
     steps: [
-      { type: "unison_reading", "text": "Hebreus 5.11-14" },
+      { type: "reading", "text": "Mateus 15.1-9" },
       { type: "hymn", name: "Coração Quebrantado", id: "67" },
       { type: "confession_prayer" },
       { type: "bcw-question", questionNumber: bcwQuestionNumber }
@@ -37,57 +38,57 @@ const slides = [
   },
   {
     id: "offering",
-    subtitle: `CELEBRA AO SENHOR COM SEUS DIZÍMOS E OFERTAS`,
+    subtitle: `É AGRADECIDO A DEUS PELA INSTRUÇÃO PATERNAL`,
     steps: [
-      { type: "reading", "text": "Provérbios 3.9-10" },
+      { type: "reading", "text": "Salmo 78.4" },
       { type: "offering" },
-      { type: "song", name: "63", id: "32" },
+      { type: "hymn", name: "A igreja em Adoração", id: "3" },
       { type: "custom", value: "Oração de Gratidão" }
     ],
-    songLyrics: "63.txt",
+    songLyrics: "3-a-igreja-em-adoracao.txt",
     title: title
   },
   {
     id: "preaching",
-    subtitle: "TEM UM CORAÇÃO DISPOSTO PARA O ENSINO ETERNO DA PALAVRA DE DEUS",
+    subtitle: "OUVE O CONSELHO DA PALAVRA DE DEUS",
     steps: [
-      { type: "preaching", text: "1 Coríntios 3.1-9", speaker: "Rev. Marcos Santana" }
+      { type: "preaching", text: "", speaker: "Ev. João Machado" }
     ],
     title: title,
     songLyrics: false,
-    text: getBibleText("1 Coríntios 3.1-9")
+    text: getBibleText("")
   },
   {
     id: "after-preaching",
     subtitle: "",
     steps: [
-      { type: "song", name: "Venho Senhor minha vida oferecer", id: "266" },
-      { type: "supper" },
+      { type: "song", name: "Corpo e Família", id: "266" },
+      // { type: "supper" },
       { type: "ending_prayer" },
-      { type: "blessings" }
+      // { type: "blessings" }
     ],
-    songLyrics: "venho-senhor-minha-vida-oferecer.txt",
+    songLyrics: "corpo-e-familia.txt",
     title: title
   },
-  {
-    id: "supper",
-    subtitle: "",
-    steps: [
+  // {
+  //   id: "supper",
+  //   subtitle: "",
+  //   steps: [
 
-    ],
-    songLyrics: "por-amor.txt",
-    title: "Santa Ceia"
-  },
-  {
-    id: "after-supper",
-    subtitle: "",
-    steps: [
-      { type: "ending_prayer" },
-      { type: "blessings" }
-    ],
-    songLyrics: false,
-    title: title
-  },
+  //   ],
+  //   songLyrics: "por-amor.txt",
+  //   title: "Santa Ceia"
+  // },
+  // {
+  //   id: "after-supper",
+  //   subtitle: "",
+  //   steps: [
+  //     { type: "ending_prayer" },
+  //     { type: "blessings" }
+  //   ],
+  //   songLyrics: false,
+  //   title: title
+  // },
 ]
 
 const assets = [

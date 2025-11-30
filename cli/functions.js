@@ -175,6 +175,14 @@ export function prepareLyrics(lyrics) {
 }
 
 export function getBibleText(ref) {
+    if(ref === "") {
+        return [
+            {
+                ref: "",
+                text: [""]
+        }]
+    }
+
     const text = fs.readFileSync("./bible-text.txt", { encoding: "utf-8" })
     const textAsArray = text.split("\n").filter(t => t.trim().length > 0).map(t => {
         return {
