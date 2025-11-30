@@ -192,7 +192,7 @@ ser ele o Senhor nosso Deus e nosso Redentor.</p>
             <SubTitle>É AGRADECIDO A DEUS PELA INSTRUÇÃO PATERNAL</SubTitle>
 
             <LiturgySteps>
-                <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.reading}>: SALMO 78.4</LiturgyStep>
+                <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.unison_reading}>: SALMO 78.4</LiturgyStep>
 <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.offering}></LiturgyStep>
 <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: A IGREJA EM ADORAÇÃO, nº 3</LiturgyStep>
 <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>ORAÇÃO DE GRATIDÃO</LiturgyStep>
@@ -249,7 +249,7 @@ ser ele o Senhor nosso Deus e nosso Redentor.</p>
             <SubTitle>OUVE O CONSELHO DA PALAVRA DE DEUS</SubTitle>
 
             <LiturgySteps>
-                <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.preaching}>:  (Ev. João Machado)</LiturgyStep>
+                <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.preaching}>: UMA IGREJA QUE HONRA SEU PRÓXIMO (Ev. João Machado)</LiturgyStep>
             </LiturgySteps>
         </section>
         

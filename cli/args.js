@@ -40,7 +40,7 @@ const slides = [
     id: "offering",
     subtitle: `É AGRADECIDO A DEUS PELA INSTRUÇÃO PATERNAL`,
     steps: [
-      { type: "reading", "text": "Salmo 78.4" },
+      { type: "unison_reading", "text": "Salmo 78.4" },
       { type: "offering" },
       { type: "hymn", name: "A igreja em Adoração", id: "3" },
       { type: "custom", value: "Oração de Gratidão" }
@@ -52,7 +52,7 @@ const slides = [
     id: "preaching",
     subtitle: "OUVE O CONSELHO DA PALAVRA DE DEUS",
     steps: [
-      { type: "preaching", text: "", speaker: "Ev. João Machado" }
+      { type: "preaching", text: "UMA IGREJA QUE HONRA SEU PRÓXIMO", speaker: "Ev. João Machado" }
     ],
     title: title,
     songLyrics: false,
