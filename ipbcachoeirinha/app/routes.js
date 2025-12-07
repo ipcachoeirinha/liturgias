@@ -7,6 +7,8 @@ const routes = [
     route("/liturgias", "routes/liturgias.jsx"),
     
     // SLIDE_ROUTES
+    route("/liturgia/120725-jesus-nasceu-em-seu-coracao", "routes/slides/202512/120725-jesus-nasceu-em-seu-coracao.jsx"),
+    route("/liturgia/120725-jesus-nasceu-em-seu-coracao/download", "routes/slides/202512/120725-jesus-nasceu-em-seu-coracao.download.jsx"),
     route("/liturgia/113025-uma-igreja-que-honra-seu-proximo", "routes/slides/202511/113025-uma-igreja-que-honra-seu-proximo.jsx"),
     route("/liturgia/113025-uma-igreja-que-honra-seu-proximo/download", "routes/slides/202511/113025-uma-igreja-que-honra-seu-proximo.download.jsx"),
     route("/liturgia/112325-uma-igreja-madura-em-cristo", "routes/slides/202511/112325-uma-igreja-madura-em-cristo.jsx"),

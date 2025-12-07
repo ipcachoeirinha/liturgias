@@ -1,94 +1,97 @@
 import { getBibleText } from './functions.js'
 
-const slidesFolder = "202511"
-const date = "113025"
-const slug = "uma-igreja-que-honra-seu-proximo"
-const title = "UMA IGREJA QUE HONRA SEU PRÓXIMO"
-const htmlTitle = "Uma igreja que honra seu próximo - 30 de Novembro de 2025"
-const bcwQuestionNumber = 44
-const bcwQuestion = "O que nos ensina o prefácio dos Dez Mandamentos?"
-const bcwAnswer = [`O prefácio dos Dez Mandamentos ensina-nos que nós
-temos a obrigação de guardar todos os mandamentos de Deus, por
-ser ele o Senhor nosso Deus e nosso Redentor.`]
+const slidesFolder = "202512"
+const date = "120725"
+const slug = "jesus-nasceu-em-seu-coracao"
+const title = "JESUS NASCEU EM SEU CORAÇÃO?"
+const htmlTitle = "Jesus nasceu em seu coração? - 7 de Dezembro de 2025"
+const bcwQuestionNumber = 45
+const bcwQuestion = "Qual é o primeiro mandamento?"
+const bcwAnswer = [`O primeiro mandamento é: “Não terás outros deuses diante
+de mim”.`]
 
 const slides = [
   {
     id: "worship",
-    subtitle: "ADORA AO SENHOR DE FORMA UNÍSSONA",
+    subtitle: "SE JESUS NASCEU EM SEU CORAÇÃO, VOCÊ É CHAMADO A VIVER EM CONSTANTE ADORAÇÃO",
     steps: [
-      { type: "unison_reading", "text": "Salmo 148" },
-      { type: "song", name: "Ajuntamento", id: "11" },
+      { type: "alterned_reading", "text": "Isaías 9.6-7" },
+      { type: "hymn", name: "Adoração", id: "230" },
       { type: "worship_prayer" }
     ],
-    songLyrics: "ajuntamento.txt",
+    songLyrics: "230-adoracao.txt",
     title: title
   },
   {
     id: "confession",
-    subtitle: "CONFESSA SUA DISPLICÊNCIA EM AMAR AS AUTORIDADES",
+    subtitle: `SE JESUS NASCEU EM SEU CORAÇÃO, VOCÊ RECONHECERÁ QUE TENS
+COMETIDO PECADO CONTRA O SENHOR, MAS ELE É FIEL E JUSTO PARA
+NOS PERDOAR`,
     steps: [
-      { type: "reading", "text": "Mateus 15.1-9" },
-      { type: "hymn", name: "Coração Quebrantado", id: "67" },
+      { type: "reading", "text": "1 João 1.5-10" },
+      { type: "unison_reading", "text": "Gênesis 3.15" },
+      { type: "hymn", name: "Perdão", id: "71" },
       { type: "confession_prayer" },
       { type: "bcw-question", questionNumber: bcwQuestionNumber }
     ],
     bcw: { questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
-    songLyrics: "67-coracao-quebrantado.txt",
+    songLyrics: "71-perdao.txt",
     title: title
   },
   {
     id: "offering",
-    subtitle: `É AGRADECIDO A DEUS PELA INSTRUÇÃO PATERNAL`,
+    subtitle: `SE JESUS NASCEU EM SEU CORAÇÃO, VOCÊ DEMONSTRARÁ
+GRATIDÃO COM TUDO QUE TENS`,
     steps: [
-      { type: "unison_reading", "text": "Salmo 78.4" },
+      { type: "unison_reading", "text": "Provérbios 3.9-10" },
       { type: "offering" },
-      { type: "hymn", name: "A igreja em Adoração", id: "3" },
+      { type: "song", name: "Ele É Exaltado", id: "3" },
       { type: "custom", value: "Oração de Gratidão" }
     ],
-    songLyrics: "3-a-igreja-em-adoracao.txt",
+    songLyrics: "ele-e-exaltado.txt",
     title: title
   },
   {
     id: "preaching",
-    subtitle: "OUVE O CONSELHO DA PALAVRA DE DEUS",
+    subtitle: `SE JESUS NASCEU EM SEU CORAÇÃO, VOCÊ É ALIMENTADO
+CONSTANTEMENTE POR SUA PALAVRA`,
     steps: [
-      { type: "preaching", text: "UMA IGREJA QUE HONRA SEU PRÓXIMO", speaker: "Ev. João Machado" }
+      { type: "preaching", text: "Lucas 2.8-20", speaker: "Rev. Marcos Santana" }
     ],
     title: title,
     songLyrics: false,
-    text: getBibleText("")
+    text: getBibleText("Lucas 2.8-20")
   },
   {
     id: "after-preaching",
     subtitle: "",
     steps: [
-      { type: "song", name: "Corpo e Família", id: "266" },
+      { type: "song", name: "Vida aos sepulcros", id: "266" },
       // { type: "supper" },
+      { type: "custom", value: "Santa Ceia e recepção de novos membros" },
       { type: "ending_prayer" },
-      // { type: "blessings" }
+      { type: "blessings" }
     ],
-    songLyrics: "corpo-e-familia.txt",
+    songLyrics: "vida-aos-sepulcros.txt",
     title: title
   },
-  // {
-  //   id: "supper",
-  //   subtitle: "",
-  //   steps: [
-
-  //   ],
-  //   songLyrics: "por-amor.txt",
-  //   title: "Santa Ceia"
-  // },
-  // {
-  //   id: "after-supper",
-  //   subtitle: "",
-  //   steps: [
-  //     { type: "ending_prayer" },
-  //     { type: "blessings" }
-  //   ],
-  //   songLyrics: false,
-  //   title: title
-  // },
+  {
+    id: "supper",
+    subtitle: "",
+    steps: [],
+    songLyrics: "digno-e-o-senhor-versao-2.txt",
+    title: "Santa Ceia"
+  },
+  {
+    id: "after-supper",
+    subtitle: "",
+    steps: [
+      { type: "ending_prayer" },
+      { type: "blessings" }
+    ],
+    songLyrics: false,
+    title: title
+  },
 ]
 
 const assets = [
