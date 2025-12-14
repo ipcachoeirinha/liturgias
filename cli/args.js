@@ -1,21 +1,22 @@
 import { getBibleText } from './functions.js'
 
 const slidesFolder = "202512"
-const date = "120725"
-const slug = "jesus-nasceu-em-seu-coracao"
-const title = "JESUS NASCEU EM SEU CORAÇÃO?"
-const htmlTitle = "Jesus nasceu em seu coração? - 7 de Dezembro de 2025"
-const bcwQuestionNumber = 45
-const bcwQuestion = "Qual é o primeiro mandamento?"
-const bcwAnswer = [`O primeiro mandamento é: “Não terás outros deuses diante
-de mim”.`]
+const date = "121425"
+const slug = "natal-a-luz-do-cristo-ressuscitado"
+const title = "NATAL À LUZ DO CRISTO RESSUSCITADO"
+const htmlTitle = "Natal à Luz do Cristo Ressuscitado - 14 de Dezembro de 2025"
+const bcwQuestionNumber = 46
+const bcwQuestion = "O que exige o primeiro mandamento?"
+const bcwAnswer = [`O primeiro mandamento exige de nós conhecer e
+reconhecer a Deus como único Deus verdadeiro e nosso Deus, e como
+tal adorá-lo.`]
 
 const slides = [
   {
     id: "worship",
-    subtitle: "SE JESUS NASCEU EM SEU CORAÇÃO, VOCÊ É CHAMADO A VIVER EM CONSTANTE ADORAÇÃO",
+    subtitle: "ADORAMOS AO CRISTO RESSUSCITADO COM CONSTANTE ALEGRIA",
     steps: [
-      { type: "alterned_reading", "text": "Isaías 9.6-7" },
+      { type: "alterned_reading", "text": "Lucas 2.8-20" },
       { type: "hymn", name: "Adoração", id: "230" },
       { type: "worship_prayer" }
     ],
@@ -24,12 +25,11 @@ const slides = [
   },
   {
     id: "confession",
-    subtitle: `SE JESUS NASCEU EM SEU CORAÇÃO, VOCÊ RECONHECERÁ QUE TENS
-COMETIDO PECADO CONTRA O SENHOR, MAS ELE É FIEL E JUSTO PARA
-NOS PERDOAR`,
+    subtitle: `O CRISTO RESSUSCITADO PAGOU UM ALTO PREÇO POR NOSSOS
+PECADOS. SOMENTE POR ELE PODEMOS RECEBER O PERDÃO PELOS
+NOSSOS PECADOS`,
     steps: [
-      { type: "reading", "text": "1 João 1.5-10" },
-      { type: "unison_reading", "text": "Gênesis 3.15" },
+      { type: "reading", "text": "João 2.23-25" },
       { type: "hymn", name: "Perdão", id: "71" },
       { type: "confession_prayer" },
       { type: "bcw-question", questionNumber: bcwQuestionNumber }
@@ -40,58 +40,57 @@ NOS PERDOAR`,
   },
   {
     id: "offering",
-    subtitle: `SE JESUS NASCEU EM SEU CORAÇÃO, VOCÊ DEMONSTRARÁ
-GRATIDÃO COM TUDO QUE TENS`,
+    subtitle: `ADORAMOS AO CRISTO RESSUSCITADO COM TUDO QUE TEMOS,
+POIS RECONHECEMOS QUE A NOSSA VIDA PERTENCE A ELE`,
     steps: [
-      { type: "unison_reading", "text": "Provérbios 3.9-10" },
+      { type: "unison_reading", "text": "João 2.13-22" },
       { type: "offering" },
-      { type: "song", name: "Ele É Exaltado", id: "3" },
+      { type: "song", name: "Bom estarmos aqui", id: "3" },
       { type: "custom", value: "Oração de Gratidão" }
     ],
-    songLyrics: "ele-e-exaltado.txt",
+    songLyrics: "bom-estarmos-aqui.txt",
     title: title
   },
   {
     id: "preaching",
-    subtitle: `SE JESUS NASCEU EM SEU CORAÇÃO, VOCÊ É ALIMENTADO
-CONSTANTEMENTE POR SUA PALAVRA`,
+    subtitle: `SOMOS ALIMENTADOS CONSTANTEMENTE PELA PALAVRA DO
+SENHOR`,
     steps: [
-      { type: "preaching", text: "Lucas 2.8-20", speaker: "Rev. Marcos Santana" }
+      { type: "preaching", text: "João 20.11-18", speaker: "Sem. Taison Dorneles" }
     ],
     title: title,
     songLyrics: false,
-    text: getBibleText("Lucas 2.8-20")
+    text: getBibleText("João 20.11-18")
   },
   {
     id: "after-preaching",
     subtitle: "",
     steps: [
-      { type: "song", name: "Vida aos sepulcros", id: "266" },
+      { type: "song", name: "Nas Estrelas", id: "266" },
       // { type: "supper" },
-      { type: "custom", value: "Santa Ceia e recepção de novos membros" },
       { type: "ending_prayer" },
-      { type: "blessings" }
+      // { type: "blessings" }
     ],
-    songLyrics: "vida-aos-sepulcros.txt",
+    songLyrics: "nas-estrelas.txt",
     title: title
   },
-  {
-    id: "supper",
-    subtitle: "",
-    steps: [],
-    songLyrics: "digno-e-o-senhor-versao-2.txt",
-    title: "Santa Ceia"
-  },
-  {
-    id: "after-supper",
-    subtitle: "",
-    steps: [
-      { type: "ending_prayer" },
-      { type: "blessings" }
-    ],
-    songLyrics: false,
-    title: title
-  },
+  // {
+  //   id: "supper",
+  //   subtitle: "",
+  //   steps: [],
+  //   songLyrics: "digno-e-o-senhor-versao-2.txt",
+  //   title: "Santa Ceia"
+  // },
+  // {
+  //   id: "after-supper",
+  //   subtitle: "",
+  //   steps: [
+  //     { type: "ending_prayer" },
+  //     { type: "blessings" }
+  //   ],
+  //   songLyrics: false,
+  //   title: title
+  // },
 ]
 
 const assets = [
