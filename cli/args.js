@@ -44,7 +44,7 @@ PUDÉSSEMOS TER VIDA E RECEBER O FRUTO DO ESPÍRITO`,
     subtitle: `A MENSAGEM DE REDENÇÃO NOS LEVA À GRATIDÃO, POIS
 RECONHECEMOS QUE TUDO QUE TEMOS VEM DO SENHOR`,
     steps: [
-      { type: "unison_reading", "text": "" },
+      { type: "unison_reading", "text": "Provérbios 3.9-10" },
       { type: "offering" },
       { type: "hymn", name: "O Primeiro Natal", id: "231" },
       { type: "custom", value: "Oração de Gratidão" }
