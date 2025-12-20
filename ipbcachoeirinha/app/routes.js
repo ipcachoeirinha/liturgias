@@ -7,6 +7,8 @@ const routes = [
     route("/liturgias", "routes/liturgias.jsx"),
     
     // SLIDE_ROUTES
+    route("/liturgia/122125-natal-a-mensagem-de-redencao-para-os-filhos-de-deus", "routes/slides/202512/122125-natal-a-mensagem-de-redencao-para-os-filhos-de-deus.jsx"),
+    route("/liturgia/122125-natal-a-mensagem-de-redencao-para-os-filhos-de-deus/download", "routes/slides/202512/122125-natal-a-mensagem-de-redencao-para-os-filhos-de-deus.download.jsx"),
     route("/liturgia/121425-natal-a-luz-do-cristo-ressuscitado", "routes/slides/202512/121425-natal-a-luz-do-cristo-ressuscitado.jsx"),
     route("/liturgia/121425-natal-a-luz-do-cristo-ressuscitado/download", "routes/slides/202512/121425-natal-a-luz-do-cristo-ressuscitado.download.jsx"),
     route("/liturgia/120725-jesus-nasceu-em-seu-coracao", "routes/slides/202512/120725-jesus-nasceu-em-seu-coracao.jsx"),

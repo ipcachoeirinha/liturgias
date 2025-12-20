@@ -1,22 +1,23 @@
 import { getBibleText } from './functions.js'
 
 const slidesFolder = "202512"
-const date = "121425"
-const slug = "natal-a-luz-do-cristo-ressuscitado"
-const title = "NATAL À LUZ DO CRISTO RESSUSCITADO"
-const htmlTitle = "Natal à Luz do Cristo Ressuscitado - 14 de Dezembro de 2025"
-const bcwQuestionNumber = 46
-const bcwQuestion = "O que exige o primeiro mandamento?"
-const bcwAnswer = [`O primeiro mandamento exige de nós conhecer e
-reconhecer a Deus como único Deus verdadeiro e nosso Deus, e como
-tal adorá-lo.`]
+const date = "122125"
+const slug = "natal-a-mensagem-de-redencao-para-os-filhos-de-deus"
+const title = "NATAL, A MENSAGEM DE REDENÇÃO PARA OS FILHOS DE DEUS"
+const htmlTitle = "Natal, A Mensagem de Redenção para os Filhos de Deus - 21 de Dezembro de 2025"
+const bcwQuestionNumber = 47
+const bcwQuestion = "O que o primeiro mandamento proíbe?"
+const bcwAnswer = [`O primeiro mandamento proíbe negar, deixar de adorar ou
+glorificar ao verdadeiro Deus, como Deus, e nosso Deus, e dar a
+qualquer outro a adoração e a glória que só a ele são devidas.`]
 
 const slides = [
   {
     id: "worship",
-    subtitle: "ADORAMOS AO CRISTO RESSUSCITADO COM CONSTANTE ALEGRIA",
+    subtitle: `A MENSAGEM DE REDENÇÃO NOS TROUXE VIDA EM CRISTO, POR
+ISSO ADORAMOS COM CONSTANTE ALEGRIA`,
     steps: [
-      { type: "alterned_reading", "text": "Lucas 2.8-20" },
+      { type: "alterned_reading", "text": "Salmo 19" },
       { type: "hymn", name: "Adoração", id: "230" },
       { type: "worship_prayer" }
     ],
@@ -25,30 +26,30 @@ const slides = [
   },
   {
     id: "confession",
-    subtitle: `O CRISTO RESSUSCITADO PAGOU UM ALTO PREÇO POR NOSSOS
-PECADOS. SOMENTE POR ELE PODEMOS RECEBER O PERDÃO PELOS
-NOSSOS PECADOS`,
+    subtitle: `A MENSAGEM DE REDENÇÃO NOS LEMBRA QUE ESTÁVAMOS PERDIDOS
+SEM O SENHOR, MAS ELE NOS ENVIOU O SEU ÚNICO FILHO PARA QUE
+PUDÉSSEMOS TER VIDA E RECEBER O FRUTO DO ESPÍRITO`,
     steps: [
-      { type: "reading", "text": "João 2.23-25" },
-      { type: "hymn", name: "Perdão", id: "71" },
+      { type: "alterned_reading", "text": "Gálatas 5.16-26" },
+      { type: "song", name: "O Amor de Deus (Logo Eu)", id: "71" },
       { type: "confession_prayer" },
       { type: "bcw-question", questionNumber: bcwQuestionNumber }
     ],
     bcw: { questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
-    songLyrics: "71-perdao.txt",
+    songLyrics: "o-amor-de-deus-logo-eu.txt",
     title: title
   },
   {
     id: "offering",
-    subtitle: `ADORAMOS AO CRISTO RESSUSCITADO COM TUDO QUE TEMOS,
-POIS RECONHECEMOS QUE A NOSSA VIDA PERTENCE A ELE`,
+    subtitle: `A MENSAGEM DE REDENÇÃO NOS LEVA À GRATIDÃO, POIS
+RECONHECEMOS QUE TUDO QUE TEMOS VEM DO SENHOR`,
     steps: [
-      { type: "unison_reading", "text": "João 2.13-22" },
+      { type: "unison_reading", "text": "" },
       { type: "offering" },
-      { type: "song", name: "Bom estarmos aqui", id: "3" },
+      { type: "hymn", name: "O Primeiro Natal", id: "231" },
       { type: "custom", value: "Oração de Gratidão" }
     ],
-    songLyrics: "bom-estarmos-aqui.txt",
+    songLyrics: "231-o-primeiro-natal.txt",
     title: title
   },
   {
@@ -56,22 +57,22 @@ POIS RECONHECEMOS QUE A NOSSA VIDA PERTENCE A ELE`,
     subtitle: `SOMOS ALIMENTADOS CONSTANTEMENTE PELA PALAVRA DO
 SENHOR`,
     steps: [
-      { type: "preaching", text: "João 20.11-18", speaker: "Sem. Taison Dorneles" }
+      { type: "preaching", text: "Gálatas 4.1-7", speaker: "Rev. Marcos Santana" }
     ],
     title: title,
     songLyrics: false,
-    text: getBibleText("João 20.11-18")
+    text: getBibleText("Gálatas 4.1-7")
   },
   {
     id: "after-preaching",
     subtitle: "",
     steps: [
-      { type: "song", name: "Nas Estrelas", id: "266" },
+      { type: "song", name: "Vasos Quebrados", id: "266" },
       // { type: "supper" },
       { type: "ending_prayer" },
       // { type: "blessings" }
     ],
-    songLyrics: "nas-estrelas.txt",
+    songLyrics: "vasos-quebrados.txt",
     title: title
   },
   // {
