@@ -64,7 +64,7 @@ export default function SlidePage() {
       <SlideWithBackground>
         <section>
             <MainTitle>GRATIDÃO A DEUS POR UMA IGREJA MISSIONÁRIA</MainTitle>
-            <SubTitle>A GRATIDÃO A DEUS POR UMA IGREJA MISSIONÁRIA, NOS LEVA A UMA
+            <SubTitle>A GRATIDÃO A DEUS POR UMA IGREJA MISSIONÁRIA NOS LEVA A UMA
 ADORAÇÃO VERDADEIRA AO SENHOR</SubTitle>
 
             <LiturgySteps>
@@ -108,11 +108,11 @@ ADORAÇÃO VERDADEIRA AO SENHOR</SubTitle>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Ensina aos Teus, Espírito Divino,</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Dissipa as trevas destes corações!</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">E, com a luz do Teu celeste ensino,</p>
-  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vem aclarar as Tuas instruções.</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Vem aclarar as santas instruções.</p>
 </section>
 
 <section className="bg-white dark:bg-black">
-  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Aviva em nós a forças da memória,</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Aviva em nós as forças da memória,</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Pois sempre mais queremos conhecer.</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">O Rei dos céus, o Cristo, cuja glória</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Enleva os santos anjos de prazer.</p>
