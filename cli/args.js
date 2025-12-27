@@ -1,78 +1,78 @@
 import { getBibleText } from './functions.js'
 
 const slidesFolder = "202512"
-const date = "122125"
-const slug = "natal-a-mensagem-de-redencao-para-os-filhos-de-deus"
-const title = "NATAL, A MENSAGEM DE REDENÇÃO PARA OS FILHOS DE DEUS"
-const htmlTitle = "Natal, A Mensagem de Redenção para os Filhos de Deus - 21 de Dezembro de 2025"
-const bcwQuestionNumber = 47
-const bcwQuestion = "O que o primeiro mandamento proíbe?"
-const bcwAnswer = [`O primeiro mandamento proíbe negar, deixar de adorar ou
-glorificar ao verdadeiro Deus, como Deus, e nosso Deus, e dar a
-qualquer outro a adoração e a glória que só a ele são devidas.`]
+const date = "122825"
+const slug = "gratidao-a-deus-por-uma-igreja-missionaria"
+const title = "GRATIDÃO A DEUS POR UMA IGREJA MISSIONÁRIA"
+const htmlTitle = "Gratidão a Deus por uma igreja missionária - 28 de Dezembro de 2025"
+const bcwQuestionNumber = 48
+const bcwQuestion = `O que nos é ensinado pelas palavras “diante de mim”,
+no primeiro mandamento?`
+const bcwAnswer = [`As palavras, “diante de mim”, no primeiro mandamento, nos
+ensinam que Deus, que vê todas as coisas, toma conhecimento e muito se
+ofende do pecado de ter-se outro deus em seu lugar.`]
 
 const slides = [
   {
     id: "worship",
-    subtitle: `A MENSAGEM DE REDENÇÃO NOS TROUXE VIDA EM CRISTO, POR
-ISSO ADORAMOS COM CONSTANTE ALEGRIA`,
+    subtitle: `A GRATIDÃO A DEUS POR UMA IGREJA MISSIONÁRIA, NOS LEVA A UMA
+ADORAÇÃO VERDADEIRA AO SENHOR`,
     steps: [
-      { type: "alterned_reading", "text": "Salmo 19" },
-      { type: "hymn", name: "Adoração", id: "230" },
+      { type: "alterned_reading", "text": "Efésios 1.3-14" },
+      { type: "hymn", name: "A Igreja Em Adoração", id: "3" },
       { type: "worship_prayer" }
     ],
-    songLyrics: "230-adoracao.txt",
+    songLyrics: "3-a-igreja-em-adoracao.txt",
     title: title
   },
   {
     id: "confession",
-    subtitle: `A MENSAGEM DE REDENÇÃO NOS LEMBRA QUE ESTÁVAMOS PERDIDOS
-SEM O SENHOR, MAS ELE NOS ENVIOU O SEU ÚNICO FILHO PARA QUE
-PUDÉSSEMOS TER VIDA E RECEBER O FRUTO DO ESPÍRITO`,
+    subtitle: `A GRATIDÃO DE UMA IGREJA MISSIONÁRIA NOS LEVA A RECONHECER
+NOSSAS LUTAS CONTRA OS NOSSOS PECADOS`,
     steps: [
-      { type: "alterned_reading", "text": "Gálatas 5.16-26" },
-      { type: "song", name: "O Amor de Deus (Logo Eu)", id: "71" },
+      { type: "alterned_reading", "text": "Salmo 15" },
+      { type: "hymn", name: "Perdão", id: "71" },
       { type: "confession_prayer" },
       { type: "bcw-question", questionNumber: bcwQuestionNumber }
     ],
     bcw: { questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
-    songLyrics: "o-amor-de-deus-logo-eu.txt",
+    songLyrics: "71-perdao.txt",
     title: title
   },
   {
     id: "offering",
-    subtitle: `A MENSAGEM DE REDENÇÃO NOS LEVA À GRATIDÃO, POIS
-RECONHECEMOS QUE TUDO QUE TEMOS VEM DO SENHOR`,
+    subtitle: `DEVOLVEMOS NOSSOS DÍZIMOS E OFERTAS PARA CONTRIBUIÇÃO NA
+EXPANSÃO DO EVANGELHO`,
     steps: [
-      { type: "unison_reading", "text": "Provérbios 3.9-10" },
+      { type: "reading", "text": "Malaquias 3.6-12" },
       { type: "offering" },
-      { type: "hymn", name: "O Primeiro Natal", id: "231" },
+      { type: "song", name: "Santo Pra Sempre", id: "231" },
       { type: "custom", value: "Oração de Gratidão" }
     ],
-    songLyrics: "231-o-primeiro-natal.txt",
+    songLyrics: "santo-pra-sempre.txt",
     title: title
   },
   {
     id: "preaching",
-    subtitle: `SOMOS ALIMENTADOS CONSTANTEMENTE PELA PALAVRA DO
-SENHOR`,
+    subtitle: `COM ALEGRIA RECEBEMOS O EVANGELHO PELA PREGAÇÃO DA PALAVRA
+DE DEUS`,
     steps: [
-      { type: "preaching", text: "Gálatas 4.1-7", speaker: "Rev. Marcos Santana" }
+      { type: "preaching", text: "Filipenses 1.3-11", speaker: "Sem. Eduardo Menezes" }
     ],
     title: title,
     songLyrics: false,
-    text: getBibleText("Gálatas 4.1-7")
+    text: getBibleText("Filipenses 1.3-11")
   },
   {
     id: "after-preaching",
     subtitle: "",
     steps: [
-      { type: "song", name: "Vasos Quebrados", id: "266" },
+      { type: "hymn", name: "Aflição e Paz", id: "108" },
       // { type: "supper" },
       { type: "ending_prayer" },
       // { type: "blessings" }
     ],
-    songLyrics: "vasos-quebrados.txt",
+    songLyrics: "108.txt",
     title: title
   },
   // {

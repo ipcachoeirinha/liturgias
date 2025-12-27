@@ -3,6 +3,7 @@ import { Link } from 'react-router'
 export default function Liturgias() {
   return (<div>
     {/* NEXT_LINK */}
+    <Link className="" to="/liturgia/122825-gratidao-a-deus-por-uma-igreja-missionaria">Gratidão a Deus por uma igreja missionária - 28 de Dezembro de 2025</Link> <a className="" href="/liturgia/122825-gratidao-a-deus-por-uma-igreja-missionaria/download">Download</a><br/>
     <Link className="" to="/liturgia/122125-natal-a-mensagem-de-redencao-para-os-filhos-de-deus">Natal, A Mensagem de Redenção para os Filhos de Deus - 21 de Dezembro de 2025</Link> <a className="" href="/liturgia/122125-natal-a-mensagem-de-redencao-para-os-filhos-de-deus/download">Download</a><br/>
     <Link className="" to="/liturgia/121425-natal-a-luz-do-cristo-ressuscitado">Natal à Luz do Cristo Ressuscitado - 14 de Dezembro de 2025</Link> <a className="" href="/liturgia/121425-natal-a-luz-do-cristo-ressuscitado/download">Download</a><br/>
     <Link className="" to="/liturgia/120725-jesus-nasceu-em-seu-coracao">Jesus nasceu em seu coração? - 7 de Dezembro de 2025</Link> <a className="" href="/liturgia/120725-jesus-nasceu-em-seu-coracao/download">Download</a><br/>
