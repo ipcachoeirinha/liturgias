@@ -225,13 +225,13 @@ EXPANSÃO DO EVANGELHO</SubTitle>
 <section className="bg-white dark:bg-black">
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Quem foi perdoado</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">E redimido foi</p>
-  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Cante ao Cordeiro uma canção</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Cantando ao Cordeiro uma canção</p>
 </section>
 
 <section className="bg-white dark:bg-black">
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Aquele que é livre</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">E leva o Seu nome</p>
-  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Cante ao Cordeiro uma canção</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Cantando ao Cordeiro uma canção</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Cantaremos para sempre, amém</p>
 </section>
 
@@ -264,7 +264,7 @@ EXPANSÃO DO EVANGELHO</SubTitle>
 <section className="bg-white dark:bg-black">
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Teu nome é o mais alto</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Teu nome é o maior</p>
-  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Teu nome é sobre todos,</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Teu nome é sobre todos</p>
 </section>
 
 <section className="bg-white dark:bg-black">
