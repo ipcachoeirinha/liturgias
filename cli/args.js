@@ -15,7 +15,7 @@ ofende do pecado de ter-se outro deus em seu lugar.`]
 const slides = [
   {
     id: "worship",
-    subtitle: `A GRATIDÃO A DEUS POR UMA IGREJA MISSIONÁRIA, NOS LEVA A UMA
+    subtitle: `A GRATIDÃO A DEUS POR UMA IGREJA MISSIONÁRIA NOS LEVA A UMA
 ADORAÇÃO VERDADEIRA AO SENHOR`,
     steps: [
       { type: "alterned_reading", "text": "Efésios 1.3-14" },
