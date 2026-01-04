@@ -11,7 +11,7 @@ import { LiturgySteps } from '../../../components/ipca-default-theme/LiturgyStep
 import { LITURGY_STEP_TYPES, LiturgyStep } from '../../../components/ipca-default-theme/LiturgyStep'
 import { VideoSlide } from '../../../components/ipca-default-theme/VideoSlide'
 
-const PAGE_TITLE = "Uma igreja moldada a imagem de Cristo - 04 de Janeiro de 2026"
+const PAGE_TITLE = "Uma igreja moldada à imagem de Cristo - 04 de Janeiro de 2026"
 const CDN_ASSETS_LIST = [{"id":"ipcachoeirinha/cruz-wallpaper-light","extension":"jpg","resourceType":"image"},{"id":"ipcachoeirinha/santa-ceia-bg","extension":"png","resourceType":"image"},{"id":"ipcachoeirinha/background","extension":"png","resourceType":"image"}]
 
 export const meta = () => {
@@ -52,7 +52,7 @@ export default function SlidePage() {
   return (
     <RevealJsBaseElement ref={deckDivRef}>
       <SlideWithBackground>
-        <MainTitle>UMA IGREJA MOLDADA A IMAGEM DE CRISTO</MainTitle>
+        <MainTitle>UMA IGREJA MOLDADA À IMAGEM DE CRISTO</MainTitle>
       </SlideWithBackground>
 
       <SlideWithBackground>
@@ -63,8 +63,8 @@ export default function SlidePage() {
 
       <SlideWithBackground>
         <section>
-            <MainTitle>UMA IGREJA MOLDADA A IMAGEM DE CRISTO</MainTitle>
-            <SubTitle>SENDO MOLDADOS A IMAGEM DE CRISTO, TEMOS A GRATIDÃO COMO MARCA DE
+            <MainTitle>UMA IGREJA MOLDADA À IMAGEM DE CRISTO</MainTitle>
+            <SubTitle>SENDO MOLDADOS À IMAGEM DE CRISTO, TEMOS A GRATIDÃO COMO MARCA DE
 UMA VERDADEIRA ADORAÇÃO AO SENHOR</SubTitle>
 
             <LiturgySteps>
@@ -130,8 +130,8 @@ UMA VERDADEIRA ADORAÇÃO AO SENHOR</SubTitle>
 
 <SlideWithBackground>
         <section>
-            <MainTitle>UMA IGREJA MOLDADA A IMAGEM DE CRISTO</MainTitle>
-            <SubTitle>SENDO MOLDADOS A IMAGEM DE CRISTO, NOS APROXIMAMOS EM CONTRIÇÃO AO
+            <MainTitle>UMA IGREJA MOLDADA À IMAGEM DE CRISTO</MainTitle>
+            <SubTitle>SENDO MOLDADOS À IMAGEM DE CRISTO, NOS APROXIMAMOS EM CONTRIÇÃO AO
 SENHOR PARA CONFESSARMOS OS NOSSOS PECADOS</SubTitle>
 
             <LiturgySteps>
@@ -186,8 +186,8 @@ até mil gerações daqueles que me amam e guardam os meus mandamentos”.</p>
     
 <SlideWithBackground>
         <section>
-            <MainTitle>UMA IGREJA MOLDADA A IMAGEM DE CRISTO</MainTitle>
-            <SubTitle>SENDO MOLDADOS A IMAGEM DE CRISTO, RECONHECEMOS A NOSSA ALEGRIA EM
+            <MainTitle>UMA IGREJA MOLDADA À IMAGEM DE CRISTO</MainTitle>
+            <SubTitle>SENDO MOLDADOS À IMAGEM DE CRISTO, RECONHECEMOS A NOSSA ALEGRIA EM
 CONTRIBUIR NA EXPANSÃO DO EVANGELHO</SubTitle>
 
             <LiturgySteps>
@@ -244,8 +244,8 @@ CONTRIBUIR NA EXPANSÃO DO EVANGELHO</SubTitle>
 
 <SlideWithBackground>
         <section>
-            <MainTitle>UMA IGREJA MOLDADA A IMAGEM DE CRISTO</MainTitle>
-            <SubTitle>SENDO MOLDADOS A IMAGEM DE CRISTO, SOMOS PERSEVERANTES NO CONHECIMENTO
+            <MainTitle>UMA IGREJA MOLDADA À IMAGEM DE CRISTO</MainTitle>
+            <SubTitle>SENDO MOLDADOS À IMAGEM DE CRISTO, SOMOS PERSEVERANTES NO CONHECIMENTO
 BÍBLICO NA EXPOSIÇÃO DA PALAVRA DE DEUS</SubTitle>
 
             <LiturgySteps>
@@ -282,7 +282,7 @@ BÍBLICO NA EXPOSIÇÃO DA PALAVRA DE DEUS</SubTitle>
 
 <SlideWithBackground>
         <section>
-            <MainTitle>UMA IGREJA MOLDADA A IMAGEM DE CRISTO</MainTitle>
+            <MainTitle>UMA IGREJA MOLDADA À IMAGEM DE CRISTO</MainTitle>
             <SubTitle></SubTitle>
 
             <LiturgySteps>
@@ -411,7 +411,7 @@ BÍBLICO NA EXPOSIÇÃO DA PALAVRA DE DEUS</SubTitle>
 
 <SlideWithBackground>
         <section>
-            <MainTitle>UMA IGREJA MOLDADA A IMAGEM DE CRISTO</MainTitle>
+            <MainTitle>UMA IGREJA MOLDADA À IMAGEM DE CRISTO</MainTitle>
             <SubTitle></SubTitle>
 
             <LiturgySteps>
