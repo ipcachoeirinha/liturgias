@@ -7,6 +7,8 @@ const routes = [
     route("/liturgias", "routes/liturgias.jsx"),
     
     // SLIDE_ROUTES
+    route("/liturgia/010426-uma-igreja-moldada-a-imagem-de-cristo", "routes/slides/202601/010426-uma-igreja-moldada-a-imagem-de-cristo.jsx"),
+    route("/liturgia/010426-uma-igreja-moldada-a-imagem-de-cristo/download", "routes/slides/202601/010426-uma-igreja-moldada-a-imagem-de-cristo.download.jsx"),
     route("/liturgia/122825-gratidao-a-deus-por-uma-igreja-missionaria", "routes/slides/202512/122825-gratidao-a-deus-por-uma-igreja-missionaria.jsx"),
     route("/liturgia/122825-gratidao-a-deus-por-uma-igreja-missionaria/download", "routes/slides/202512/122825-gratidao-a-deus-por-uma-igreja-missionaria.download.jsx"),
     route("/liturgia/122125-natal-a-mensagem-de-redencao-para-os-filhos-de-deus", "routes/slides/202512/122125-natal-a-mensagem-de-redencao-para-os-filhos-de-deus.jsx"),
