@@ -3,8 +3,8 @@ import { getBibleText } from './functions.js'
 const slidesFolder = "202601"
 const date = "010426"
 const slug = "uma-igreja-moldada-a-imagem-de-cristo"
-const title = "UMA IGREJA MOLDADA A IMAGEM DE CRISTO"
-const htmlTitle = "Uma igreja moldada a imagem de Cristo - 04 de Janeiro de 2026"
+const title = "UMA IGREJA MOLDADA À IMAGEM DE CRISTO"
+const htmlTitle = "Uma igreja moldada à imagem de Cristo - 04 de Janeiro de 2026"
 const bcwQuestionNumber = 49
 const bcwQuestion = `Qual é o segundo mandamento?`
 const bcwAnswer = [`O segundo mandamento é: “Não farás para ti imagem de escultura, nem semelhança
@@ -16,7 +16,7 @@ até mil gerações daqueles que me amam e guardam os meus mandamentos”.`]
 const slides = [
   {
     id: "worship",
-    subtitle: `SENDO MOLDADOS A IMAGEM DE CRISTO, TEMOS A GRATIDÃO COMO MARCA DE
+    subtitle: `SENDO MOLDADOS À IMAGEM DE CRISTO, TEMOS A GRATIDÃO COMO MARCA DE
 UMA VERDADEIRA ADORAÇÃO AO SENHOR`,
     steps: [
       { type: "unison_reading", "text": "Romanos 5.1-5" },
@@ -28,7 +28,7 @@ UMA VERDADEIRA ADORAÇÃO AO SENHOR`,
   },
   {
     id: "confession",
-    subtitle: `SENDO MOLDADOS A IMAGEM DE CRISTO, NOS APROXIMAMOS EM CONTRIÇÃO AO
+    subtitle: `SENDO MOLDADOS À IMAGEM DE CRISTO, NOS APROXIMAMOS EM CONTRIÇÃO AO
 SENHOR PARA CONFESSARMOS OS NOSSOS PECADOS`,
     steps: [
       { type: "alterned_reading", "text": "Salmo 15" },
@@ -42,7 +42,7 @@ SENHOR PARA CONFESSARMOS OS NOSSOS PECADOS`,
   },
   {
     id: "offering",
-    subtitle: `SENDO MOLDADOS A IMAGEM DE CRISTO, RECONHECEMOS A NOSSA ALEGRIA EM
+    subtitle: `SENDO MOLDADOS À IMAGEM DE CRISTO, RECONHECEMOS A NOSSA ALEGRIA EM
 CONTRIBUIR NA EXPANSÃO DO EVANGELHO`,
     steps: [
       { type: "reading", "text": "Mateus 6.31-34" },
@@ -55,7 +55,7 @@ CONTRIBUIR NA EXPANSÃO DO EVANGELHO`,
   },
   {
     id: "preaching",
-    subtitle: `SENDO MOLDADOS A IMAGEM DE CRISTO, SOMOS PERSEVERANTES NO CONHECIMENTO
+    subtitle: `SENDO MOLDADOS À IMAGEM DE CRISTO, SOMOS PERSEVERANTES NO CONHECIMENTO
 BÍBLICO NA EXPOSIÇÃO DA PALAVRA DE DEUS`,
     steps: [
       { type: "preaching", text: "Tiago 1.1-4", speaker: "Rev. Marcos Santana" }
