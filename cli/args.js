@@ -1,35 +1,32 @@
 import { getBibleText } from './functions.js'
 
 const slidesFolder = "202601"
-const date = "010426"
-const slug = "uma-igreja-moldada-a-imagem-de-cristo"
-const title = "UMA IGREJA MOLDADA À IMAGEM DE CRISTO"
-const htmlTitle = "Uma igreja moldada à imagem de Cristo - 04 de Janeiro de 2026"
-const bcwQuestionNumber = 49
-const bcwQuestion = `Qual é o segundo mandamento?`
-const bcwAnswer = [`O segundo mandamento é: “Não farás para ti imagem de escultura, nem semelhança
-alguma do que há em cima nos céus, nem embaixo na terra, nem nas águas debaixo da terra. ...`,`Não as
-adorarás, nem lhes darás culto; porque eu sou o Senhor teu Deus, Deus zeloso, que visito a iniqüidade
-dos pais nos filhos até à terceira e quarta geração daqueles que me aborrecem e faço misericórdia
-até mil gerações daqueles que me amam e guardam os meus mandamentos”.`]
+const date = "011126"
+const slug = "uma-igreja-desejosa-pela-sabedoria-de-deus"
+const title = "UMA IGREJA DESEJOSA PELA SABEDORIA DE DEUS"
+const htmlTitle = "Uma igreja desejosa pela sabedoria de Deus - 11 de Janeiro de 2026"
+const bcwQuestionNumber = 50
+const bcwQuestion = `O que o segundo mandamento exige?`
+const bcwAnswer = [`O segundo mandamento exige que recebamos, observemos e guardemos
+puros e intactos o culto e as ordenanças religiosas que Deus instituiu na sua Palavra.`]
 
 const slides = [
   {
     id: "worship",
-    subtitle: `SENDO MOLDADOS À IMAGEM DE CRISTO, TEMOS A GRATIDÃO COMO MARCA DE
-UMA VERDADEIRA ADORAÇÃO AO SENHOR`,
+    subtitle: `RECONHECE QUE SUA ADORAÇÃO
+DEVE SER FEITA SOMENTE AO SENHOR`,
     steps: [
-      { type: "unison_reading", "text": "Romanos 5.1-5" },
-      { type: "hymn", name: "Firmes nas promessas", id: "177" },
+      { type: "alterned_reading", "text": "Salmo 119.1-8" },
+      { type: "hymn", name: "Os Céus Proclamam", id: "22" },
       { type: "worship_prayer" }
     ],
-    songLyrics: "177.txt",
+    songLyrics: "22.txt",
     title: title
   },
   {
     id: "confession",
-    subtitle: `SENDO MOLDADOS À IMAGEM DE CRISTO, NOS APROXIMAMOS EM CONTRIÇÃO AO
-SENHOR PARA CONFESSARMOS OS NOSSOS PECADOS`,
+    subtitle: `RECONHECE OS SEUS PECADOS E
+CONFESSA AO SENHOR`,
     steps: [
       { type: "alterned_reading", "text": "Salmo 15" },
       { type: "song", name: "Salmo 15", id: "71" },
@@ -42,57 +39,58 @@ SENHOR PARA CONFESSARMOS OS NOSSOS PECADOS`,
   },
   {
     id: "offering",
-    subtitle: `SENDO MOLDADOS À IMAGEM DE CRISTO, RECONHECEMOS A NOSSA ALEGRIA EM
-CONTRIBUIR NA EXPANSÃO DO EVANGELHO`,
+    subtitle: `RECONHECE QUE TUDO QUE TEM
+VEM DO SENHOR E POR ISSO DEVOLVEMOS NOSSOS DÍZIMOS E OFERTAS COM ALEGRIA
+EM NOSSO CORAÇÃO`,
     steps: [
-      { type: "reading", "text": "Mateus 6.31-34" },
+      { type: "reading", "text": "Atos 20.35" },
       { type: "offering" },
-      { type: "song", name: "Descansarei", id: "231" },
+      { type: "song", name: "Diante Da Cruz", id: "231" },
       { type: "custom", value: "Oração de Gratidão" }
     ],
-    songLyrics: "descansarei.txt",
+    songLyrics: "diante-da-cruz.txt",
     title: title
   },
   {
     id: "preaching",
-    subtitle: `SENDO MOLDADOS À IMAGEM DE CRISTO, SOMOS PERSEVERANTES NO CONHECIMENTO
-BÍBLICO NA EXPOSIÇÃO DA PALAVRA DE DEUS`,
+    subtitle: `RECONHECE QUE A PALAVRA DE
+DEUS GUIA O SEU POVO E POR ISSO MEDITAMOS NELA`,
     steps: [
-      { type: "preaching", text: "Tiago 1.1-4", speaker: "Rev. Marcos Santana" }
+      { type: "preaching", text: "Tiago 1.5-8", speaker: "Rev. Marcos Santana" }
     ],
     title: title,
     songLyrics: false,
-    text: getBibleText("Tiago 1.1-4")
+    text: getBibleText("Tiago 1.5-8")
   },
   {
     id: "after-preaching",
     subtitle: "",
     steps: [
-      { type: "hymn", name: "Mais perto que estar", id: "116" },
-      { type: "supper" },
+      { type: "hymn", name: "O Deus Fiel", id: "32" },
+      // { type: "supper" },
       { type: "ending_prayer" },
       { type: "blessings" }
     ],
-    songLyrics: "116.txt",
+    songLyrics: "32.txt",
     title: title
   },
-  {
-    id: "supper",
-    subtitle: "",
-    steps: [],
-    songLyrics: "vinho-e-pao.txt",
-    title: "Santa Ceia"
-  },
-  {
-    id: "after-supper",
-    subtitle: "",
-    steps: [
-      { type: "ending_prayer" },
-      { type: "blessings" }
-    ],
-    songLyrics: false,
-    title: title
-  },
+  // {
+  //   id: "supper",
+  //   subtitle: "",
+  //   steps: [],
+  //   songLyrics: "vinho-e-pao.txt",
+  //   title: "Santa Ceia"
+  // },
+  // {
+  //   id: "after-supper",
+  //   subtitle: "",
+  //   steps: [
+  //     { type: "ending_prayer" },
+  //     { type: "blessings" }
+  //   ],
+  //   songLyrics: false,
+  //   title: title
+  // },
 ]
 
 const assets = [
