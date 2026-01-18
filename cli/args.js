@@ -1,77 +1,78 @@
 import { getBibleText } from './functions.js'
 
 const slidesFolder = "202601"
-const date = "011126"
-const slug = "uma-igreja-desejosa-pela-sabedoria-de-deus"
-const title = "UMA IGREJA DESEJOSA PELA SABEDORIA DE DEUS"
-const htmlTitle = "Uma igreja desejosa pela sabedoria de Deus - 11 de Janeiro de 2026"
-const bcwQuestionNumber = 50
-const bcwQuestion = `O que o segundo mandamento exige?`
-const bcwAnswer = [`O segundo mandamento exige que recebamos, observemos e guardemos
-puros e intactos o culto e as ordenanças religiosas que Deus instituiu na sua Palavra.`]
+const date = "011826"
+const slug = "uma-igreja-que-se-gloria-no-senhor"
+const title = "UMA IGREJA QUE SE GLORIA NO SENHOR"
+const htmlTitle = "Uma igreja que se gloria no Senhor - 18 de Janeiro de 2026"
+const bcwQuestionNumber = 51
+const bcwQuestion = `O que o segundo mandamento proíbe?`
+const bcwAnswer = [`O segundo mandamento proíbe adorar a Deus por meio de imagens, ou de qualquer outra
+maneira não prescrita em sua Palavra.`]
 
 const slides = [
   {
     id: "worship",
-    subtitle: `RECONHECE QUE SUA ADORAÇÃO
-DEVE SER FEITA SOMENTE AO SENHOR`,
+    subtitle: `UMA IGREJA QUE SE GLORIA NO SENHOR, ADORA AO SENHOR, POIS ELE É A FONTE DE
+NOSSA ADORAÇÃO`,
     steps: [
-      { type: "alterned_reading", "text": "Salmo 119.1-8" },
-      { type: "hymn", name: "Os Céus Proclamam", id: "22" },
+      { type: "alterned_reading", "text": "Salmo 96" },
+      { type: "hymn", name: "Trindade Santíssima", id: "11" },
       { type: "worship_prayer" }
     ],
-    songLyrics: "22.txt",
+    songLyrics: "11.txt",
     title: title
   },
   {
     id: "confession",
-    subtitle: `RECONHECE OS SEUS PECADOS E
+    subtitle: `UMA IGREJA QUE SE GLORIA NO SENHOR, RECONHECE OS SEUS PECADOS E
 CONFESSA AO SENHOR`,
     steps: [
-      { type: "alterned_reading", "text": "Salmo 15" },
-      { type: "song", name: "Salmo 15", id: "71" },
+      { type: "alterned_reading", "text": "Salmo 32" },
+      { type: "unison_reading", "text": "Mateus 5.3" },
+      { type: "hymn", name: "Perdão", id: "71" },
       { type: "confession_prayer" },
       { type: "bcw-question", questionNumber: bcwQuestionNumber }
     ],
     bcw: { questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
-    songLyrics: "salmo-15.txt",
+    songLyrics: "71.txt",
     title: title
   },
   {
     id: "offering",
-    subtitle: `RECONHECE QUE TUDO QUE TEM
-VEM DO SENHOR E POR ISSO DEVOLVEMOS NOSSOS DÍZIMOS E OFERTAS COM ALEGRIA
-EM NOSSO CORAÇÃO`,
+    subtitle: `UMA IGREJA QUE SE GLORIA NO SENHOR RECONHECE QUE TUDO QUE TEM VEM DO
+SENHOR E POR ISSO DEVOLVEMOS NOSSOS DÍZIMOS E OFERTAS COM ALEGRIA EM
+NOSSO CORAÇÃO`,
     steps: [
-      { type: "reading", "text": "Atos 20.35" },
+      { type: "reading", "text": "Jeremias 9.23-24" },
       { type: "offering" },
-      { type: "song", name: "Diante Da Cruz", id: "231" },
+      { type: "song", name: "Salmo 15", id: "231" },
       { type: "custom", value: "Oração de Gratidão" }
     ],
-    songLyrics: "diante-da-cruz.txt",
+    songLyrics: "salmo-15.txt",
     title: title
   },
   {
     id: "preaching",
-    subtitle: `RECONHECE QUE A PALAVRA DE
-DEUS GUIA O SEU POVO E POR ISSO MEDITAMOS NELA`,
+    subtitle: `UMA IGREJA QUE SE GLORIA NO SENHOR, ALIMENTA-SE CONSTANTEMENTE DE SUA
+PALAVRA`,
     steps: [
-      { type: "preaching", text: "Tiago 1.5-8", speaker: "Rev. Marcos Santana" }
+      { type: "preaching", text: "Tiago 1.9-11", speaker: "Rev. Marcos Santana" }
     ],
     title: title,
     songLyrics: false,
-    text: getBibleText("Tiago 1.5-8")
+    text: getBibleText("Tiago 1.9-11")
   },
   {
     id: "after-preaching",
     subtitle: "",
     steps: [
-      { type: "hymn", name: "O Deus Fiel", id: "32" },
+      { type: "song", name: "Coração Igual ao Teu", id: "32" },
       // { type: "supper" },
       { type: "ending_prayer" },
       { type: "blessings" }
     ],
-    songLyrics: "32.txt",
+    songLyrics: "coracao-igual-ao-teu.txt",
     title: title
   },
   // {

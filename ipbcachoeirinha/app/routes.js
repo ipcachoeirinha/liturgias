@@ -7,6 +7,8 @@ const routes = [
     route("/liturgias", "routes/liturgias.jsx"),
     
     // SLIDE_ROUTES
+    route("/liturgia/011826-uma-igreja-que-se-gloria-no-senhor", "routes/slides/202601/011826-uma-igreja-que-se-gloria-no-senhor.jsx"),
+    route("/liturgia/011826-uma-igreja-que-se-gloria-no-senhor/download", "routes/slides/202601/011826-uma-igreja-que-se-gloria-no-senhor.download.jsx"),
     route("/liturgia/011126-uma-igreja-desejosa-pela-sabedoria-de-deus", "routes/slides/202601/011126-uma-igreja-desejosa-pela-sabedoria-de-deus.jsx"),
     route("/liturgia/011126-uma-igreja-desejosa-pela-sabedoria-de-deus/download", "routes/slides/202601/011126-uma-igreja-desejosa-pela-sabedoria-de-deus.download.jsx"),
     route("/liturgia/010426-uma-igreja-moldada-a-imagem-de-cristo", "routes/slides/202601/010426-uma-igreja-moldada-a-imagem-de-cristo.jsx"),
