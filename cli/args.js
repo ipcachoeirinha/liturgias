@@ -13,7 +13,7 @@ maneira não prescrita em sua Palavra.`]
 const slides = [
   {
     id: "worship",
-    subtitle: `UMA IGREJA QUE SE GLORIA NO SENHOR, ADORA AO SENHOR, POIS ELE É A FONTE DE
+    subtitle: `ADORA AO SENHOR, POIS ELE É A FONTE DE
 NOSSA ADORAÇÃO`,
     steps: [
       { type: "alterned_reading", "text": "Salmo 96" },
@@ -25,7 +25,7 @@ NOSSA ADORAÇÃO`,
   },
   {
     id: "confession",
-    subtitle: `UMA IGREJA QUE SE GLORIA NO SENHOR, RECONHECE OS SEUS PECADOS E
+    subtitle: `RECONHECE OS SEUS PECADOS E
 CONFESSA AO SENHOR`,
     steps: [
       { type: "alterned_reading", "text": "Salmo 32" },
@@ -40,7 +40,7 @@ CONFESSA AO SENHOR`,
   },
   {
     id: "offering",
-    subtitle: `UMA IGREJA QUE SE GLORIA NO SENHOR RECONHECE QUE TUDO QUE TEM VEM DO
+    subtitle: `RECONHECE QUE TUDO QUE TEM VEM DO
 SENHOR E POR ISSO DEVOLVEMOS NOSSOS DÍZIMOS E OFERTAS COM ALEGRIA EM
 NOSSO CORAÇÃO`,
     steps: [
@@ -54,7 +54,7 @@ NOSSO CORAÇÃO`,
   },
   {
     id: "preaching",
-    subtitle: `UMA IGREJA QUE SE GLORIA NO SENHOR, ALIMENTA-SE CONSTANTEMENTE DE SUA
+    subtitle: `ALIMENTA-SE CONSTANTEMENTE DE SUA
 PALAVRA`,
     steps: [
       { type: "preaching", text: "Tiago 1.9-11", speaker: "Rev. Marcos Santana" }

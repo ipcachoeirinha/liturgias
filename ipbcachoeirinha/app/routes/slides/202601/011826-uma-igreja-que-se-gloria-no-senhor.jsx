@@ -64,7 +64,7 @@ export default function SlidePage() {
       <SlideWithBackground>
         <section>
             <MainTitle>UMA IGREJA QUE SE GLORIA NO SENHOR</MainTitle>
-            <SubTitle>UMA IGREJA QUE SE GLORIA NO SENHOR, ADORA AO SENHOR, POIS ELE É A FONTE DE
+            <SubTitle>ADORA AO SENHOR, POIS ELE É A FONTE DE
 NOSSA ADORAÇÃO</SubTitle>
 
             <LiturgySteps>
@@ -107,7 +107,7 @@ NOSSA ADORAÇÃO</SubTitle>
 <SlideWithBackground>
         <section>
             <MainTitle>UMA IGREJA QUE SE GLORIA NO SENHOR</MainTitle>
-            <SubTitle>UMA IGREJA QUE SE GLORIA NO SENHOR, RECONHECE OS SEUS PECADOS E
+            <SubTitle>RECONHECE OS SEUS PECADOS E
 CONFESSA AO SENHOR</SubTitle>
 
             <LiturgySteps>
@@ -163,7 +163,7 @@ maneira não prescrita em sua Palavra.</p>
 <SlideWithBackground>
         <section>
             <MainTitle>UMA IGREJA QUE SE GLORIA NO SENHOR</MainTitle>
-            <SubTitle>UMA IGREJA QUE SE GLORIA NO SENHOR RECONHECE QUE TUDO QUE TEM VEM DO
+            <SubTitle>RECONHECE QUE TUDO QUE TEM VEM DO
 SENHOR E POR ISSO DEVOLVEMOS NOSSOS DÍZIMOS E OFERTAS COM ALEGRIA EM
 NOSSO CORAÇÃO</SubTitle>
 
@@ -202,7 +202,7 @@ NOSSO CORAÇÃO</SubTitle>
 <SlideWithBackground>
         <section>
             <MainTitle>UMA IGREJA QUE SE GLORIA NO SENHOR</MainTitle>
-            <SubTitle>UMA IGREJA QUE SE GLORIA NO SENHOR, ALIMENTA-SE CONSTANTEMENTE DE SUA
+            <SubTitle>ALIMENTA-SE CONSTANTEMENTE DE SUA
 PALAVRA</SubTitle>
 
             <LiturgySteps>
