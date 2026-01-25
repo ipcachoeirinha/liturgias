@@ -1,50 +1,49 @@
 import { getBibleText } from './functions.js'
 
 const slidesFolder = "202601"
-const date = "011826"
-const slug = "uma-igreja-que-se-gloria-no-senhor"
-const title = "UMA IGREJA QUE SE GLORIA NO SENHOR"
-const htmlTitle = "Uma igreja que se gloria no Senhor - 18 de Janeiro de 2026"
-const bcwQuestionNumber = 51
-const bcwQuestion = `O que o segundo mandamento proíbe?`
-const bcwAnswer = [`O segundo mandamento proíbe adorar a Deus por meio de imagens, ou de qualquer outra
-maneira não prescrita em sua Palavra.`]
+const date = "012526"
+const slug = "uma-igreja-que-foge-da-aparencia-do-mal"
+const title = "UMA IGREJA QUE FOGE DA APARÊNCIA DO MAL"
+const htmlTitle = "Uma igreja que foge da aparência do mal - 25 de Janeiro de 2026"
+const bcwQuestionNumber = 52
+const bcwQuestion = `Quais são as razões anexas ao segundo mandamento?`
+const bcwAnswer = [`As razões anexas ao segundo mandamento são a soberania de Deus sobre
+nós, o seu direito de propriedade sobre nós e o zelo que ele tem pelo seu culto.`]
 
 const slides = [
   {
     id: "worship",
-    subtitle: `ADORA AO SENHOR, POIS ELE É A FONTE DE
-NOSSA ADORAÇÃO`,
+    subtitle: `FUGIMOS DA APARÊNCIA DO MAL QUANDO NOS ACHEGAMOS AO SENHOR
+COM UM CORAÇÃO HUMILDE PARA ADORÁ-LO`,
     steps: [
-      { type: "alterned_reading", "text": "Salmo 96" },
-      { type: "hymn", name: "Trindade Santíssima", id: "11" },
+      { type: "reading", "text": "1 Pedro 1.6-7" },
+      { type: "hymn", name: "Sempre Vencendo", id: "49" },
       { type: "worship_prayer" }
     ],
-    songLyrics: "11.txt",
+    songLyrics: "49.txt",
     title: title
   },
   {
     id: "confession",
-    subtitle: `RECONHECE OS SEUS PECADOS E
-CONFESSA AO SENHOR`,
+    subtitle: `FUGIMOS DA APARÊNCIA DO MAL QUANDO RECONHECEMOS NOSSA
+PECAMINOSIDADE, MAS POR CAUSA DE CRISTO SOMOS PERDOADOS E
+TRANSFORMADOS`,
     steps: [
-      { type: "alterned_reading", "text": "Salmo 32" },
-      { type: "unison_reading", "text": "Mateus 5.3" },
-      { type: "hymn", name: "Perdão", id: "71" },
+      { type: "alterned_reading", "text": "Gênesis 3.1-15" },
+      { type: "hymn", name: "Sinceridade", id: "74" },
       { type: "confession_prayer" },
       { type: "bcw-question", questionNumber: bcwQuestionNumber }
     ],
     bcw: { questionNumber: bcwQuestionNumber, question: bcwQuestion, answer: bcwAnswer },
-    songLyrics: "71.txt",
+    songLyrics: "74.txt",
     title: title
   },
   {
     id: "offering",
-    subtitle: `RECONHECE QUE TUDO QUE TEM VEM DO
-SENHOR E POR ISSO DEVOLVEMOS NOSSOS DÍZIMOS E OFERTAS COM ALEGRIA EM
-NOSSO CORAÇÃO`,
+    subtitle: `FUGIMOS DA APARÊNCIA DO MAL E RECONHECEMOS NOSSA TOTAL
+DEPENDÊNCIA EM DEUS, POR ISSO SOMOS GRATOS COM TUDO QUE TEMOS`,
     steps: [
-      { type: "reading", "text": "Jeremias 9.23-24" },
+      { type: "reading", "text": "1 Crônicas 29.11-14" },
       { type: "offering" },
       { type: "song", name: "Salmo 15", id: "231" },
       { type: "custom", value: "Oração de Gratidão" }
@@ -54,25 +53,25 @@ NOSSO CORAÇÃO`,
   },
   {
     id: "preaching",
-    subtitle: `ALIMENTA-SE CONSTANTEMENTE DE SUA
-PALAVRA`,
+    subtitle: `FUGIMOS DA APARÊNCIA DO MAL QUANDO NOS APROXIMAMOS DA LUZ DA
+PALAVRA DE DEUS`,
     steps: [
-      { type: "preaching", text: "Tiago 1.9-11", speaker: "Rev. Marcos Santana" }
+      { type: "preaching", text: "Tiago 1.12-15", speaker: "Rev. Marcos Santana" }
     ],
     title: title,
     songLyrics: false,
-    text: getBibleText("Tiago 1.9-11")
+    text: getBibleText("Tiago 1.12-15")
   },
   {
     id: "after-preaching",
     subtitle: "",
     steps: [
-      { type: "song", name: "Coração Igual ao Teu", id: "32" },
+      { type: "song", name: "Nenhuma condenação há", id: "32" },
       // { type: "supper" },
       { type: "ending_prayer" },
       { type: "blessings" }
     ],
-    songLyrics: "coracao-igual-ao-teu.txt",
+    songLyrics: "nenhuma-condenacao-ha.txt",
     title: title
   },
   // {
