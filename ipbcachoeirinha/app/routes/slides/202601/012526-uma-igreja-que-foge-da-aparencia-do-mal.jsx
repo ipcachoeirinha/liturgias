@@ -150,7 +150,7 @@ TRANSFORMADOS</SubTitle>
                 <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.alterned_reading}>: GÊNESIS 3.1-15</LiturgyStep>
 <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.hymn}>: SINCERIDADE, nº 74</LiturgyStep>
 <LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.confession_prayer}></LiturgyStep>
-<LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>PERGUNTA 52 DO BREVE CATECISMO DE WESTMINSTER</LiturgyStep>
+<LiturgyStep liturgyStepType={LITURGY_STEP_TYPES.custom}>BREVE CATECISMO DE WESTMINSTER</LiturgyStep>
             </LiturgySteps>
         </section>
         

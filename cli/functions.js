@@ -110,7 +110,7 @@ export function createSlideSessionStep(stepData) {
         }
         case "bcw-question": {
             const { questionNumber } = stepData
-            const value = `PERGUNTA ${questionNumber} DO BREVE CATECISMO DE WESTMINSTER`
+            const value = `BREVE CATECISMO DE WESTMINSTER`
             const step = template.replace(":TYPE", "custom").replace(":VALUE", value)
             return step
         }
