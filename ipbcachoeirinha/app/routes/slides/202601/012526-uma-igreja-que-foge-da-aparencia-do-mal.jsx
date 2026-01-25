@@ -228,6 +228,9 @@ DEPENDÊNCIA EM DEUS, POR ISSO SOMOS GRATOS COM TUDO QUE TEMOS</SubTitle>
 <SlideWithBackground><section className="bg-white dark:bg-black">
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Quem, Senhor, habitará no teu tabernáculo?</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Quem há de morar no teu santo monte?</p>
+</section>
+
+<section className="bg-white dark:bg-black">
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">O que vive com integridade, e pratica a justiça,</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">e, de coração, fala a verdade;</p>
 </section>
@@ -236,6 +239,9 @@ DEPENDÊNCIA EM DEUS, POR ISSO SOMOS GRATOS COM TUDO QUE TEMOS</SubTitle>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">o que não difama com sua língua,</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">não faz mal ao próximo,</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">nem lança injúria contra o seu vizinho;</p>
+</section>
+
+<section className="bg-white dark:bg-black">
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">o que, a seus olhos, tem por desprezível ao réprobo,</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">mas honra aos que temem ao Senhor;</p>
 </section>
@@ -244,6 +250,10 @@ DEPENDÊNCIA EM DEUS, POR ISSO SOMOS GRATOS COM TUDO QUE TEMOS</SubTitle>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">o que jura com dano próprio e não se retrata;</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">o que não empresta o seu dinheiro com usura,</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">nem aceita suborno contra o inocente.</p>
+</section>
+
+<section className="bg-white dark:bg-black">
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Quem deste modo procede não será jamais abalado.</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">Quem deste modo procede não será jamais abalado.</p>
 </section></SlideWithBackground>
 
@@ -261,19 +271,25 @@ PALAVRA DE DEUS</SubTitle>
         <section>
             <MainTitle>TIAGO 1.12-15</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>⁹ O irmão, porém, de condição humilde glorie-se na sua dignidade,</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹² Bem-aventurado o homem que suporta, com perseverança, a provação; porque, depois de ter sido aprovado, receberá a coroa da vida, a qual o Senhor prometeu aos que o amam.</p>
         </section>
 
         <section>
             <MainTitle>TIAGO 1.12-15</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁰ e o rico, na sua insignificância, porque ele passará como a flor da erva.</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹³ Ninguém, ao ser tentado, diga: Sou tentado por Deus; porque Deus não pode ser tentado pelo mal e ele mesmo a ninguém tenta.</p>
         </section>
 
         <section>
             <MainTitle>TIAGO 1.12-15</MainTitle>
             
-        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹¹ Porque o sol se levanta com seu ardente calor, e a erva seca, e a sua flor cai, e desaparece a formosura do seu aspecto; assim também se murchará o rico em seus caminhos.</p>
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁴ Ao contrário, cada um é tentado pela sua própria cobiça, quando esta o atrai e seduz.</p>
+        </section>
+
+        <section>
+            <MainTitle>TIAGO 1.12-15</MainTitle>
+            
+        <p className='text-green-900 text-[72px] font-bold text-left leading-normal mb-12'>¹⁵ Então, a cobiça, depois de haver concebido, dá à luz o pecado; e o pecado, uma vez consumado, gera a morte.</p>
         </section><BackgroundSlide></BackgroundSlide>
     </SlideWithBackground>
     
