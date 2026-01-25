@@ -231,23 +231,24 @@ DEPENDÊNCIA EM DEUS, POR ISSO SOMOS GRATOS COM TUDO QUE TEMOS</SubTitle>
 </section>
 
 <section className="bg-white dark:bg-black">
-  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">O que vive com integridade, e pratica a justiça,</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">O que vive com integridade, </p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">e pratica a justiça,</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">e, de coração, fala a verdade;</p>
 </section>
 
 <section className="bg-white dark:bg-black">
-  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">o que não difama com sua língua,</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">O que não difama com sua língua,</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">não faz mal ao próximo,</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">nem lança injúria contra o seu vizinho;</p>
 </section>
 
 <section className="bg-white dark:bg-black">
-  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">o que, a seus olhos, tem por desprezível ao réprobo,</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">O que, a seus olhos, tem por desprezível ao réprobo,</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">mas honra aos que temem ao Senhor;</p>
 </section>
 
 <section className="bg-white dark:bg-black">
-  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">o que jura com dano próprio e não se retrata;</p>
+  <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">O que jura com dano próprio e não se retrata;</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">o que não empresta o seu dinheiro com usura,</p>
   <p className="text-black dark:text-white text-[84px] font-bold text-left leading-[1.2] mb-12">nem aceita suborno contra o inocente.</p>
 </section>
