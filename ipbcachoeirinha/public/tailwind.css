@@ -2436,7 +2436,7 @@ html.reveal-print .aria-status{
   --tw-contain-style: 
 }
 
-/*! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com
+/*! tailwindcss v3.4.18 | MIT License | https://tailwindcss.com
  */
 
 /*
@@ -3167,13 +3167,13 @@ video {
   line-height:2.25rem !important
 }
 
-.text-6xl{
-  font-size:3.75rem !important;
+.text-5xl{
+  font-size:3rem !important;
   line-height:1 !important
 }
 
-.text-7xl{
-  font-size:4.5rem !important;
+.text-6xl{
+  font-size:3.75rem !important;
   line-height:1 !important
 }
 
